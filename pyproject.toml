@@ -1,0 +1,7 @@
+[project]
+name = "latam-gpt-2"
+version = "0.1.0"
+description = "IIC3694 mid-term challenge"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
