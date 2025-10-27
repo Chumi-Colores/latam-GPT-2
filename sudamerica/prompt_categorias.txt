@@ -1,0 +1,131 @@
+Necesito ayuda parseando un csv que tiene algunas categorias de libros que son muy especificas o poco utiles. Necesito que las mapees las categorias a las categorias más amplias (en español), y que categorias que sean más descriptores de temas dentro del libro o que no sean categorias realmente que las mapees a "No es categoria", aquí te entrego una lista de referencia con categorias amplias y cosas que no son categorias: Categorías amplias (con ejemplos en inglés o temas relacionados)
+
+Poesía
+(poetry, poems, verse, haiku, sonnets, lyrical)
+
+Teatro
+(theater, theatre, drama, play, script, performance)
+
+Novela
+(novel, fiction, narrative, romance, detective fiction, adventure, fantasy, science fiction, graphic novel)
+
+Cuento
+(story, tale, short story, narrative, flash fiction)
+
+Ensayo
+(essay, reflection, discourse, opinion piece, philosophical writing)
+
+Crónica
+(chronicle, chronicles, journalistic writing, travelogues, testimonies)
+
+Fábula
+(fable, moral tale, parable)
+
+Leyenda
+(legend, folklore, epic)
+
+Mito
+(myth, mythology, gods, creation stories)
+
+Historia
+(history, revolution, war, historical, military, ancient history, 20th century, civilization, archaeology)
+
+Educación
+(education, pedagogy, teaching, school, learning, didactics, curriculum, teacher training, classroom management)
+
+Política
+(politics, political science, government, socialism, marxism, liberalism, democracy, public policy, revolutions)
+
+Religión
+(religion, christianity, catholicism, protestantism, bible, theology, spirituality, faith, islam, judaism, buddhism)
+
+Ciencia
+(science, physics, chemistry, biology, medicine, astronomy, scientific research, natural sciences, experiments)
+
+Filosofía
+(philosophy, ethics, logic, metaphysics, epistemology, existentialism)
+
+Arte
+(art, painting, sculpture, music, cinema, film, photography, design, dance, performance art, aesthetics)
+
+Viajes
+(travel, tourism, geography, exploration, travel writing, expeditions, travel guides)
+
+Psicología
+(psychology, psychoanalysis, mental health, mind, behavior, emotions, cognition, therapy)
+
+Sociología
+(society, culture, anthropology, social theory, customs, identity, gender studies, social movements)
+
+Economía
+(economy, economics, business, finance, capitalism, trade, markets, entrepreneurship, accounting)
+
+Derecho
+(law, legal systems, justice, penal law, civil law, constitutional law, jurisprudence, rights)
+
+Salud
+(medicine, health, public health, nursing, anatomy, dietetics, physical therapy, epidemiology)
+
+Gastronomía
+(cooking, cuisine, food, recipes, gastronomy, nutrition, culinary arts, beverages, chefs)
+
+Deportes
+(sports, athletics, football, basketball, running, training, competition, physical education)
+
+Tecnología
+(technology, innovation, computer, computing, engineering, robotics, programming, electronics, AI, data science)
+
+Informática
+(computer science, programming, algorithms, software, databases, cybersecurity, IT, operating systems)
+
+Infantil / Juvenil
+(children, juvenile, young adult, storytelling for kids, picture books, early learning)
+
+Biografía / Autobiografía / Memorias
+(biography, memoir, autobiography, life stories, diaries, letters)
+
+Ficción
+(fiction, speculative fiction, fantasy, dystopia, mystery, science fiction)
+
+Literatura / Estudios literarios
+(literature, literary criticism, literary theory, comparative literature, analysis of works, history of literature)
+
+Lengua / Lingüística
+(language, linguistics, grammar, semantics, syntax, morphology, phonetics, linguistics theory, applied linguistics)
+
+Comunicación
+(communication, media, journalism, discourse analysis, rhetoric, semiotics, language and society, translation studies)
+
+No es categoría (temas, sujetos o entidades que no describen tipo o estilo de libro)
+
+Estas son palabras o frases que identifican el contenido o tema del libro, pero no su tipo o género. Se agrupan en subcategorías:
+
+Animales / Naturaleza
+
+Ejemplos: perros, ratones, gatos, aves, flores, árboles, montañas, ríos, océanos, desiertos, insectos, plantas
+→ se clasifican como No es categoría
+
+Conceptos abstractos
+
+Ejemplos: muerte, amor, sueño, libertad, justicia, esperanza, felicidad, dolor, fe, poder, tiempo, miedo
+→ No es categoría
+
+Lugares o países
+
+Ejemplos: Chile, Francia, África, Roma, Nueva York, Asia, desierto del Sahara
+→ No es categoría (a menos que acompañen un término de género como “Historia de Chile”, que sí es Historia)
+
+Personas o grupos
+
+Ejemplos: niños, mujeres, hombres, soldados, campesinos, indígenas, artistas, filósofos
+→ No es categoría
+
+Temas específicos o simbólicos
+
+Ejemplos: sueños, guerra, dolor, esperanza, maternidad, política exterior, animales domésticos
+→ No es categoría
+
+Objetos o cosas
+
+Ejemplos: mesa, libro, casa, barco, coche, tren, cuchillo
+→ No es categoría
