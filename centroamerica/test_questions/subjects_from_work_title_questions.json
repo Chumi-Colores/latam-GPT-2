@@ -1,0 +1,910 @@
+[
+    {
+        "question": "What is the main subject or genre from the work titled: 'Historia crítica del pensamiento español, vol. 5'?",
+        "answers": [
+            "Conditions sociales",
+            "Littérature espagnole",
+            "Spanish literature",
+            "Philosophie espagnole",
+            "History and criticism",
+            "Political science",
+            "Vie intellectuelle",
+            "Histoire et critique",
+            "History",
+            "Spanish Philosophy",
+            "Intellectual life"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Adolfo López Mateos, vida y obra'?",
+        "answers": [
+            "Presidents -- Mexico -- Biography.",
+            "López Mateos, Adolfo, 1910-1969.",
+            "Mexico -- Politics and government -- 1946-1970."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Educación que silencia'?",
+        "answers": [
+            "Huichol Indians -- Education.",
+            "Education and state -- Mexico -- Nayarit.",
+            "Bilingual education -- Mexico -- Nayarit."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Historia de la literatura jalisciense en el siglo XIX'?",
+        "answers": [
+            "Mexican literature -- Mexico -- Jalisco -- History and criticism.",
+            "Mexican literature -- 19th century -- History and criticism."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Danza de quetzales'?",
+        "answers": [
+            "Description and travel",
+            "Mexicans",
+            "Travel",
+            "Dancers"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Testimonios Historicos Guadalupanos/guadalupanos Historic Testimonies (Historia)'?",
+        "answers": [
+            "Spanish: Adult Nonfiction",
+            "Latin America - Mexico",
+            "History"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Adictas a la insurgencia'?",
+        "answers": [
+            "México",
+            "Female Participation",
+            "Participación femenina",
+            "History",
+            "Historia",
+            "Biografía",
+            "Mujeres revolucionarias",
+            "Women revolutionaries",
+            "Biography"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La copla real en Castilla del \"Cancionero del siglo XV\" (Brian Dutton)'?",
+        "answers": [
+            "Couplets",
+            "Spanish poetry"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Todo Rius (Obras De Rius)'?",
+        "answers": [
+            "Humor",
+            "Form - Cartoons & Comics",
+            "Reference",
+            "Topic - Political",
+            "Graphic Satire And Humor",
+            "Philosophy",
+            "Spanish: Adult Nonfiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Laberinto de fuego'?",
+        "answers": [
+            "Correspondence",
+            "Cuban Authors"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Hatuey Decamps Jiménez'?",
+        "answers": [
+            "Partido Revolucionario Dominicano",
+            "Biography",
+            "Politics and government",
+            "Politicians"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Apuntes de Mexico, Tenochtitlán'?",
+        "answers": [
+            "Architecture",
+            "Mexico City (Mexico) in art",
+            "Guidebooks",
+            "Architectural drawing"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Paso De Ciervo'?",
+        "answers": [
+            "Fiction",
+            "Spanish: Adult Fiction",
+            "Literary"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Lupe Fusiles'?",
+        "answers": [
+            "Mexico -- History -- 1910-1946 -- Fiction."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Imágenes cruzadas México y España'?",
+        "answers": [
+            "Mass media and literature -- Spain -- 20th century.",
+            "Radio broadcasting -- Spain -- History.",
+            "Motion pictures -- Mexico -- History.",
+            "Radio broadcasting -- Mexico -- History.",
+            "Motion pictures -- Spain -- History.",
+            "Mass media and literature -- Mexico -- 20th century."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La novela de la revolución mexicana'?",
+        "answers": [
+            "Mexican fiction (Selections: Extracts, etc.)",
+            "Mexico -- History -- 1910-1946 -- Fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'El cuento hispanoamericano en el siglo XX, II'?",
+        "answers": [
+            "Children's Books/Ages 9-12 Nonfiction",
+            "Children's Books/Ages 9-12 Fiction",
+            "General"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Yo fui (feliz) en Cuba...'?",
+        "answers": [
+            "Description and travel",
+            "History",
+            "Travel"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La industrialización de Tamaulipas'?",
+        "answers": [
+            "City planning -- Mexico -- Tamaulipas.",
+            "Industrial promotion -- Mexico.",
+            "Industrial policy -- Mexico -- Tamaulipas.",
+            "Industrial policy -- Mexico.",
+            "Industrial promotion -- Mexico -- Tamaulipas."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Por la senda'?",
+        "answers": [
+            "Olivas Escudero, Fidel bp., 1849 or 50-1935."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Lo chino en el habla cubana'?",
+        "answers": [
+            "Cuba -- Civilization -- Chinese influences.",
+            "Spanish language -- Foreign elements -- Chinese.",
+            "Spanish language -- Provincialisms -- Cuba."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Retratos con deuda'?",
+        "answers": [
+            "Mexican Authors"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'El pensamiento político de Luis Muñoz Marín'?",
+        "answers": [
+            "Puerto Rico -- Dependency on the United States.",
+            "Muñoz Marín, Luis, 1898-",
+            "Puerto Rico -- Politics and government.",
+            "Statehood (American politics)"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La vanguardia peregrina'?",
+        "answers": [
+            "Criticism and interpretation",
+            "Cuban Authors",
+            "Cuban literature",
+            "History and criticism"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Mexico viejo'?",
+        "answers": [
+            "Mexico City (Mexico) -- History",
+            "Mexico City (Mexico) -- Social life and customs",
+            "Catholic Church -- Mexico"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Personas, Lugares Y Anexas'?",
+        "answers": [
+            "General",
+            "Garcia Ponce, Juan",
+            "Spanish: Adult Fiction",
+            "Fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Colección bicentenario'?",
+        "answers": [
+            "Histoire et critique",
+            "Autonomie et mouvements indépendantistes",
+            "Histoire",
+            "History",
+            "Central American literature",
+            "Littérature costaricienne",
+            "Autonomy and independence movements",
+            "Aspect politique",
+            "Costa Rican literature",
+            "Political aspects",
+            "Littérature centraméricaine",
+            "History and criticism"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Norteamericanos'?",
+        "answers": [
+            "Letters",
+            "Literary Collections",
+            "Caribbean & Latin American",
+            "Literary Collections / Caribbean & Latin American",
+            "Jose Marti",
+            "Spanish: Adult Fiction",
+            "Essays",
+            "Literary Collections / Letters"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Vida de José Martí'?",
+        "answers": [
+            "Authors, Cuban -- 19th century -- Biography.",
+            "Statesmen -- Cuba -- Biography.",
+            "Martí, José, 1853-1895.",
+            "Revolutionaries -- Cuba -- Biography."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Las delicias de Estelí'?",
+        "answers": [
+            "Estelí (Nicaragua : Dept.)",
+            "Nicaragua -- Social life and customs."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Los tarahumaras: pueblo de estrellas y barrancas'?",
+        "answers": [
+            "Rites and ceremonies",
+            "Tarahumara Indians",
+            "Agriculture",
+            "Social life and customs"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Caperucita roja'?",
+        "answers": [
+            "Lobos",
+            "Juvenile poetry",
+            "Poetry",
+            "Grandmothers",
+            "Wolves",
+            "Poésie",
+            "Poésie pour la jeunesse",
+            "Grands-mères",
+            "Poesía infantil",
+            "Little Red Riding Hood (Tale)",
+            "Abuelas",
+            "Contes de fées",
+            "Children's poetry, Chilean",
+            "Petit Chaperon rouge (Conte)",
+            "Loups",
+            "Fairy tales"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Estelas, laberintos, nuevas sendas'?",
+        "answers": [
+            "Unamuno, Miguel de, 1864-1936 -- Criticism and interpretation.",
+            "García Lorca, Federico, 1898-1936 -- Criticism and interpretation.",
+            "Spanish literature -- 20th century -- History and criticism.",
+            "Valle-Inclán, Ramón del, 1866-1936 -- Criticism and interpretation."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Tabasco'?",
+        "answers": [
+            "Tabasco (Mexico : State) -- Economic conditions -- Pictorial works.",
+            "Tabasco (Mexico : State) -- History.",
+            "Rivers -- Mexico -- Tabasco (State) -- Pictorial works.",
+            "Tabasco (Mexico : State) -- Description and travel."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Primos en Tiempos de Magia (Cousins in the Time of Magic)'?",
+        "answers": [
+            "Children's fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Kennedy y Bosch'?",
+        "answers": [
+            "Sources",
+            "Foreign relations",
+            "Politics and government",
+            "Diplomatic relations"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'José Rogelio Álvarez'?",
+        "answers": [
+            "Álvarez, José Rogelio, -- 1922-",
+            "Jalisco (Mexico) -- Intellectual life",
+            "Colegio de Jalisco -- History",
+            "College teachers -- Mexico -- Biography"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Alrededor de la casa'?",
+        "answers": [
+            "Dwellings",
+            "Mexican prose literature",
+            "Literary collections"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Lezama Lima, 1910-1976'?",
+        "answers": [
+            "Lezama Lima, José -- Criticism and interpretation."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Gabriel García Márquez'?",
+        "answers": [
+            "García Márquez, Gabriel, 1928-",
+            "Literatura colombiana -- Enseñanza secundaria.",
+            "Spanish language -- Readers.",
+            "García Márquez, Gabriel, -- 1928-",
+            "Colombian literature -- Study and teaching (Secondary)",
+            "Libros de lectura."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Telescopio En La Noche Oscura (La Dicha de Enmudecer)'?",
+        "answers": [
+            "General",
+            "Poetry"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Recepción de las ideas de Copérnico en Cuba'?",
+        "answers": [
+            "Astronomy -- Cuba -- History.",
+            "Copernicus, Nicolaus, 1473-1543 -- Anniversaries, etc."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Abonando la utopía'?",
+        "answers": [
+            "Books and reading."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Sor Juana Inés de la Cruz, doncella del verbo'?",
+        "answers": [
+            "Biography",
+            "Mexican Authors"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Analizando el análisis'?",
+        "answers": [
+            "Derecho civil",
+            "Derecho y economía",
+            "Civil law",
+            "Law and economics"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'El Invierno'?",
+        "answers": [
+            "Children's Baby - Picturebooks",
+            "Concepts - General",
+            "Nature & the Natural World - Seasons",
+            "Spanish language materials",
+            "Spanish",
+            "Spanish: Adult Nonfiction",
+            "Foreign Language Study",
+            "Winter",
+            "Fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Prospero's mirror'?",
+        "answers": [
+            "Short stories, Spanish American",
+            "Short stories, Spanish American -- Translations into English",
+            "Spanish American fiction -- 20th century -- Translations into English",
+            "Spanish American fiction -- 20th century"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La cuestión internacional mexicano-americana'?",
+        "answers": [
+            "United States -- Foreign relations -- Mexico.",
+            "Mexico -- Foreign relations -- United States."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Dos ensayos'?",
+        "answers": [
+            "Mexico -- History.",
+            "López Velarde, Ramón, 1888-1921 -- Criticism and interpretation.",
+            "Philosophy, Latin American.",
+            "Díaz Mirón, Salvador, 1853-1928 -- Criticism and interpretation."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La creación del primitivo Obispado de Linares, 1777'?",
+        "answers": [
+            "Linares Region (Mexico) -- Church history -- 18th century.",
+            "Catholic Church. Diocese of Linares (Mexico) -- History -- 18th century."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Enrique C. Rébsamen, \"Quetzalcóatl' de la educación'?",
+        "answers": [
+            "Rébsamen, Enrique C., -- 1857-1904."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Entrenamiento Fisico-Deportivo y Alimentacion'?",
+        "answers": [
+            "Sports & Recreation",
+            "Bodybuilding & Weight Training"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Derecho legislativo mexicano'?",
+        "answers": [
+            "Legislation -- Mexico.",
+            "Legislative power -- Mexico."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La Eternidad Del Instante'?",
+        "answers": [
+            "Spanish: Adult Fiction",
+            "Romance - General",
+            "Literary",
+            "Fiction / Literary",
+            "Fiction - Romance",
+            "Fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Obras Reunidas Iii/ Complete Works III'?",
+        "answers": [
+            "Historical - General",
+            "General",
+            "Literature - Classics / Criticism",
+            "Spanish: Adult Fiction",
+            "Fiction",
+            "Fiction - General"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Por las amenas liras'?",
+        "answers": [
+            "Creation (Literary, artistic, etc.)",
+            "History and criticism",
+            "Mysticism and poetry",
+            "Dominican poetry",
+            "Spiritualism in literature"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Nuestra crísis y el Fondo Monetario Internacional'?",
+        "answers": [
+            "Ecuador -- Economic conditions -- 1918-"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Vida de acción y sacrificio de Francisco I. Madero'?",
+        "answers": [
+            "Madero, Francisco I., 1873-1913."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La idea de inmortalidad en la escultura gallega'?",
+        "answers": [
+            "Sepulchral monuments -- Spain -- Galicia (Region)",
+            "Death in art.",
+            "Sepulchral monuments, Medieval -- Spain -- Galicia (Region)",
+            "Knights and knighthood in art."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Donación Esteban Vicente'?",
+        "answers": [
+            "Art collections",
+            "Catalogs",
+            "Private collections",
+            "Art",
+            "Museo de Arte Contemporáneo Esteban Vicente"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'El debate sobre la justicia Maya'?",
+        "answers": [
+            "Government relations",
+            "Mayas",
+            "Legal status, laws",
+            "Social aspects",
+            "Pluralism",
+            "Legal polycentricity",
+            "Aspect social",
+            "Pluralisme (Philosophie)",
+            "Maya law",
+            "Politics and government"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'El Quito que se fue, 1850-1912'?",
+        "answers": [
+            "Chiriboga Ordóñez, Ernesto, 1905-1998 -- Photograph collections.",
+            "Quito (Ecuador) -- History -- Pictorial works."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Pis y caca'?",
+        "answers": [
+            "Spanish: Adult Nonfiction",
+            "Family & Relationships / Toilet Training",
+            "Family & Relationships",
+            "Family / Parenting / Childbirth",
+            "Toilet Training",
+            "Child Development And Rearing"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Imágenes e identidades'?",
+        "answers": [
+            "American literature -- Puerto Rican authors -- History and criticism -- Congresses.",
+            "Puerto Rican literature -- 20th century -- History and criticism -- Congresses.",
+            "American literature -- 20th century -- History and criticism.",
+            "Puerto Ricans in literature -- Congresses."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Nuestra gente'?",
+        "answers": [
+            "Puerto Rico -- Biography."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Gobernantes de Nueva Galicia y de Jalisco, 1531-1980'?",
+        "answers": [
+            "Governors",
+            "Biography",
+            "Colonial administrators"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Biografía'?",
+        "answers": [
+            "Mexican prose literature",
+            "History and criticism",
+            "Biography as a literary form"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'En el ameno huerto deseado'?",
+        "answers": [
+            "Congresses",
+            "Spirituality in literature",
+            "Mysticism and poetry"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Huellas de la Virgen María en Venezuela'?",
+        "answers": [
+            "Devotion to",
+            "Religious life and customs"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Vocabulario de las lenguas castellana y cora, reimpresso en Tepic, por orden del Sr. Gral. D. Leopoldo Romano'?",
+        "answers": [
+            "Glossaries, vocabularies",
+            "Catholic Church",
+            "Missions",
+            "CSAIP",
+            "Indians of Mexico",
+            "Indian linguistics",
+            "Languages",
+            "Cora language"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Archivos'?",
+        "answers": [
+            "Archives",
+            "Biography",
+            "Classification -- Books.",
+            "Criticism and interpretation",
+            "Dominican Authors"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Vida de barro duro'?",
+        "answers": [
+            "Youth -- Brazil -- Rio de Janeiro -- Social life and customs",
+            "Subculture -- Brazil -- Rio de Janeiro",
+            "Violence -- Brazil -- Rio de Janeiro",
+            "Popular culture -- Brazil -- Rio de Janeiro"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Héctor desaparecido'?",
+        "answers": [
+            "Personas desaparecidas",
+            "Ficción",
+            "Organized crime",
+            "Crimen organizado",
+            "Fiction",
+            "Missing persons",
+            "Hermanos",
+            "Brothers and sisters"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Historia de la literatura guatemalteca'?",
+        "answers": [
+            "Guatemalan literature -- History and criticism."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Albur'?",
+        "answers": [
+            "Arts, Cuban -- 20th century.",
+            "Albur.",
+            "Cuban periodicals -- History -- 20th century."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Ese músico que llevo dentro'?",
+        "answers": [
+            "Music",
+            "Performing arts"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'La vida es un silbo'?",
+        "answers": [
+            "Pérez Valdés, Fernando, -- 1944- -- Interviews.",
+            "Motion picture producers and directors -- Cuba -- Interviews."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Cronica 2 (Obras Reunidas De Ricardo Garibay)'?",
+        "answers": [
+            "Spanish language",
+            "Fiction",
+            "Spanish: Adult Fiction",
+            "Literary",
+            "Reading materials"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'El monte'?",
+        "answers": [
+            "Folk-lore -- Cuba.",
+            "Magic -- Cuba.",
+            "Folk-lore, Black -- Cuba.",
+            "Cuba -- Religion.",
+            "Negroes in Cuba -- Religion."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Teohtihuacán'?",
+        "answers": [
+            "Indians of Mexico",
+            "Indian architecture",
+            "Antiquities"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Homenajes a Jesús Terán 1991'?",
+        "answers": [
+            "Mexico -- Politics and government -- 1861-1867.",
+            "Terán, Jesús, d. 1866.",
+            "Mexico -- Politics and government -- 1821-1861.",
+            "Diplomats -- Mexico -- Biography.",
+            "Politicians -- Mexico -- Biography.",
+            "Governors -- Mexico -- Aguascalientes (State) -- Biography."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Veinte de cobre'?",
+        "answers": [
+            "Fiction - General",
+            "Spanish: Adult Nonfiction",
+            "General",
+            "Fiction / General",
+            "Fiction",
+            "Spanish: Adult Fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Céspedes'?",
+        "answers": [
+            "Revolutionaries -- Cuba",
+            "Presidents -- Cuba",
+            "Cuba -- History -- Insurrection, 1868-1878",
+            "Céspedes, Carlos Manuel de, -- 1819-1874"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Los misterios de la Habana'?",
+        "answers": [
+            "Short stories",
+            "Spanish: Adult Fiction",
+            "Fiction - General",
+            "Reading materials",
+            "Modern fiction",
+            "General",
+            "Spanish language",
+            "Fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Los Anos Con Laura Diaz'?",
+        "answers": [
+            "General",
+            "Rivera, Diego",
+            "Fiction",
+            "Biography / Autobiography",
+            "Kahlo, Frida",
+            "Modern fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Democracia sin reglas?'?",
+        "answers": [
+            "Public administration -- Central America.",
+            "Democracy -- Central America -- Evaluation -- Methodology.",
+            "Democracy -- Central America.",
+            "Political indicators -- Central America -- Methodology.",
+            "Law -- Central America.",
+            "Public administration -- Central America -- Evaluation -- Methodology."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Juan Ruiz de Alarcón'?",
+        "answers": [
+            "Ruiz de Alarcón, Juan, -- 1580?-1639 -- Criticism and interpretation.",
+            "Dramatists, Spanish -- Classical period, 1500-1700 -- Biography.",
+            "Ruiz de Alarcón, Juan, -- 1580?-1639."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Tiempo de encuentro'?",
+        "answers": [
+            "Intellectuals",
+            "Mexican Authors",
+            "Artists",
+            "Interviews",
+            "Scientists"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Cuba, crucero del mundo'?",
+        "answers": [
+            "Cuban literature -- History and criticism.",
+            "Cuba -- Miscellanea."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Me alquilo para soñar'?",
+        "answers": [
+            "Writing Skills",
+            "Reference / Writing Skills",
+            "Spanish: Adult Fiction",
+            "Reference"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Mexico'?",
+        "answers": [
+            "Caudillos",
+            "Populism",
+            "Mexico",
+            "Biography / Autobiography",
+            "Latin America - Mexico",
+            "Economic conditions",
+            "History: World",
+            "History",
+            "Artists, Architects, Photographers",
+            "Mexico -- Guidebooks.",
+            "Lombardo Toledano, Vicente",
+            "Mexico City (Mexico) -- Description -- Guidebooks.",
+            "Politics and government"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Relatos de mujueres nuevas'?",
+        "answers": [
+            "Women authors",
+            "Guatemalan Short stories",
+            "Guatemalan fiction"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Rafael Zubarán Capmany en la ventisca de la revolución'?",
+        "answers": [
+            "Correspondence",
+            "History",
+            "Sources"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Diarios'?",
+        "answers": [
+            "Cuban Authors",
+            "Diaries"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Lucila Gamero de Medina'?",
+        "answers": [
+            "Gamero de Medina, Lucila.",
+            "Authors, Honduran -- 20th century -- Biography."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Avto sacramental del divino narciso, por alegorias ..'?",
+        "answers": [
+            "Mexican drama -- 17th century",
+            "Spanish American drama -- 17th century"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Acentos cubanos'?",
+        "answers": [
+            "Cuban literature",
+            "History and criticism"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Novela y crisis política en El Salvador'?",
+        "answers": [
+            "Politics and literature",
+            "Criticism and interpretation",
+            "Salvadoran fiction",
+            "History and criticism",
+            "History"
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Sandino siempre'?",
+        "answers": [
+            "Nicaragua -- History -- 1909-1937.",
+            "Nicaragua -- History -- Revolution, 1979.",
+            "Sandino, Augusto César, 1895-1934."
+        ]
+    },
+    {
+        "question": "What is the main subject or genre from the work titled: 'Elogio de la levedad'?",
+        "answers": [
+            "Nationalism and literature",
+            "History",
+            "Nationalbewusstsein",
+            "Literatur",
+            "Cuban literature",
+            "Mythos",
+            "Geschichte 1900-2000",
+            "History and criticism"
+        ]
+    }
+]

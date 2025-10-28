@@ -24,3 +24,32 @@ def parse_list_of_dicts(s):
             return ast.literal_eval(s)
         except (ValueError, SyntaxError) as e:
             raise ValueError(f"No se pudo convertir el string: {e}")
+        
+
+nationalities_to_countries_dictionary = {
+    "aruban": "Aruba",
+    "bahamian": "Bahamas",
+    "cuban": "Cuba",
+    "jamaican": "Jamaica",
+    "barbadian": "Barbados",
+    "bermudian": "Bermuda",
+    "bonairean": "Bonaire",
+    "caymanian": "Cayman Islands",
+    "curacaoan": "Curacao",
+    "dominican": "Dominican Republic",
+    "grenadian": "Grenada",
+    "guadeloupean": "Guadeloupe",
+    "haitian": "Haiti",
+    "martiniquais": "Martinique",
+    "montserratian": "Montserrat",
+    "puerto_rican": "Puerto Rico",
+    "trinidadian_and_tobagonian": "Trinidad and Tobago",
+    "mexican": "Mexico",
+    "belizean": "Belize",
+    "guatemalan": "Guatemala",
+    "salvadoran": "El Salvador",
+    "honduran": "Honduras",
+    "nicaraguan": "Nicaragua",
+    "costarican": "Costa Rica",
+    "panamanian": "Panama"
+}

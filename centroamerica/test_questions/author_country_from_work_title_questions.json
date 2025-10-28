@@ -1,0 +1,602 @@
+[
+    {
+        "question": "What country is the author of the work titled: 'Muestra de la literatura salvadoreña' from?",
+        "answers": [
+            "El Salvador"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Obras completas' from?",
+        "answers": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Plumas de Afrodita' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Memoria de los cafés de Mérida (y otras crónicas)' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La Argentina descentralizada' from?",
+        "answers": [
+            "Honduras"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Imagen de un Dentista' from?",
+        "answers": [
+            "Panama"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La gruta tiene dos entradas' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Telares, o, el Olvido' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Emiliano Pérez Cruz' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La educación en el horizonte del siglo XXI' from?",
+        "answers": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Yo, Ageo' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Morderán el polvo' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Biografía de Rubén Darío' from?",
+        "answers": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Poesía femenina de El Salvador' from?",
+        "answers": [
+            "El Salvador"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Sugerencias metodológicas para el estudio de la escritura de mujeres' from?",
+        "answers": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Fidel en el Ecuador' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Cuentos de Espantos y Novelas Rústicas' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Código de notariado con sus reformas' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'DO2' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Aquí' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Ensayos generales sobre el Barroco' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Del idioma español en Nicaragua' from?",
+        "answers": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Las horas del alma' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Yo quiero que me olviden' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La Navidad en las montañas' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Variaciones alrededor de la descentralización' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Para Salvar el Mundo / Saving the World' from?",
+        "answers": [
+            "Dominican Republic"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Patología de la Vulva' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Crónicas y sucedidos del Monterrey virreinal' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Colección Enciclopedia de los municipios de México' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'A Margarita' from?",
+        "answers": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'José Triana, ritualización de la sociedad cubana' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Europa-América' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Gregorio Martínez, danzante de tijera' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Cinco siglos de relaciones entre Hungría y América Latina' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Derecho del trabajo' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La transición del liderazgo político dominicano' from?",
+        "answers": [
+            "Dominican Republic"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Obras de Enrique José Varona ...' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Nicolás Guillén' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La reforma del estado en América Latina' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'El rostro' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Ereccion del Consulado de Montevideo, reales cedulas y superiores resoluciones que le sirven de regla' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La Iglesia Católica durante la construcción del socialismo en Cuba' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Calidad del aire interior DB_HS3' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Juego perfecto' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Períoca sociográfica de la cubanidad' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Proverbios mexicanos' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Soy de aquí y soy de allá' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Tiempo, instancia y perspectiva de la mujer' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Memoria que presenta al Congreso de la unión el general Manuel González Cosío' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Aspectos literarios de la cultura mexicana' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Cuentos enigmáticos' from?",
+        "answers": [
+            "Panama"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'ðēsôngberd' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Grande es el tiempo' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Devolver Al Remitente (Return to Sender)' from?",
+        "answers": [
+            "Dominican Republic"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Fulgores' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Tejiendo un País' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La estrategia mítica de Manuel Scorza' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Alabanza de Honduras' from?",
+        "answers": [
+            "Honduras"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Economia de Guatemala en los siglos XVIII y XIX' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La cocina mexicana a través de los siglos' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Morelos' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La casa de la Ciudad de México en el siglo XX' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Leyenda Confesion de una Muerta' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'René del Risco, lo dominican, lo dominicano, la modernidad' from?",
+        "answers": [
+            "Dominican Republic"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Alaska' from?",
+        "answers": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Actas del Congreso Internacional \"Max Aub y el Laberinto Español\"' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Once@9:53am' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'México en Europa y en Africa' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Hispanoamérica frente a los nacionalismos agresivos de Europa y Norteamérica' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Artes dominicanas' from?",
+        "answers": [
+            "Dominican Republic"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La corte del rey galán' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La muerte es principio, no fin' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La vida de Rubén Darío escrita por el mismo' from?",
+        "answers": [
+            "Nicaragua"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Poemas de la unica poetisa americana, musa dezima, soror Juana Ines de la Cruz ..' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'En orden de aparición' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Flores de penitencia ...' from?",
+        "answers": [
+            "Guatemala"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Pedro Mir y René del Risco Bermúdez en la literatura dominicana' from?",
+        "answers": [
+            "Dominican Republic"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Cunduacán, la Atenas de Tabasco' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Un cierto mar de leva' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Buenaventura Báez' from?",
+        "answers": [
+            "Dominican Republic"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: '125 años de la Banca Serfín.' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Escritos y escritores de temas sudcalifornianos' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'El positivismo en México' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Animal de fondo' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'El sexenio de Carlos Salinas' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Cartucho ; and, My mother's hands' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Las novelas en el Quijote y otros ensayos' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Demostración de que Jesucristo es el Mesías esperado por los hebreos' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Hilda and the Mountain King' from?",
+        "answers": [
+            "Honduras"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Parece mentira' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Páginas de vida poesía y prosa' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'El emisario, o, La lección de los animales' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Religiosidad popular en el Perú' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Las Identidades Perdidas' from?",
+        "answers": [
+            "Guatemala"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Nuestra Señora Del Rostro Rasurado' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Cuentos cubanos del siglo XX' from?",
+        "answers": [
+            "Cuba"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'La otra cara de Jano' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'El abogánster' from?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "question": "What country is the author of the work titled: 'Maldito amor, seguido de El regalo, Isolda en el espejo, La extraña muerte del capitancito Candelario' from?",
+        "answers": [
+            "Puerto Rico"
+        ]
+    }
+]
