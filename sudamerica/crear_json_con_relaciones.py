@@ -7,9 +7,17 @@ df_book_isbns = triplets[triplets["relation"] == "es un codigo ISBN para el libr
 df_publishers = triplets[triplets["relation"] == "es un codigo ISBN de una edicion publicada por"]
 df_categories = triplets[triplets["relation"] == "pertenece a la categoria"]
 df_book_publishing_dates = triplets[triplets["relation"] == "fue publicada en el año"]
+df_nationalities = triplets[triplets["relation"] == "es de nacionalidad"]
 
 final_json = {}
 isbn_to_book_name = {}
+author_to_nationality = {}
+
+for index, row in df_nationalities.iterrows():
+    author = row["source"]
+    nationality = row["target"]
+    
+    author_to_nationality[author] = nationality
 
 
 for index, row in df_book_names.iterrows():
@@ -21,7 +29,8 @@ for index, row in df_book_names.iterrows():
         final_json[book_name]["editoriales"] = []
         final_json[book_name]["categorias"] = []
         final_json[book_name]["fecha"] = None
-        final_json[book_name]["autores"] = author
+        final_json[book_name]["autor"] = author
+        final_json[book_name]["nacionalidad"] = author_to_nationality[author]
 
 for index, row in df_book_isbns.iterrows():
     book_name = row["target"]
