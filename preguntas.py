@@ -101,10 +101,13 @@ def generar_preguntas_razonadas(csv_path, out_path, n_por_tipo=100):
 
     todas = p1 + p2 + p3 + p4 + p5 + p6
     df_all = pd.DataFrame(todas)
-    df_final = df_all.groupby("tipo").apply(lambda x: x.sample(min(len(x), n_por_tipo), random_state=42)).reset_index(drop=True)
-
+    df_final = (
+        df_all.groupby("tipo", group_keys=False)
+            .apply(lambda x: x.sample(min(len(x), n_por_tipo), random_state=42))
+            .reset_index(drop=True)
+)
     df_final.to_csv(out_path, index=False)
     print(f"✅ Generadas {len(df_final)} preguntas en {out_path}")
 
 # Ejemplo de uso
-generar_preguntas_razonadas("triplets_europe.csv", "preguntas_respuestas_6tipos.csv", n_por_tipo=100)
+generar_preguntas_razonadas("triplets_europe.csv", "preguntas_short.csv", n_por_tipo=3)
