@@ -3,24 +3,36 @@ import pandas as pd
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from unidecode import unidecode
 import google.generativeai as genai
+from google.generativeai.types import HarmCategory, HarmBlockThreshold
+
 from dotenv import load_dotenv
 load_dotenv()
 
 # =============== CONFIGURACIÓN ===============
 MODEL_NAME = "models/gemini-2.5-flash"   # rápido y económico; puedes usar "gemini-1.5-pro" para mayor calidad
 TEMPERATURE = 0.2                 # respuestas concisas/estables
-MAX_OUTPUT_TOKENS = 256           # suficiente
+MAX_OUTPUT_TOKENS = 256*2           # suficiente
 LANG = "es"                       # idioma de respuesta esperado
 
 API_KEY = os.getenv("API_KEY")
 assert API_KEY, "Falta API_KEY en variables de entorno"
 
 genai.configure(api_key=API_KEY)
+# model = genai.GenerativeModel(
+#     MODEL_NAME,
+#     generation_config={
+#         "temperature": TEMPERATURE,
+#         "max_output_tokens": MAX_OUTPUT_TOKENS,
+#     },
+# )
+
 model = genai.GenerativeModel(
-    MODEL_NAME,
-    generation_config={
-        "temperature": TEMPERATURE,
-        "max_output_tokens": MAX_OUTPUT_TOKENS,
+    model_name="models/gemini-2.5-flash-lite",
+    generation_config={"temperature": TEMPERATURE, "max_output_tokens": MAX_OUTPUT_TOKENS},
+    safety_settings={
+        HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+        HarmCategory.HARM_CATEGORY_HARASSMENT:  HarmBlockThreshold.BLOCK_NONE,
+        HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
     },
 )
 
@@ -51,6 +63,12 @@ def normalize_text(s: str) -> str:
     s = re.sub(r"[^\w\s]", " ", s)  # saca signos
     s = re.sub(r"\s+", " ", s).strip()
     return s
+
+def sanitize_title(t):
+    t = unidecode(str(t))                 # quita diacríticos Ḳ → K
+    t = re.sub(r'["“”«»]', '', t)        # sin comillas
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
 
 def split_multi_answer(s: str):
     """
@@ -100,17 +118,17 @@ def eval_any_of_list(model_text: str, gold_multi: str) -> int:
 # =============== PROMPTS POR TIPO ===============
 PROMPTS = {
     # P1 ¿Quién escribió el libro {libro}?
-    "P1": "¿Quién escribió el libro «{libro}»?",
+    "P1": "Contesta en una sola línea y sin explicación. ¿Quién escribió el libro «{libro}»?",
     # P2 ¿De qué país es la persona {autor}?
-    "P2": "¿De qué país es la persona «{autor}»?",
+    "P2": "Contesta en una sola línea y sin explicación. ¿De qué país es la persona «{autor}»?",
     # P3 ¿De qué país es el autor del libro {libro}?
-    "P3": "¿De qué país es el autor del libro «{libro}»?",
+    "P3": "Contesta en una sola línea y sin explicación. ¿De qué país es el autor del libro «{libro}»?",
     # P4 ¿De qué año es el libro {libro}?
-    "P4": "¿De qué año es el libro «{libro}»?",
+    "P4": "Contesta solo con el año sin explicación. ¿De qué año es el libro «{libro}»?",
     # P5 Dime el género o tópico del libro {libro}
-    "P5": "Menciona el género o tópico principal del libro «{libro}».",
+    "P5": "Responde en una frase corta: Menciona el género o tópico principal del libro «{libro}».",
     # P6 Dime alguna editorial del libro {libro}
-    "P6": "Menciona alguna editorial que haya publicado el libro «{libro}».",
+    "P6": "Responde en una frase corta: Menciona alguna editorial que haya publicado el libro «{libro}».",
 }
 
 # =============== LLAMADA AL MODELO ===============
@@ -320,7 +338,8 @@ def evaluar(csv_qas_path: str, out_path: str):
 
 if __name__ == "__main__":
     # ejemplo
-    evaluar("preguntas_short.csv", "resultados_gemini.csv")
+    # evaluar("preguntas_short.csv", "resultados_gemini.csv")
+    evaluar("preguntas_respuestas_6tipos.csv", "resultados_gemini2.csv")
     # import google.generativeai as genai, os
     # genai.configure(api_key=os.getenv("API_KEY"))
 
