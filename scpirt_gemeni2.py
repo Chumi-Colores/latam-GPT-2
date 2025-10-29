@@ -161,19 +161,72 @@ def ask_llm(prompt: str) -> str:
             raise QuotaError(msg)
         raise
 
-    # reconstruir texto si .text viene vacío
-    txt = (getattr(resp, "text", None) or "").strip()
-    if not txt:
-        chunks = []
+    # Reconstruir texto sin tocar resp.text (el quick accessor puede lanzar si no hay Parts)
+    chunks = []
+    try:
         for cand in getattr(resp, "candidates", []) or []:
             content = getattr(cand, "content", None)
             parts = getattr(content, "parts", None) if content else None
             if parts:
                 for p in parts:
                     t = getattr(p, "text", None)
-                    if t: chunks.append(t)
-        txt = " ".join(chunks).strip()
-    return txt or "[NO_TEXT]"
+                    if t:
+                        chunks.append(t)
+    except Exception:
+        # Si algo raro pasa al inspeccionar candidatos, devolvemos sin texto
+        pass
+
+    txt = " ".join(chunks).strip()
+    # Si no hay texto en absoluto, devolvemos un sentinel estable
+    return txt if txt else "[NO_TEXT]"
+
+
+def ask_llm_with_meta(prompt: str):
+    """
+    Igual que ask_llm pero devuelve (texto, meta) donde meta incluye:
+    - finish_reasons: lista de finish_reason por candidato (si está disponible)
+    - safety_flags: lista de categorías marcadas como bloqueadas (si aplica)
+    """
+    rate_limit(calls_per_min=8)
+    meta = {"finish_reasons": [], "safety_flags": []}
+    try:
+        resp = model.generate_content(prompt)
+    except Exception as e:
+        msg = str(e)
+        if "429" in msg or "quota" in msg.lower():
+            delay = _parse_retry_delay_seconds(msg, default=20)
+            time.sleep(delay + random.uniform(0, 3))
+            raise QuotaError(msg)
+        raise
+
+    chunks = []
+    try:
+        for cand in getattr(resp, "candidates", []) or []:
+            # finish_reason puede ser int o enum; lo convertimos a str seguro
+            fr = getattr(cand, "finish_reason", None)
+            if fr is not None:
+                meta["finish_reasons"].append(str(fr))
+            # safety_ratings si existe
+            for r in getattr(cand, "safety_ratings", []) or []:
+                cat = getattr(r, "category", None)
+                blocked = getattr(r, "blocked", None)
+                if blocked:
+                    meta["safety_flags"].append(str(cat) if cat is not None else "UNKNOWN")
+
+            content = getattr(cand, "content", None)
+            parts = getattr(content, "parts", None) if content else None
+            if parts:
+                for p in parts:
+                    t = getattr(p, "text", None)
+                    if t:
+                        chunks.append(t)
+    except Exception:
+        pass
+
+    txt = " ".join(chunks).strip()
+    if not txt:
+        txt = "[NO_TEXT]"
+    return txt, meta
 
 # =============== PIPELINE PRINCIPAL ===============
 def evaluar(csv_qas_path: str, out_path: str):
@@ -201,14 +254,16 @@ def evaluar(csv_qas_path: str, out_path: str):
         print(f"Evaluando {i+1}/{len(df)} ({tipo}) ...", flush=True)
 
         try:
-            model_answer = ask_llm(prompt)
+            model_answer, meta = ask_llm_with_meta(prompt)
             latency = time.time() - t0
             # Evaluación por tipo
             if model_answer == "[NO_TEXT]":
                 rows.append({
                     "idx": i, "tipo": tipo, "pregunta": pregunta,
                     "respuesta_gold": gold, "respuesta_modelo": model_answer,
-                    "score": 0, "rule": "no_text", "latency_s": None
+                    "score": 0, "rule": "no_text", "latency_s": None,
+                    "finish_reason": "|".join(meta.get("finish_reasons", [])) or None,
+                    "safety_flags": "|".join(meta.get("safety_flags", [])) or None,
                 })
                 continue
             if tipo in {"P1", "P4"}:
@@ -238,6 +293,8 @@ def evaluar(csv_qas_path: str, out_path: str):
                 "score": score,
                 "rule": rule,
                 "latency_s": round(latency, 3),
+                "finish_reason": "|".join(meta.get("finish_reasons", [])) or None,
+                "safety_flags": "|".join(meta.get("safety_flags", [])) or None,
             })
         except Exception as e:
             rows.append({
@@ -249,6 +306,8 @@ def evaluar(csv_qas_path: str, out_path: str):
                 "score": 0,
                 "rule": "exception",
                 "latency_s": None,
+                "finish_reason": None,
+                "safety_flags": None,
             })
 
     out = pd.DataFrame(rows)
