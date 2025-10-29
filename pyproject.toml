@@ -5,8 +5,15 @@ description = "IIC3694 mid-term challenge"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "google>=3.0.0",
+    "google-genai>=1.46.0",
+    "huggingface-hub>=1.0.1",
+    "ollama>=0.6.0",
+    "openai>=2.6.1",
     "pandas>=2.3.3",
     "pydantic>=2.12.3",
+    "python-dotenv>=1.2.1",
     "requests>=2.32.5",
     "sqlalchemy>=2.0.44",
+    "tqdm>=4.67.1",
 ]
