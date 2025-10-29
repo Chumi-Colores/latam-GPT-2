@@ -20,7 +20,7 @@ from model import (
     Publisher
 )
 
-OUTPUT_FILE = "knowledge_graph.csv"
+OUTPUT_FILE = "../data/knowledge_graph.csv"
 
 
 def export_triplets():

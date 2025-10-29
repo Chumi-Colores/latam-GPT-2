@@ -4,7 +4,7 @@ import pandas as pd
 seed = 28
 samples_per_question = 100
 
-data = pd.read_csv('knowledge_graph.csv')
+data = pd.read_csv('../data/knowledge_graph.csv')
 
 #%% 1. Type 1
 
@@ -106,8 +106,5 @@ del book_editorial
 questions_esp = pd.concat([df_p1_esp, df_p2_esp, df_p3_esp, df_p4_esp, df_p5_esp], axis=0).reset_index(drop=True)
 questions_eng = pd.concat([df_p1_eng, df_p2_eng, df_p3_eng, df_p4_eng, df_p5_eng], axis=0).reset_index(drop=True)
 
-questions_esp.to_csv('questions_esp.csv', index=False)
-questions_eng.to_csv('questions_eng.csv', index=False)
-
-
-# %%
+questions_esp.to_csv('../data/questions_esp.csv', index=False)
+questions_eng.to_csv('../data/questions_eng.csv', index=False)
