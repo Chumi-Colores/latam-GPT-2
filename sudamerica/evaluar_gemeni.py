@@ -327,59 +327,59 @@ def evaluar_preguntas_editoriales(checkpoint_index = 0, correct_answers = 0, wro
         primera_pregunta = row["primera pregunta"]
         segunda_pregunta = row["segunda pregunta"]
     
-    try:
-        
-        first_prompt = primera_pregunta + ". Entrega solo una editorial."
-        response = client.models.generate_content(
-            model="gemini-2.5-flash-lite",
-            contents=first_prompt
-        )
-        
-        model_answer = response.text
-        
-        prompt_followup = f"Tu respuesta a la pregunta {first_prompt} fue {model_answer}. {segunda_pregunta}"
-        
-        response = client.models.generate_content(
-            model="gemini-2.5-flash-lite",
-            contents=prompt_followup
-        )
-        
-    except Exception as e:    
-        print(e)
-        if "429" in str(e):
-            print("Limite de peticiones alcanzado, esperando 1 minuto")
-            time.sleep(60)
+        try:
             
-            with open("checkpoint_editoriales.json", "w") as f:
-                resultados = {"correctas": correct_answers, 
-                                "incorrectas": wrong_answers, 
-                                "indices_correctas": correct_indices, 
-                                "indices_incorrectas": incorret_indices}
-                json.dump(resultados, f)
+            first_prompt = primera_pregunta + ". Entrega solo una editorial."
+            response = client.models.generate_content(
+                model="gemini-2.5-flash-lite",
+                contents=first_prompt
+            )
+            
+            model_answer = response.text
+            
+            prompt_followup = f"Tu respuesta a la pregunta {first_prompt} fue {model_answer}. {segunda_pregunta}"
+            
+            response = client.models.generate_content(
+                model="gemini-2.5-flash-lite",
+                contents=prompt_followup
+            )
+            
+        except Exception as e:    
+            print(e)
+            if "429" in str(e) or "503" in str(e):
+                print("Limite de peticiones alcanzado, esperando 1 minuto")
+                time.sleep(60)
+                
+                with open("checkpoint_editoriales.json", "w") as f:
+                    resultados = {"correctas": correct_answers, 
+                                    "incorrectas": wrong_answers, 
+                                    "indices_correctas": correct_indices, 
+                                    "indices_incorrectas": incorret_indices}
+                    json.dump(resultados, f)
+                
+                
+                evaluar_preguntas_editoriales(checkpoint_index = index, 
+                                            correct_answers = correct_answers, 
+                                            wrong_answers = wrong_answers, 
+                                            correct_indices = correct_indices, 
+                                            incorret_indices = incorret_indices)
+                return
+            
+        model_response = response.text
+        print("Respuesta del modelo: ",model_response)
+        
+        if "si" in model_response.lower() or "sí" in model_response.lower():
+            correct_answers += 1
+            correct_indices.append(index)
+            print("Correcto")
+            
+        else:
+            wrong_answers += 1
+            incorret_indices.append(index)
+            print("Incorrecto")
             
             
-            evaluar_preguntas_categoria(checkpoint_index = index, 
-                                        correct_answers = correct_answers, 
-                                        wrong_answers = wrong_answers, 
-                                        correct_indices = correct_indices, 
-                                        incorret_indices = incorret_indices)
-            return
-        
-    model_response = response.text
-    print("Respuesta del modelo: ",model_response)
-    
-    if "si" in model_response.lower() or "sí" in model_response.lower():
-        correct_answers += 1
-        correct_indices.append(index)
-        print("Correcto")
-        
-    else:
-        wrong_answers += 1
-        incorret_indices.append(index)
-        print("Incorrecto")
-        
-        
-    time.sleep(1)
+        time.sleep(1)
     
     with open("evaluacion_modelos/gemeni/editoriales.json", "w") as f:
         resultados = {"correctas": correct_answers, 
