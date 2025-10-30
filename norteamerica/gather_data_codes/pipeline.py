@@ -147,15 +147,28 @@ def run_pipeline():
 
         # --- SIMPLIFICACIÓN ---
         # El país de un autor es un dato muy sucio en la API.
-        # Dado que partimos de "American Authors", crearemos y
-        # asignaremos "United States" a todos los autores de este tema.
+        # Usamos el tema (subject) para asignar el país de forma determinística.
+        
+        # 1. Crear los países que usaremos
         country_usa, _ = get_or_create(
             session,
             Country,
             code="US",
             defaults={"name": "United States"}
         )
-        session.commit()  # Cometer para que el país tenga un ID
+        country_can, _ = get_or_create(
+            session,
+            Country,
+            code="CA",
+            defaults={"name": "Canada"}
+        )
+        session.commit()  # Cometer para que los países tengan IDs
+
+        # 2. Crear mapa de Tema -> País
+        subject_to_country_map = {
+            "american_authors": country_usa,
+            "canadian_authors": country_can
+        }
 
         for subject in TARGET_SUBJECTS:
 
@@ -181,13 +194,14 @@ def run_pipeline():
                     logging.info(f"Procesando Obra {i + 1}/{len(subject_data.works)}: {work_data.title}")
 
                     # 3. Procesar Autores
+                    author_country = subject_to_country_map.get(subject)
                     db_authors = []
                     for author_ref in work_data.authors:
                         db_author, _ = get_or_create(
                             session,
                             Author,
                             openlibrary_id=author_ref.key,
-                            defaults={"name": author_ref.name, "country": country_usa}
+                            defaults={"name": author_ref.name, "country": author_country}
                         )
                         db_authors.append(db_author)
 
