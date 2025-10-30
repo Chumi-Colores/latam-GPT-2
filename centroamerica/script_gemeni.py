@@ -102,7 +102,7 @@ def ask_all_questions_from_file(file_name, ask_function, client, prompts_per_que
     print(f"{file_name}: {correct_answers}/{total_questions} correct answers.")
     return correct_answers, total_questions
 
-correct_answers_5, total_questions_5 = ask_all_questions_from_file("subjects_from_work_title_questions", ask_subjects_from_work_title, client, 2)
+correct_answers_5, total_questions_5 = ask_all_questions_from_file("subjects_from_work_title", ask_subjects_from_work_title, client, 2)
 
 total_correct_answers = (correct_answers_5)
 total_questions = (total_questions_5)
