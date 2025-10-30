@@ -1,0 +1,501 @@
+Tipo de pregunta,pregunta,respuesta correcta,primer prompt,segundo prompt,score
+P1,"¿Quién es el autor de la obra Mal y neomal?; Responde con una de estas opciones: (a) Jacobo Langsner, (b) Alcibiades González Delvalle, (c) Carlos Labbé, (d) Amir Hamed",Amir Hamed,,,0
+P1,"¿Quién es el autor de la obra Un lugar llamado Oreja de Perro?; Responde con una de estas opciones: (a) Enrique Bernardo Núñez, (b) Dani Umpi, (c) Mariano Caucino, (d) Iván Thays",Iván Thays,,,0
+P1,"¿Quién es el autor de la obra El jinete en la lluvia?; Responde con una de estas opciones: (a) Carlos Sampayo, (b) Medardo Ángel Silva, (c) Julio Garmendia, (d) Agustín Squella",Agustín Squella,,,0
+P1,"¿Quién es el autor de la obra La literatura de Santa Fe?; Responde con una de estas opciones: (a) Héctor Yánover, (b) Tabaré Arapí, (c) Ígor Barreto, (d) Eduardo D'Anna",Eduardo D'Anna,,,0
+P1,"¿Quién es el autor de la obra Caballero?; Responde con una de estas opciones: (a) Memo Ánjel, (b) Guido Rodríguez Alcalá, (c) Rómulo Bustos, (d) Christian Reynoso",Guido Rodríguez Alcalá,,,1
+P1,"¿Quién es el autor de la obra Night and day?; Responde con una de estas opciones: (a) Edgardo Rivera Martínez, (b) Juan Carlos Mondragón, (c) Fernando Bermúdez Ardila, (d) Edgardo Russo",Juan Carlos Mondragón,,,0
+P1,"¿Quién es el autor de la obra Selección de poesías amorosas en lengua española?; Responde con una de estas opciones: (a) Óscar Bustamante, (b) Óscar Pantoja, (c) Alfonsina Storni, (d) Mariano Gambier",Alfonsina Storni,,,1
+P1,"¿Quién es el autor de la obra Los cuentos de Juana?; Responde con una de estas opciones: (a) Gabriela Mistral, (b) Álvaro Cepeda Samudio, (c) Jorge Salvador Lara, (d) Augusto Pinilla",Álvaro Cepeda Samudio,,,0
+P1,"¿Quién es el autor de la obra Historia de la literatura hispanoamericana?; Responde con una de estas opciones: (a) Alejandro Walker Valdés, (b) Andrés Salcedo, (c) José Miguel Oviedo, (d) Luis Perozo Cervantes",José Miguel Oviedo,,,0
+P1,"¿Quién es el autor de la obra No despertarás a mis siervos?; Responde con una de estas opciones: (a) Manuel Peyrou, (b) Oldman Botello, (c) Juan Pablo Meneses, (d) Enrique Ortega Salinas",Enrique Ortega Salinas,,,0
+P1,"¿Quién es el autor de la obra Rostro de hombre?; Responde con una de estas opciones: (a) Vicente Huidobro, (b) Pablo Azócar, (c) Gamaliel Churata, (d) Gastón Soublette",Gastón Soublette,,,0
+P1,"¿Quién es el autor de la obra Cartas de amor y otra correspondencia íntima?; Responde con una de estas opciones: (a) Leonardo Garet, (b) Delmira Agustini, (c) Juan Liscano, (d) Oscar Steimberg",Delmira Agustini,,,1
+P1,"¿Quién es el autor de la obra Veinte Poemas Para Ser Leidos En El Tranvia; Calcomanias; Y Otros Poemas (Colección Visor de poesia)?; Responde con una de estas opciones: (a) Oliverio Girondo, (b) Alejandro Sieveking, (c) Raúl Sohr, (d) Juan Gelman",Oliverio Girondo,,,1
+P1,"¿Quién es el autor de la obra Nefilim en alhue y otros relatos sobre la muerte?; Responde con una de estas opciones: (a) Marcos Sastre, (b) Federico Brito Figueroa, (c) Omar Pérez Santiago, (d) Gustavo Gorriti",Omar Pérez Santiago,,,0
+P1,"¿Quién es el autor de la obra El ayer que hizo al mundo de hoy?; Responde con una de estas opciones: (a) Diego Vargas Gaete, (b) Domingo Alberto Rangel, (c) Odi Gonzales, (d) Juan Cameron",Domingo Alberto Rangel,,,1
+P1,"¿Quién es el autor de la obra La voragine (Sepan Cuantos)?; Responde con una de estas opciones: (a) José Eustasio Rivera, (b) Pablo Huneeus, (c) Marcos Ybañez, (d) Edmundo Ribadeneira",José Eustasio Rivera,,,1
+P1,"¿Quién es el autor de la obra Sólo el azar (1. edición) (2011)?; Responde con una de estas opciones: (a) Diego Paszkowski, (b) Darío Jaramillo Agudelo, (c) Sergio Missana, (d) Miguel Castillo Didier",Darío Jaramillo Agudelo,,,1
+P1,"¿Quién es el autor de la obra Antologia Poetica Internacional Mujeres y Sus Plumas II?; Responde con una de estas opciones: (a) Antonio García Ángel, (b) Mabel Coronel Cuenca, (c) Ramiro Otero Lugones, (d) José María Memet",Mabel Coronel Cuenca,,,1
+P1,"¿Quién es el autor de la obra Los desplazados?; Responde con una de estas opciones: (a) Enza García Arreaza, (b) Gustavo Wojciechowski, (c) Manuel González Prada, (d) César Rivas Lara",César Rivas Lara,,,0
+P1,"¿Quién es el autor de la obra Todas las salidas del tren?; Responde con una de estas opciones: (a) Memo Ánjel, (b) Sylvia Simonet, (c) Gonzalo Arango, (d) Omar Pérez Santiago",Memo Ánjel,,,1
+P1,"¿Quién es el autor de la obra Blinding Star?; Responde con una de estas opciones: (a) Fernando Lamberg, (b) Blanca Varela, (c) Guillermo Ruiz Plaza, (d) Sascha Hannig",Blanca Varela,,,1
+P1,"¿Quién es el autor de la obra Crónica?; Responde con una de estas opciones: (a) Omar Vázquez Heredia, (b) Enrique Wernicke, (c) Felipe Restrepo Pombo, (d) Axel Kaiser",Felipe Restrepo Pombo,,,0
+P1,"¿Quién es el autor de la obra Biografí́a de un hombre que perdió el miedo?; Responde con una de estas opciones: (a) Óscar Lebel, (b) Edgardo Russo, (c) Pedro Reino, (d) Eduardo Sguiglia",Óscar Lebel,,,1
+P1,"¿Quién es el autor de la obra Otros septiembres?; Responde con una de estas opciones: (a) Gonzalo Gallo, (b) Ariel Dorfman, (c) Triunfo Arciniegas, (d) Héctor Béjar",Ariel Dorfman,,,0
+P1,"¿Quién es el autor de la obra Prehistoria de San Juan?; Responde con una de estas opciones: (a) Iván Oñate, (b) Mariano Gambier, (c) César Miró, (d) Miguel Castillo Didier",Mariano Gambier,,,1
+P1,"¿Quién es el autor de la obra Teatro Hispanico?; Responde con una de estas opciones: (a) Sergio Israel, (b) Demetrio Aguilera Malta, (c) Ezio Neyra, (d) Juan Montalvo",Demetrio Aguilera Malta,,,1
+P1,"¿Quién es el autor de la obra Músicos y relojeros?; Responde con una de estas opciones: (a) Alicia Steimberg, (b) Fernando Tola de Habich, (c) Jaime Quezada, (d) Carlos Polimeni",Alicia Steimberg,,,0
+P1,"¿Quién es el autor de la obra Enjambres?; Responde con una de estas opciones: (a) Edgar Borges, (b) Mirko Lauer, (c) Ramón Paz Ipuana, (d) Leonardo Garet",Edgar Borges,,,0
+P1,"¿Quién es el autor de la obra Basuras de Shanghai?; Responde con una de estas opciones: (a) Jorge Icaza, (b) Germán Borda, (c) Rodolfo Santullo, (d) Germán Marín",Germán Marín,,,0
+P1,"¿Quién es el autor de la obra Amusa?; Responde con una de estas opciones: (a) Gonzalo Cammarota, (b) Rafael Cadenas, (c) Antonio Rocha, (d) Gloria Mendoza Borda",Gloria Mendoza Borda,,,0
+P1,"¿Quién es el autor de la obra El pecado original?; Responde con una de estas opciones: (a) Emilio Mignone, (b) Alfonso Lessa, (c) Félix Coluccio, (d) Claudia Piñeiro",Alfonso Lessa,,,1
+P1,"¿Quién es el autor de la obra El novato?; Responde con una de estas opciones: (a) Osvaldo Aguirre, (b) Álvaro Diez de Medina, (c) Enrique Congrains, (d) Arturo Capdevila",Osvaldo Aguirre,,,0
+P1,"¿Quién es el autor de la obra Poco Hombre?; Responde con una de estas opciones: (a) José Domingo Díaz, (b) Enrique Congrains, (c) Pedro Lemebel, (d) Miguel Ángel Morelli",Pedro Lemebel,,,0
+P1,"¿Quién es el autor de la obra La expulsión del paraíso?; Responde con una de estas opciones: (a) Enrique Rocha Monroy, (b) Hernán Rodríguez Castelo, (c) Javier Zamudio, (d) Rafo León",Rafo León,,,0
+P1,"¿Quién es el autor de la obra Azar?; Responde con una de estas opciones: (a) Lucas García, (b) William Ospina, (c) Gustavo San Román, (d) Juan Oropeza",William Ospina,,,1
+P1,"¿Quién es el autor de la obra Atrapados - 3 Tomos?; Responde con una de estas opciones: (a) Oldman Botello, (b) Jorge Icaza, (c) Óscar Pantoja, (d) Wafi Salih",Jorge Icaza,,,0
+P1,"¿Quién es el autor de la obra Dos fantasías memorables ; Un modelo para la muerte?; Responde con una de estas opciones: (a) Eder Acosta Santacruz, (b) Adolfo Bioy Casares, (c) Alejandro Peralta, (d) Diego Valverde Villena",Adolfo Bioy Casares,,,1
+P1,"¿Quién es el autor de la obra El beso de la mujer araña?; Responde con una de estas opciones: (a) Leopoldo Castedo, (b) Manuel Puig, (c) Juan Oddone, (d) Germán García",Manuel Puig,,,1
+P1,"¿Quién es el autor de la obra Trilce?; Responde con una de estas opciones: (a) Edgar Borges, (b) César Vallejo, (c) Alejandro Zambra, (d) Demetrio Aguilera Malta",César Vallejo,,,1
+P1,"¿Quién es el autor de la obra Los alegres desahuciados?; Responde con una de estas opciones: (a) Andrés Mariño Palacio, (b) Marcos Llemes, (c) Fernando Gerbasi, (d) Eduardo Alvariza",Andrés Mariño Palacio,,,1
+P1,"¿Quién es el autor de la obra Venezuela?; Responde con una de estas opciones: (a) Luis Britto García, (b) Ricardo González Vigil, (c) Héctor Mora, (d) Hugo Foguet",Luis Britto García,,,1
+P1,"¿Quién es el autor de la obra Las iniciales del tiempo?; Responde con una de estas opciones: (a) Daniuska González, (b) Eustaquio Palacios, (c) René Dávalos, (d) Tito Matamala",Daniuska González,,,1
+P1,"¿Quién es el autor de la obra Faros del Uruguay?; Responde con una de estas opciones: (a) José Miguel Ibáñez Langlois, (b) Juan Antonio Varese, (c) Juan Oropeza, (d) Claudio Paolillo",Juan Antonio Varese,,,0
+P1,"¿Quién es el autor de la obra Prontuario de folklore literario venezolano?; Responde con una de estas opciones: (a) José Toribio Medina, (b) Gustavo Luis Carrera, (c) Fernando Amado, (d) Isaac Pardo",Gustavo Luis Carrera,,,1
+P1,"¿Quién es el autor de la obra Cualquiercosario?; Responde con una de estas opciones: (a) Manuel Baldomero Ugarte, (b) Jacinto Ventura de Molina, (c) Gustavo Wojciechowski, (d) César Rivas Lara",Gustavo Wojciechowski,,,0
+P1,"¿Quién es el autor de la obra Asesinato en la gran ciudad del Cuzco?; Responde con una de estas opciones: (a) Telmo Herrera, (b) Luis Nieto Degregori, (c) Luis Vidales, (d) Washington Córdova Huamán",Luis Nieto Degregori,,,1
+P1,"¿Quién es el autor de la obra La oscuridad menos reciente?; Responde con una de estas opciones: (a) Alberto Flores Galindo, (b) Ricardo Prieto, (c) Damián González Bertolino, (d) Felipe Pigna",Ricardo Prieto,,,0
+P1,"¿Quién es el autor de la obra Nino, el rey de todo el mundo?; Responde con una de estas opciones: (a) Luis Enrique Fierro, (b) Gusti, (c) Isabel Allende, (d) David Rosenmann-Taub",Gusti,,,0
+P1,"¿Quién es el autor de la obra Ideas y conflictos en la educación venezolana?; Responde con una de estas opciones: (a) Jaime Antúnez Aldunate, (b) Rafael Fernández Heres, (c) Germán Borda, (d) Víctor Hugo Viscarra",Rafael Fernández Heres,,,0
+P1,"¿Quién es el autor de la obra Pizarro, el marqués gobernador?; Responde con una de estas opciones: (a) Carlos Schlaen, (b) José Antonio del Busto, (c) Raúl Silva Castro, (d) Harry Almela",José Antonio del Busto,,,0
+P1,"¿Quién es el autor de la obra Fuera del aire?; Responde con una de estas opciones: (a) Marc Dourojeanni, (b) David Rosenmann-Taub, (c) Fernando Báez, (d) Leonardo Padrón",Leonardo Padrón,,,0
+P1,"¿Quién es el autor de la obra D'Escolar (Serie Impar)?; Responde con una de estas opciones: (a) Guillermo Ruiz Plaza, (b) Mario Benedetti, (c) Carmen Ollé, (d) Germán García",Germán García,,,0
+P1,"¿Quién es el autor de la obra inédito N° 46-47 de Martín Fierro de Homenaje a Güiraldes?; Responde con una de estas opciones: (a) Mauricio Bonnett, (b) Pablo Montoya, (c) Miguel Ángel Manrique, (d) Pedro Luis Barcia",Pedro Luis Barcia,,,0
+P1,"¿Quién es el autor de la obra El mirlo burlón?; Responde con una de estas opciones: (a) Alfonso Calderón, (b) Antonio Santos, (c) Eder Acosta Santacruz, (d) Pablo de Rokha",Alfonso Calderón,,,1
+P1,"¿Quién es el autor de la obra Factor Borges?; Responde con una de estas opciones: (a) María de la Luz Uribe, (b) Matías Calandrelli, (c) Alan Pauls, (d) Lucas Caballero Calderón",Alan Pauls,,,0
+P1,"¿Quién es el autor de la obra Los peligros de Paulina y otros cuentos selectos?; Responde con una de estas opciones: (a) Omar Pérez Santiago, (b) Salvador Garmendia, (c) Cristina Peri Rossi, (d) Miguel Mazzeo",Salvador Garmendia,,,0
+P1,"¿Quién es el autor de la obra Concierto?; Responde con una de estas opciones: (a) Edmundo Ribadeneira, (b) José María Torres Caicedo, (c) Hernán Rivera Letelier, (d) Gonzalo Rojas",Gonzalo Rojas,,,0
+P1,"¿Quién es el autor de la obra Del mito de Inkarrí al mito del progreso?; Responde con una de estas opciones: (a) Orlando Echeverri Benedetti, (b) Marco García Falcón, (c) Carlos Iván Degregori, (d) Fernando Báez",Carlos Iván Degregori,,,1
+P1,"¿Quién es el autor de la obra Desde el país de las sombras?; Responde con una de estas opciones: (a) César Miró, (b) Guillermo Morón, (c) Germán Marín, (d) Alberto Gálvez Olaechea",Alberto Gálvez Olaechea,,,0
+P1,"¿Quién es el autor de la obra El guerrero del crepúsculo?; Responde con una de estas opciones: (a) Alberto Laiseca, (b) Juan Octavio Prenz, (c) Hugo Burel, (d) Carlos Martini",Hugo Burel,,,0
+P1,"¿Quién es el autor de la obra Dictadura mediática en Venezuela?; Responde con una de estas opciones: (a) Washington Córdova Huamán, (b) Edgar Borges, (c) Luis Britto García, (d) Elmer Huerta",Luis Britto García,,,0
+P1,"¿Quién es el autor de la obra Conquista de Quince Mil Leguas?; Responde con una de estas opciones: (a) Estanislao Zeballos, (b) Ricardo González Vigil, (c) Jorge Eduardo Eielson, (d) Alfredo Veiravé",Estanislao Zeballos,,,0
+P1,"¿Quién es el autor de la obra Las manzanas del paraíso?; Responde con una de estas opciones: (a) Óscar Bustamante, (b) Jaime Ardila Casamitjana, (c) Ricardo Letts Colmenares, (d) Antenor Orrego",Jaime Ardila Casamitjana,,,1
+P1,"¿Quién es el autor de la obra La Revolucion Imposible?; Responde con una de estas opciones: (a) José Ángel Cuevas, (b) Juan Emar, (c) Diego Barros Arana, (d) Alfonso Lessa",Alfonso Lessa,,,0
+P1,"¿Quién es el autor de la obra Poemas ilustrados?; Responde con una de estas opciones: (a) Alfonso Reece, (b) Claudio Tolcachir, (c) Jesús Miguel Soto, (d) Juan Gustavo Cobo",Juan Gustavo Cobo,,,0
+P1,"¿Quién es el autor de la obra El Paso y La Espera?; Responde con una de estas opciones: (a) Mamerto Menapace, (b) Juana de Ibarbourou, (c) Luis Camnitzer, (d) Triunfo Arciniegas",Mamerto Menapace,,,0
+P1,"¿Quién es el autor de la obra Amor y plenitud en el absurdo viaje hacia la muerte?; Responde con una de estas opciones: (a) Tomás Barna, (b) Eugenio Espejo, (c) Winston Morales, (d) René Gastelumendi",Tomás Barna,,,0
+P1,"¿Quién es el autor de la obra La Tia Julia Y El Escribidor?; Responde con una de estas opciones: (a) Mario Vargas Llosa, (b) Germán García, (c) Luis Rey de Castro, (d) César Vallejo",Mario Vargas Llosa,,,0
+P1,"¿Quién es el autor de la obra Mundo Perdido (Spanish Edition)?; Responde con una de estas opciones: (a) Gustavo Aguilera, (b) Jorge Millas, (c) Juan Carlos Iragorri, (d) Héctor López Martínez",Gustavo Aguilera,,,0
+P1,"¿Quién es el autor de la obra La patria enferma?; Responde con una de estas opciones: (a) Hilda Mundy, (b) Hernando Calvo Ospina, (c) Luis Rey de Castro, (d) Omar López Mato",Omar López Mato,,,0
+P1,"¿Quién es el autor de la obra El país de la canela?; Responde con una de estas opciones: (a) Arturo Capdevila, (b) Denzil Romero, (c) Jaime Lavados, (d) William Ospina",William Ospina,,,0
+P1,"¿Quién es el autor de la obra Un joven en La Batalla?; Responde con una de estas opciones: (a) Manuel Rojas, (b) Fernando Denis, (c) Ludwig Zeller, (d) Mariano Gambier",Manuel Rojas,,,0
+P1,"¿Quién es el autor de la obra Mala Junta?; Responde con una de estas opciones: (a) Mario Paoletti, (b) Antonio García Ángel, (c) Gonzalo Leiva Quijada, (d) Elías Regules",Mario Paoletti,,,1
+P1,"¿Quién es el autor de la obra Guerra de mudos?; Responde con una de estas opciones: (a) Santiago Roncagliolo, (b) Jorge Altamira, (c) Carlos Iván Degregori, (d) Hugo Eduardo Herrera",Carlos Iván Degregori,,,0
+P1,"¿Quién es el autor de la obra Antologia Poetica - Elvio Romero?; Responde con una de estas opciones: (a) Eduardo Ferrero Costa, (b) Pepe Pelayo, (c) Elvio Romero, (d) Grínor Rojo",Elvio Romero,,,1
+P1,"¿Quién es el autor de la obra Pluma en ristre?; Responde con una de estas opciones: (a) José María Rivarola Matto, (b) Betina González, (c) Leonardo Castellani, (d) Gusti",Leonardo Castellani,,,0
+P1,"¿Quién es el autor de la obra Léxico del mate?; Responde con una de estas opciones: (a) Mabel Coronel Cuenca, (b) Daniel Vidart, (c) Pedro Luis Barcia, (d) César Aira",Pedro Luis Barcia,,,0
+P1,"¿Quién es el autor de la obra Historia de un encargo?; Responde con una de estas opciones: (a) Gustavo Guerrero, (b) Manolo Bellon, (c) José Arnaldo Márquez, (d) José María Rivarola Matto",Gustavo Guerrero,,,1
+P1,"¿Quién es el autor de la obra Los ojos deseados?; Responde con una de estas opciones: (a) Juan de Castellanos, (b) Eduardo Belgrano Rawson, (c) Reinaldo Bolívar, (d) Jorge Cadavid",Jorge Cadavid,,,0
+P1,"¿Quién es el autor de la obra BOQUITAS PINTADAS?; Responde con una de estas opciones: (a) Luis Pérez Aguirre, (b) Tabaré Arapí, (c) Manuel Puig, (d) Rafael de Nogales Méndez",Manuel Puig,,,0
+P1,"¿Quién es el autor de la obra La escritura sin tregua?; Responde con una de estas opciones: (a) Diego Paszkowski, (b) José Pérez Reyes, (c) Hugo Coya, (d) Hiber Conteris",Hiber Conteris,,,0
+P1,"¿Quién es el autor de la obra Engaño Populista?; Responde con una de estas opciones: (a) Luis Sabini, (b) Daniuska González, (c) Roberto Canessa, (d) Axel Kaiser",Axel Kaiser,,,0
+P1,"¿Quién es el autor de la obra Pintura en voz baja?; Responde con una de estas opciones: (a) Néstor Caballero, (b) Hugo Mujica, (c) Fernando Villalba, (d) Diamela Eltit",Hugo Mujica,,,1
+P1,"¿Quién es el autor de la obra Barril de Amontillado?; Responde con una de estas opciones: (a) Marco Aurelio Denegri, (b) Julio Cortázar, (c) Alfonso Carvajal, (d) Vicente Medina",Julio Cortázar,,,0
+P1,"¿Quién es el autor de la obra Juego y Aprendo 4 - Con El Grafico?; Responde con una de estas opciones: (a) Raúl Fortín, (b) Julio Díaz, (c) José de la Cuadra, (d) César Aira",Raúl Fortín,,,1
+P1,"¿Quién es el autor de la obra Tarde de invierno/Winter Afternoon?; Responde con una de estas opciones: (a) Jorge Salvador Lara, (b) Jorge Elías Luján, (c) Javier Sologuren, (d) Andrés Bello",Jorge Elías Luján,,,0
+P1,"¿Quién es el autor de la obra Guillermo Morón en la Academia Nacional de la Historia?; Responde con una de estas opciones: (a) César Aira, (b) Juan Calzadilla, (c) Mariano Caucino, (d) Guillermo Morón",Guillermo Morón,,,1
+P1,"¿Quién es el autor de la obra Cien años de Soledad (Edición de Regalo) / One Hundred Years of Solitude (Gift Edition)?; Responde con una de estas opciones: (a) Gustavo Pecoraro, (b) Reymi Ferreira, (c) Germán García, (d) Gabriel García Márquez ",Gabriel García Márquez ,,,0
+P1,"¿Quién es el autor de la obra Diez Teorias Que Conmovieron al Mundo?; Responde con una de estas opciones: (a) Alfonso Reece, (b) Óscar Contardo, (c) Leonardo Moledo, (d) Julián Padrón",Leonardo Moledo,,,0
+P1,"¿Quién es el autor de la obra La Casa Blanca?; Responde con una de estas opciones: (a) Alfredo Boccia Romañach, (b) Oswaldo de Rivero, (c) Ezio Neyra, (d) Helio Vera",Helio Vera,,,0
+P1,"¿Quién es el autor de la obra Autobiografia I?; Responde con una de estas opciones: (a) Victoria Ocampo, (b) Frank Agostino, (c) César Calvo, (d) Héctor Gros Espiell",Victoria Ocampo,,,1
+P1,"¿Quién es el autor de la obra Quién paga los muertos del once de Abril??; Responde con una de estas opciones: (a) Pablo da Silveira, (b) Jaime Álvarez Gutiérrez, (c) Carlos Juárez Aldazábal, (d) Domingo Alberto Rangel",Domingo Alberto Rangel,,,0
+P1,"¿Quién es el autor de la obra El vino rojo de las sílabas?; Responde con una de estas opciones: (a) Fernando Denis, (b) Martín Lasalt, (c) Daniel Colombo, (d) Fernando Villegas",Fernando Denis,,,1
+P1,"¿Quién es el autor de la obra Los ríos profundos?; Responde con una de estas opciones: (a) Eduardo Liendo, (b) Luis de Rodrigo, (c) Ticio Escobar, (d) José María Arguedas",José María Arguedas,,,0
+P1,"¿Quién es el autor de la obra K. O. P.P.K.?; Responde con una de estas opciones: (a) Antonio Cornejo Polar, (b) Marco Sifuentes, (c) Pablo Mackenna, (d) Juan de Castellanos",Marco Sifuentes,,,0
+P1,"¿Quién es el autor de la obra Obras escogidas?; Responde con una de estas opciones: (a) Juana de Ibarbourou, (b) Gabriel Jiménez Emán, (c) Juan Seoane, (d) Jorge Yacoman",Juana de Ibarbourou,,,0
+P1,"¿Quién es el autor de la obra Alfonsina Storni: Poesa?; Responde con una de estas opciones: (a) José Gobello, (b) Mario Paoletti, (c) Alfonsina Storni, (d) Ígor Barreto",Alfonsina Storni,,,1
+P1,"¿Quién es el autor de la obra Escepticismo, literatura y visualidad?; Responde con una de estas opciones: (a) Leonardo Padrón, (b) Jaime Poniachik, (c) Pablo Oyarzún, (d) Miguel Ángel Manrique",Pablo Oyarzún,,,0
+P1,"¿Quién es el autor de la obra Catequesis Yerbiadas VI - La Reconciliacion?; Responde con una de estas opciones: (a) Mamerto Menapace, (b) Gustavo Tarre Briceño, (c) Raúl Scalabrini Ortiz, (d) Alfredo Toro Hardy",Mamerto Menapace,,,1
+P1,"¿Quién es el autor de la obra Los Mejores Relatos Marinos?; Responde con una de estas opciones: (a) Horacio Quiroga, (b) Ida Vitale, (c) Germán Carrasco, (d) Juan Carlos Onetti",Horacio Quiroga,,,0
+P2,De qué país es el autor de la obra Selección de centenario?,Colombia,,,0
+P2,De qué país es el autor de la obra Nux vómica?,Ecuador,,,0
+P2,De qué país es el autor de la obra El Chile que no queremos?,Chile,,,1
+P2,De qué país es el autor de la obra Crónicas casi históricas?,Colombia,,,0
+P2,De qué país es el autor de la obra Javier Viveros?,Paraguay,,,0
+P2,De qué país es el autor de la obra Historia de un encargo?,Venezuela,,,0
+P2,De qué país es el autor de la obra Otros septiembres?,Chile,,,0
+P2,De qué país es el autor de la obra Ceremonia comentada?,Peru,,,0
+P2,De qué país es el autor de la obra Aquellos Tiempos Con Gabo?,Colombia,,,0
+P2,De qué país es el autor de la obra De náufrago a pionero?,Uruguay,,,0
+P2,De qué país es el autor de la obra Morir Es Volver a Casa?,Uruguay,,,0
+P2,De qué país es el autor de la obra Antologia Personal?,Colombia,,,0
+P2,De qué país es el autor de la obra Manual de esgrima para elefantes?,Paraguay,,,0
+P2,De qué país es el autor de la obra San Anto?ito - 1. edicion?,Colombia,,,0
+P2,De qué país es el autor de la obra Reforma al sistema penal y carcelario en Uruguay?,Uruguay,,,1
+P2,De qué país es el autor de la obra Segundo Anillo de Poder?,Uruguay,,,0
+P2,De qué país es el autor de la obra El drama sin atenuantes?,Argentina,,,0
+P2,De qué país es el autor de la obra Antes del Requiem?,Argentina,,,0
+P2,"De qué país es el autor de la obra Vida, toma mi mano?",Chile,,,0
+P2,"De qué país es el autor de la obra Colombia, laboratorio de embrujos?",Colombia,,,1
+P2,De qué país es el autor de la obra Inmovilidad De Los Barcos (Coleccion Poesia # 73)?,Uruguay,,,0
+P2,De qué país es el autor de la obra El terror argentino?,Paraguay,,,0
+P2,De qué país es el autor de la obra Los diez mejores cuentos de la literatura boliviana?,Bolivia,,,1
+P2,De qué país es el autor de la obra Solo de saxo?,Chile,,,0
+P2,De qué país es el autor de la obra Catequesis Yerbiadas I?,Argentina,,,1
+P2,De qué país es el autor de la obra Versos teatrales?,Chile,,,0
+P2,De qué país es el autor de la obra Ka'i rembihasakue =?,Paraguay,,,0
+P2,De qué país es el autor de la obra Nicolás aprende los números?,Colombia,,,0
+P2,De qué país es el autor de la obra Pocitos?,Uruguay,,,0
+P2,De qué país es el autor de la obra Iglesia y Dictadura?,Argentina,,,1
+P2,De qué país es el autor de la obra Mujeres Argentinas/argentinian's Women?,Argentina,,,1
+P2,De qué país es el autor de la obra Dona Pinones?,Chile,,,0
+P2,"De qué país es el autor de la obra Mensajeros del cosmos, Una Puerta hacia las Estrellas?",Peru,,,0
+P2,De qué país es el autor de la obra La casa de la poesía?,Chile,,,0
+P2,De qué país es el autor de la obra Historia de Quito?,Ecuador,,,0
+P2,De qué país es el autor de la obra Fundacion Bigott 30 años?,Venezuela,,,0
+P2,De qué país es el autor de la obra Érase mi alma?,Colombia,,,0
+P2,De qué país es el autor de la obra 1877?,Bolivia,,,0
+P2,De qué país es el autor de la obra Juan Pedro López?,Uruguay,,,0
+P2,De qué país es el autor de la obra Zürich es una letra álef?,Colombia,,,0
+P2,De qué país es el autor de la obra El atravesado?,Colombia,,,0
+P2,De qué país es el autor de la obra Gracia y el forastero?,Chile,,,0
+P2,De qué país es el autor de la obra El joven Bolívar?,Venezuela,,,1
+P2,De qué país es el autor de la obra Helarte De Amar / Freeze from Loving?,Peru,,,0
+P2,De qué país es el autor de la obra ADES?,Uruguay,,,0
+P2,De qué país es el autor de la obra Carnaval de coplas cajamarquinas?,Peru,,,0
+P2,De qué país es el autor de la obra Un oscuro pedazo de vida?,Chile,,,0
+P2,De qué país es el autor de la obra El arte de leer a Garc©Ưa M©Łrquez?,Colombia,,,1
+P2,De qué país es el autor de la obra Sociologia de la Religion (Spanish Edition)?,Uruguay,,,0
+P2,De qué país es el autor de la obra Propósito Eterno de Dios para Mi Vida?,Uruguay,,,0
+P2,De qué país es el autor de la obra La Esposa Del Dr. Thorne?,Venezuela,,,0
+P2,De qué país es el autor de la obra Gloria de la Cruz?,Venezuela,,,0
+P2,De qué país es el autor de la obra Patíbulo para un caballo?,Peru,,,0
+P2,De qué país es el autor de la obra El auto?,Uruguay,,,0
+P2,De qué país es el autor de la obra Relatos?,Venezuela,,,0
+P2,De qué país es el autor de la obra Vida Breve (Edición Conmemorativa de la RAE y la ASALE) / a Brief Life?,Uruguay,,,0
+P2,De qué país es el autor de la obra Billie Ruth?,Bolivia,,,0
+P2,De qué país es el autor de la obra Los intensos goces de la escritura?,Argentina,,,1
+P2,De qué país es el autor de la obra Cañuela y petaca y otros cuentos?,Chile,,,0
+P2,De qué país es el autor de la obra Discurso de Ingreso en la Academia Boliviana de la Lengua?,Bolivia,,,1
+P2,De qué país es el autor de la obra El lenguaje de los diablos?,Venezuela,,,0
+P2,De qué país es el autor de la obra Diario de Santa María?,Peru,,,0
+P2,De qué país es el autor de la obra Consecuencias económicas del proceso de independencia en Colombia?,Colombia,,,0
+P2,"De qué país es el autor de la obra Sitio de Kelany, El?",Argentina,,,0
+P2,De qué país es el autor de la obra Poder popular y nación?,Argentina,,,0
+P2,De qué país es el autor de la obra Pobreza Espiritual Voluntaria?,Colombia,,,0
+P2,"De qué país es el autor de la obra Caso del Video Juego, El?",Argentina,,,0
+P2,De qué país es el autor de la obra Persona?,Uruguay,,,0
+P2,De qué país es el autor de la obra Muerte de Sevilla en Madrid?,Peru,,,0
+P2,De qué país es el autor de la obra Papeles de viento?,Peru,,,0
+P2,De qué país es el autor de la obra Las Encantadas?,Argentina,,,0
+P2,De qué país es el autor de la obra Nada se pierde con vivir?,Chile,,,0
+P2,De qué país es el autor de la obra Diálogos del porvenir?,Chile,,,0
+P2,De qué país es el autor de la obra El dedo de David Lynch?,Venezuela,,,0
+P2,De qué país es el autor de la obra El náufrago de la santa?,Peru,,,0
+P2,De qué país es el autor de la obra Bilbao y el hallazgo de América Latina?,Chile,,,0
+P2,"De qué país es el autor de la obra Andrés Avelino Cáceres, héroe de la resistencia?",Peru,,,0
+P2,De qué país es el autor de la obra Cartas a Julieta (1950)?,Colombia,,,0
+P2,De qué país es el autor de la obra Reserva Comunal Amarakaeri?,Peru,,,0
+P2,De qué país es el autor de la obra La invención del tren fantasma?,Argentina,,,1
+P2,De qué país es el autor de la obra Las almas del purgatorio?,Peru,,,0
+P2,"De qué país es el autor de la obra Poemas, prosa y cuentos cortos?",Argentina,,,1
+P2,De qué país es el autor de la obra El zoológico de Dios II?,Argentina,,,0
+P2,De qué país es el autor de la obra El caso Bonapelch?,Uruguay,,,0
+P2,De qué país es el autor de la obra Elegía a la muerte de Juan Ponce de León?,Venezuela,,,0
+P2,"De qué país es el autor de la obra Mundo Perfecto, Un - Derecho a la Sanidad - 4?",Uruguay,,,0
+P2,"De qué país es el autor de la obra Grandes éxitos, un cuento y una despedida?",Uruguay,,,0
+P2,De qué país es el autor de la obra Los Cuentos de Chepe?,Venezuela,,,0
+P2,De qué país es el autor de la obra Secretos de un jardín?,Uruguay,,,0
+P2,De qué país es el autor de la obra Realidad Aparte (Spanish Edition)?,Uruguay,,,0
+P2,De qué país es el autor de la obra Mapas Nocturnos - Dialogos Con La Obra Martin-Barb?,Colombia,,,0
+P2,De qué país es el autor de la obra Buceo excitante en las entrañas del tango?,Argentina,,,1
+P2,De qué país es el autor de la obra Abrir caminos?,Argentina,,,0
+P2,De qué país es el autor de la obra El mundo según Cabrujas?,Venezuela,,,0
+P2,De qué país es el autor de la obra Valizas?,Uruguay,,,0
+P2,De qué país es el autor de la obra Miscelánea humanística?,Peru,,,0
+P2,De qué país es el autor de la obra Bestiario Americano?,Ecuador,,,0
+P2,De qué país es el autor de la obra A partir de ahora el combate será libre?,Paraguay,,,0
+P2,De qué país es el autor de la obra 43 nuevos cri menes para resolver?,Argentina,,,0
+P2,De qué país es el autor de la obra Veneno de escorpión azul?,Chile,,,0
+P3,En cual año fue publicada la obra Pasajeros perdurables?,2006,,,0
+P3,En cual año fue publicada la obra Daemon?,2022,,,0
+P3,En cual año fue publicada la obra Pascua?,2014,,,0
+P3,En cual año fue publicada la obra La contadora de películas?,2009,,,0
+P3,En cual año fue publicada la obra Inmovilidad De Los Barcos (Coleccion Poesia # 73)?,1997,,,0
+P3,En cual año fue publicada la obra Saca La Lengua?,1999,,,0
+P3,En cual año fue publicada la obra Veneno de escorpión azul?,2007,,,1
+P3,En cual año fue publicada la obra Segundo Anillo de Poder?,2015,,,0
+P3,En cual año fue publicada la obra Sudoku Clasicos 2?,2006,,,0
+P3,En cual año fue publicada la obra Antologia del Cuento Extrao 4?,1998,,,0
+P3,En cual año fue publicada la obra Qué dicen los khipus?,2019,,,0
+P3,En cual año fue publicada la obra Érase mi alma?,2009,,,0
+P3,En cual año fue publicada la obra Cuentos Tradionales y Cuentos para la Nueva Generación?,2018,,,0
+P3,En cual año fue publicada la obra El AÃ±o Que Rompi Contigo/the Year I Left You?,2003,,,0
+P3,En cual año fue publicada la obra Porque Escribí?,1997,,,0
+P3,En cual año fue publicada la obra Hotel en Shangri-La?,2011,,,0
+P3,En cual año fue publicada la obra Mi cuerpo es una celda?,2008,,,0
+P3,En cual año fue publicada la obra Uslar y lo alemán?,2012,,,0
+P3,En cual año fue publicada la obra Olmedo?,2009,,,0
+P3,En cual año fue publicada la obra Resistir Cholo?,2006,,,0
+P3,En cual año fue publicada la obra El bosque sagrado?,2007,,,0
+P3,En cual año fue publicada la obra Cómo llegar a ser japonés?,2010,,,0
+P3,En cual año fue publicada la obra Erótica?,2015,,,0
+P3,En cual año fue publicada la obra Catequesis Yerbiadas V - El Orden Sagrado?,2005,,,0
+P3,En cual año fue publicada la obra El Pirata Pata de Palo (Primer Acto: Teatro Infantil y Juvenil) (Primer Acto: Teatro Infantil y Juvenil)?,1997,,,0
+P3,En cual año fue publicada la obra Cantos de la man ana?,2003,,,0
+P3,En cual año fue publicada la obra Princesa Llamada Zulia?,2019,,,0
+P3,"En cual año fue publicada la obra Deseo, Mil Lágrimas?",2020,,,0
+P3,En cual año fue publicada la obra La expulsión del paraíso?,2006,,,0
+P3,En cual año fue publicada la obra Dulce animal de compañía?,2019,,,0
+P3,En cual año fue publicada la obra Para qué leer?,2011,,,0
+P3,En cual año fue publicada la obra ¡Comunista por siempre!?,2009,,,0
+P3,En cual año fue publicada la obra El volver de las imágenes?,2008,,,0
+P3,En cual año fue publicada la obra Martin Heidegger?,2004,,,0
+P3,En cual año fue publicada la obra Teatro Completo 1?,2003,,,0
+P3,En cual año fue publicada la obra Pinceladas musicales?,2019,,,0
+P3,En cual año fue publicada la obra Maravillas pulgares?,2012,,,0
+P3,En cual año fue publicada la obra Chile a ciegas?,2012,,,0
+P3,En cual año fue publicada la obra Escrivisiones a partir de fotogravivas?,2011,,,0
+P3,En cual año fue publicada la obra Aura latente?,2021,,,0
+P3,En cual año fue publicada la obra Paraguay?,2011,,,0
+P3,En cual año fue publicada la obra Poesía por mandato?,2014,,,0
+P3,En cual año fue publicada la obra 1810?,2010,,,0
+P3,En cual año fue publicada la obra Antologia Poetica - Elvio Romero?,1995,,,0
+P3,En cual año fue publicada la obra Óscar y las mujeres?,2013,,,0
+P3,En cual año fue publicada la obra Rêves et réalités / Sueños y realidades?,2005,,,0
+P3,En cual año fue publicada la obra Riplay?,2015,,,0
+P3,En cual año fue publicada la obra Conjurar a Babel?,2012,,,0
+P3,En cual año fue publicada la obra Bilbao y el hallazgo de América Latina?,2012,,,0
+P3,En cual año fue publicada la obra Una Vaca Querida / A Well-Loved Cow?,2001,,,0
+P3,En cual año fue publicada la obra Cartas y lecturas de Eugenio Espejo?,2008,,,0
+P3,En cual año fue publicada la obra Mujeres?,1993,,,0
+P3,En cual año fue publicada la obra El ferrocarril invisible?,2009,,,0
+P3,En cual año fue publicada la obra El orden de las letras?,2021,,,0
+P3,En cual año fue publicada la obra Ajuste estructural de las finanzas públicas 1998-2004?,2005,,,0
+P3,En cual año fue publicada la obra Angeles del miedo?,1988,,,0
+P3,En cual año fue publicada la obra Historia de la organización electoral en Colombia (1888-2012)?,2013,,,0
+P3,En cual año fue publicada la obra Prosa y circunstancia?,1999,,,0
+P3,En cual año fue publicada la obra Derechos humanos y desarrollo?,2007,,,0
+P3,En cual año fue publicada la obra Sospechosos en tránsito?,2017,,,0
+P3,En cual año fue publicada la obra Fotografía en oscuro?,2008,,,0
+P3,En cual año fue publicada la obra Caso Zapata?,2016,,,0
+P3,En cual año fue publicada la obra La mujer de Ameghino : un inventario enloquecido de Buenos Aires?,2014,,,0
+P3,En cual año fue publicada la obra Ñeenga raity?,2014,,,0
+P3,En cual año fue publicada la obra Humor Idiota?,2004,,,0
+P3,En cual año fue publicada la obra Pasión de papel?,2007,,,0
+P3,En cual año fue publicada la obra Pie de atleta?,2002,,,0
+P3,En cual año fue publicada la obra Años en el cuerpo?,2005,,,1
+P3,En cual año fue publicada la obra Hienas?,2016,,,0
+P3,En cual año fue publicada la obra Venezuela?,2011,,,0
+P3,"En cual año fue publicada la obra Lenguas de Diamante, Las?",1999,,,0
+P3,En cual año fue publicada la obra Inodoro Pereyra 10?,2005,,,0
+P3,En cual año fue publicada la obra Cuentos en-red-@-dos?,2003,,,0
+P3,En cual año fue publicada la obra El voto del agua tibia?,2017,,,0
+P3,En cual año fue publicada la obra Rebelión?,2020,,,0
+P3,En cual año fue publicada la obra Inodoro Pereyra 4?,2005,,,0
+P3,En cual año fue publicada la obra El más absurdo de todos los personajes?,2010,,,0
+P3,En cual año fue publicada la obra Al encuentro de las tres Marías?,2008,,,0
+P3,En cual año fue publicada la obra Barcelona senza fine?,2011,,,0
+P3,"En cual año fue publicada la obra Manuel José Yrarrázaval Larraín, 1835-1896?",2005,,,0
+P3,En cual año fue publicada la obra El techo de la ballena?,2008,,,0
+P3,En cual año fue publicada la obra El poeta que tocaba tambor?,2014,,,0
+P3,En cual año fue publicada la obra El guardián de los recuerdos?,2012,,,0
+P3,En cual año fue publicada la obra Oficio De Cartgrafo (Sociologia)?,2002,,,0
+P3,En cual año fue publicada la obra La Fortuna?,2004,,,0
+P3,En cual año fue publicada la obra Realidad Aparte (Spanish Edition)?,2015,,,0
+P3,"En cual año fue publicada la obra Pedro Arévalo, Juan de Dios Agraz y Fernando Suárez?",2012,,,0
+P3,"En cual año fue publicada la obra La Mesa Redonda sobre ""Todas las Sangres"" del 23 de junio de 1965?",2000,,,0
+P3,En cual año fue publicada la obra De un lado y del otro?,2006,,,0
+P3,En cual año fue publicada la obra Los invencibles?,2007,,,0
+P3,En cual año fue publicada la obra Mundo perdido?,2010,,,0
+P3,"En cual año fue publicada la obra Mensajeros del cosmos, Una Puerta hacia las Estrellas?",1999,,,0
+P3,En cual año fue publicada la obra La cara oculta del cine?,2011,,,0
+P3,En cual año fue publicada la obra Pirí?,2012,,,0
+P3,En cual año fue publicada la obra Todo legal?,2022,,,0
+P3,En cual año fue publicada la obra Estampas del candombe =?,2008,,,0
+P3,En cual año fue publicada la obra Tratado de cielo para jóvenes poetas?,2008,,,0
+P3,En cual año fue publicada la obra Controversia sobre las fiestas oficiales centro Andinas?,2019,,,0
+P3,En cual año fue publicada la obra Uruguay en la mira del narco?,2021,,,0
+P3,En cual año fue publicada la obra Los límites del milagro?,2014,,,0
+P4,,,A qué categoría pertenece la obra Miguel Vicente Pata Caliente/Hot-Footed Miguel Vicente?,"Estas son las categorias a las que pertenece la obra: Infantil / Juvenil, Educación. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Pascua?,Estas son las categorias a las que pertenece la obra: Novela. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Inventario Uno - 1976-1985 - Con CD?,Estas son las categorias a las que pertenece la obra: Poesía. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Templos sagrados de Machupiqchu?,"Estas son las categorias a las que pertenece la obra: Historia, Religión. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Peruanos de ficción?,Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La Argentina agropecuaria?,"Estas son las categorias a las que pertenece la obra: Economía, Política. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Su casa es mi casa?,"Estas son las categorias a las que pertenece la obra: Ficción, Novela. ¿Respondiste bien? Responde con sí o no.",1
+P4,,,A qué categoría pertenece la obra Los Chachapoyas?,Estas son las categorias a las que pertenece la obra: Historia. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra El diálogo infinito?,Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La espiral incesante?,Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra El río y el mar?,Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra El chavismo como problema?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Ballenas?,"Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios, Infantil / Juvenil. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Elaboracion del Proyecto Educativo Institucional?,"Estas son las categorias a las que pertenece la obra: Filosofía, Educación. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Desconfianza infinita?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,"A qué categoría pertenece la obra Huilensidad, homenaje a los dos grandes maestros líricos?","Estas son las categorias a las que pertenece la obra: Sociología, Viajes. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Las dos patrias?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La carcel?,"Estas son las categorias a las que pertenece la obra: Ficción, Novela, Lengua / Lingüística. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,"A qué categoría pertenece la obra Poesia, De Sobremesa?","Estas son las categorias a las que pertenece la obra: Poesía, Literatura / Estudios literarios. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Las reglas del amor?,Estas son las categorias a las que pertenece la obra: Psicología. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Reflexiones Para La Cuaresma?,"Estas son las categorias a las que pertenece la obra: Historia, Religión. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Los orígenes fundacionales de la villa de San Cristóbal y el antiguo corregimiento de Tunja?,Estas son las categorias a las que pertenece la obra: Historia. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La leyenda insurgente?,Estas son las categorias a las que pertenece la obra: Historia. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra País de salida?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra García Márquez?,Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La sombra?,"Estas son las categorias a las que pertenece la obra: Ficción, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Estudios de felicidad?,Estas son las categorias a las que pertenece la obra: Poesía. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Por que seguir creyendo?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Leopardo al sol?,"Estas son las categorias a las que pertenece la obra: Novela, Ficción. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Pacheco?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,"A qué categoría pertenece la obra Reloj no marques las horas, haz esta noche perpetua 1965-2014?",Estas son las categorias a las que pertenece la obra: Arte. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Siempre en el camino?,Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra El Negro de Paris?,Estas son las categorias a las que pertenece la obra: Infantil / Juvenil. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Cantos de la man ana?,Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Los Poetas En La Republica Del Poder?,Estas son las categorias a las que pertenece la obra: Educación. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La experiencia tupamara?,"Estas son las categorias a las que pertenece la obra: Historia, Política. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra El manuscrito de Huarochirí?,"Estas son las categorias a las que pertenece la obra: Religión, Lengua / Lingüística. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Otros Tiempos?,Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,"A qué categoría pertenece la obra Seúl, São Paulo?",Estas son las categorias a las que pertenece la obra: Novela. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La guerra (asimétrica) de Chávez?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Ilustración y emancipación en América Latina?,"Estas son las categorias a las que pertenece la obra: Sociología, Filosofía, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Dona Pinones (Coleccion Rimas Y Adivinanzas)?,"Estas son las categorias a las que pertenece la obra: Educación, Ficción, Infantil / Juvenil, Lengua / Lingüística. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Letras robadas?,"Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias, Ficción, Lengua / Lingüística, Infantil / Juvenil. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Ruperto Insiste!! - Nuevas Aventuras de Un Sapo Detective?,"Estas son las categorias a las que pertenece la obra: Cuento, Infantil / Juvenil. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Por Fin Solos / At Last Alone?,Estas son las categorias a las que pertenece la obra: Ficción. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Fernando Botero?,"Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios, Arte, Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Chile a ciegas?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Correspondencia entre José María Arguedas y Juan Mejía Baca en la Biblioteca Nacional?,Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Querido Pedro?,Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Los olvidados del bicentenario?,Estas son las categorias a las que pertenece la obra: Historia. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Los Inkas?,"Estas son las categorias a las que pertenece la obra: Historia, Sociología. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Oficio De Cartgrafo (Sociologia)?,Estas son las categorias a las que pertenece la obra: Sociología. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Norberto Bobbio?,"Estas son las categorias a las que pertenece la obra: Política, Filosofía. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Mapa de un engaño?,Estas son las categorias a las que pertenece la obra: Historia. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra El país de la sopa dura?,Estas son las categorias a las que pertenece la obra: Sociología. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Diálogos del porvenir?,Estas son las categorias a las que pertenece la obra: Poesía. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Emilia Bertolé?,Estas son las categorias a las que pertenece la obra: Arte. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Costado indio?,"Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios, Poesía. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Un Viejo Que Leia Novelas de Amor?,Estas son las categorias a las que pertenece la obra: Ficción. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Los muros del silencio?,Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La Flor de Lis with CD (Audio)?,Estas son las categorias a las que pertenece la obra: Poesía. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Bolivia?,"Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios, Sociología, Política, Economía. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra El Romancero sefardí de Máximo José Kahn?,Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Regreso?,"Estas son las categorias a las que pertenece la obra: Viajes, Ficción. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Carlos Páez Vilaró?,"Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias, Arte. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Contribución histórica a los bicentenarios de Bolivia?,"Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Ariel?,"Estas son las categorias a las que pertenece la obra: Ensayo, Política, Sociología, Ficción, Lengua / Lingüística. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,"A qué categoría pertenece la obra Cia Perú, 1985?","Estas son las categorias a las que pertenece la obra: Ficción, Política. ¿Respondiste bien? Responde con sí o no.",1
+P4,,,A qué categoría pertenece la obra Los últimos días del Graf Spee?,"Estas son las categorias a las que pertenece la obra: Ficción, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Folklore duro?,"Estas son las categorias a las que pertenece la obra: Arte, Literatura / Estudios literarios, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra La Bachué de Rómulo Rozo?,"Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios, Arte. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Cantos/Cuentos Colombianos?,Estas son las categorias a las que pertenece la obra: Arte. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra El robo de Proserpina y sueño de Endimión?,"Estas son las categorias a las que pertenece la obra: Teatro, Literatura / Estudios literarios, Lengua / Lingüística. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra La pantalla letrada?,"Estas son las categorias a las que pertenece la obra: Arte, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra El general y el almirante?,"Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Sensibilidad de frontera?,"Estas son las categorias a las que pertenece la obra: Comunicación, Sociología. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Lengua erotica?,"Estas son las categorias a las que pertenece la obra: Poesía, Lengua / Lingüística. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra LA Vaca Roja?,"Estas son las categorias a las que pertenece la obra: Educación, Cuento, Infantil / Juvenil. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Fragmentos de un diario?,"Estas son las categorias a las que pertenece la obra: Arte, Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Guillermo Chifflet?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Logoi?,Estas son las categorias a las que pertenece la obra: Lengua / Lingüística. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Vanguardistas?,"Estas son las categorias a las que pertenece la obra: Literatura / Estudios literarios, Arte, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Chicha peruana?,Estas son las categorias a las que pertenece la obra: Sociología. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Autobiografia I?,Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Hegemonia e imperio?,Estas son las categorias a las que pertenece la obra: Política. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La cacería del caballero?,"Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias, Economía. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra El Chile que no queremos?,"Estas son las categorias a las que pertenece la obra: Política, Sociología. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,"A qué categoría pertenece la obra Bolívar, libertador y enemigo N° 1 del Perú?",Estas son las categorias a las que pertenece la obra: Historia. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra Los imperios y el imperio?,"Estas son las categorias a las que pertenece la obra: Política, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Hombres y engranajes?,"Estas son las categorias a las que pertenece la obra: Tecnología, Filosofía. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Música prosaica (cuatro piezas sobre traducción)?,"Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias, Lengua / Lingüística. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Genaro?,"Estas son las categorias a las que pertenece la obra: Comunicación, Biografía / Autobiografía / Memorias, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra El Papa Francisco?,"Estas son las categorias a las que pertenece la obra: Biografía / Autobiografía / Memorias, Religión. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Arte del siglo XX?,Estas son las categorias a las que pertenece la obra: Arte. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La Sombra de Osiris?,"Estas son las categorias a las que pertenece la obra: Cuento, Infantil / Juvenil. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Jorge Miño?,Estas son las categorias a las que pertenece la obra: Arte. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La otra isla?,Estas son las categorias a las que pertenece la obra: Novela. ¿Respondiste bien? Responde con sí o no.,0
+P4,,,A qué categoría pertenece la obra La Silla que Perdio una Pata?,"Estas son las categorias a las que pertenece la obra: Infantil / Juvenil, Educación. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,"A qué categoría pertenece la obra Mérida, 100 años de cine, 1894-1994?","Estas son las categorias a las que pertenece la obra: Arte, Historia. ¿Respondiste bien? Responde con sí o no.",0
+P4,,,A qué categoría pertenece la obra Baba?,Estas son las categorias a las que pertenece la obra: Poesía. ¿Respondiste bien? Responde con sí o no.,0
+P5,,,Dime alguna editorial que haya publicado la obra Reminiscencias de dos ferias del libro?,Estas son las editoriales que han publicado la obra: Editorial Temis. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Letra en la piedra?,Estas son las editoriales que han publicado la obra: Loca edición. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Un Hombre de Edad Media - Antes del Olvido II?,Estas son las editoriales que han publicado la obra: Sudamericana. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Vendrá la muerte y tendrá tus ojos?,Estas son las editoriales que han publicado la obra: Plural Editores. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Todo el amor en sus ojos?,Estas son las editoriales que han publicado la obra: LOM Ediciones. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Una democracia única?,Estas son las editoriales que han publicado la obra: Fin De Siglo Editorial. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Sabueso de Los Baskerville (Spanish Edition)?,Estas son las editoriales que han publicado la obra: CreateSpace Independent Publishing Platform. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Alfonsina Storni?,Estas son las editoriales que han publicado la obra: Aguilar. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Gracias a la Vida?,"Estas son las editoriales que han publicado la obra: Espasa Calpe Mexicana, S.A.. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Rocanrol?,"Estas son las editoriales que han publicado la obra: Alfaguara, Beatriz Viterbo. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,"Dime alguna editorial que haya publicado la obra Médicos taxistas, escritores?",Estas son las editoriales que han publicado la obra: Sudaquia Editores. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra 1929?,Estas son las editoriales que han publicado la obra: Editorial la Bachué. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Didática de la liberación?,Estas son las editoriales que han publicado la obra: Casa Editorial HUM. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Amazonía peruana en 2021?,"Estas son las editoriales que han publicado la obra: Sociedad Peruana de Derecho Ambiental, SPDA. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Historia general de Boyacá?,Estas son las editoriales que han publicado la obra: Academia Boyacense de Historia. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Proyecto Del Codigo Eclesiastico ... ...?,"Estas son las editoriales que han publicado la obra: Creative Media Partners, LLC. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra La misión Rockefeller?,Estas son las editoriales que han publicado la obra: Alfaguara. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El desorden de las imágenes?,"Estas son las editoriales que han publicado la obra: JH, Fondo Juvenal Hernández Jaque. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Olvido y falsificación en la historia del Grito de Alcorta?,Estas son las editoriales que han publicado la obra: Homo Sapiens Ediciones. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Bicentenario?,Estas son las editoriales que han publicado la obra: A-Z Editora. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Arguedas?,"Estas son las editoriales que han publicado la obra: Pontificia Universidad Católica del Perú, Fondo Editorial. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra El cielo de Capri?,Estas son las editoriales que han publicado la obra: Revuelta Editores. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Cien Sonetos?,Estas son las editoriales que han publicado la obra: CreateSpace Independent Publishing Platform. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra La vuelta de la esquina?,Estas son las editoriales que han publicado la obra: Editorial Losada. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Derroteros?,Estas son las editoriales que han publicado la obra: Consejo Nacional de Cultura. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra A través de un breve laberinto?,Estas son las editoriales que han publicado la obra: Astromulo. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,"Dime alguna editorial que haya publicado la obra El conquistador Rodrigo Pérez de Guzmán, o, el reino de la inteligencia?",Estas son las editoriales que han publicado la obra: [Sociedad Amigos de la Genealogía?]. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El sendero luminoso del placer?,Estas son las editoriales que han publicado la obra: Ediciones Altazor. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Demonio del monte y otros cuentos amazónicos?,Estas son las editoriales que han publicado la obra: El Muki Ediciones. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Las Abejas de La Tapera?,Estas son las editoriales que han publicado la obra: Editora Patria Grande. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Perdidos en Frog?,Estas son las editoriales que han publicado la obra: Lugar Común. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra La secreta obscenidad de cada día?,Estas son las editoriales que han publicado la obra: Ediciones El Milagro. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Suerte para todos?,"Estas son las editoriales que han publicado la obra: Editorial Seix Barral, S.A.. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Gustave Flaubert Historia De Una Cama?,Estas son las editoriales que han publicado la obra: Panamericana Editorial. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Ciudad Jenga?,Estas son las editoriales que han publicado la obra: Grado Cero Editores. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Poemas chinos?,Estas son las editoriales que han publicado la obra: Gárgola. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Las dos ciudades?,Estas son las editoriales que han publicado la obra: Metalúcida. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Impuesto a la carne?,"Estas son las editoriales que han publicado la obra: Eterna Cadencia, Seix Barral Biblioteca Breve. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Mío Cid Campeador?,Estas son las editoriales que han publicado la obra: Editorial Universitaria. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Poesía y prosa?,Estas son las editoriales que han publicado la obra: Fundación Biblioteca Ayacucho. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,"Dime alguna editorial que haya publicado la obra Bolivar, el destino en la sombra?",Estas son las editoriales que han publicado la obra: Villegas Editores. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Amazonia probable y deseable?,"Estas son las editoriales que han publicado la obra: Universidad Inca Garcilaso de la Vega, Fondo Editorial. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Chajá para todos?,Estas son las editoriales que han publicado la obra: Estuario editora. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Narrativa completa?,Estas son las editoriales que han publicado la obra: Universidad Nacional del Altiplano. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Del humor quevedesco a la ironía cervantina?,Estas son las editoriales que han publicado la obra: Instituto Cervantes. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El invernadero?,Estas son las editoriales que han publicado la obra: Editorial Cuneta. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Puig por Puig?,Estas son las editoriales que han publicado la obra: Iberoamericana. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Sólo el azar (1. edición) (2011)?,Estas son las editoriales que han publicado la obra: Pre-Textos. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Jorge Luis Borges La Literatura Como Tierra Propia (100 Personajes) (100 Personajes)?,Estas son las editoriales que han publicado la obra: Panamericana. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Todos los poemas?,"Estas son las editoriales que han publicado la obra: Universidad Ricardo Palma, Editorial Universitaria. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra La vorágine?,Estas son las editoriales que han publicado la obra: Resplandor Editorial. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Mezzogiorno in Venezuela?,Estas son las editoriales que han publicado la obra: El Estilete. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Epifanía en el desierto?,Estas son las editoriales que han publicado la obra: Alfaguara. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Diez Teorias Que Conmovieron Al Mundo II?,Estas son las editoriales que han publicado la obra: CI Capital Intelectual. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El otro delta?,Estas son las editoriales que han publicado la obra: Monte Ávila Editores Latinoamericana. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Guillermo Chifflet?,Estas son las editoriales que han publicado la obra: Rumbo Editorial. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Cómo Organizar una Manifestación (How to Organize a Rally)?,Estas son las editoriales que han publicado la obra: Rosen Publishing Group. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra No sólo de hambre vive el hombre?,Estas son las editoriales que han publicado la obra: Amuleto. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Libro de las poéticas?,Estas son las editoriales que han publicado la obra: Fundación Editorial El Perro y la Rana. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Un destino melodramático?,Estas son las editoriales que han publicado la obra: El Cuenco de Plata. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Tres Novelas?,Estas son las editoriales que han publicado la obra: Fondo De Cultura Economica USA. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Pa' bravo yo?,Estas son las editoriales que han publicado la obra: Mesa Redonda. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra La fauna del cielo?,Estas son las editoriales que han publicado la obra: Étnika. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,"Dime alguna editorial que haya publicado la obra Padres, maestros, y políticos?",Estas son las editoriales que han publicado la obra: Taurus. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Dona Pinones?,Estas son las editoriales que han publicado la obra: Ediciones Ekare. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra La Cueva?,"Estas son las editoriales que han publicado la obra: Panamericana Formas, Planeta. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Dermian (Spanish Edition)?,Estas son las editoriales que han publicado la obra: CreateSpace Independent Publishing Platform. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Lautaro - Joven Libertador de Arauco?,Estas son las editoriales que han publicado la obra: Zig Zag. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Cosquillas en el ombligo?,Estas son las editoriales que han publicado la obra: Sudamericana. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Magna Diva?,Estas son las editoriales que han publicado la obra: Ediciones Oxímoron. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Apariciones?,Estas son las editoriales que han publicado la obra: Ediciones Trilce. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Cañuela y petaca y otros cuentos?,Estas son las editoriales que han publicado la obra: Editorial Forja. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,"Dime alguna editorial que haya publicado la obra Desquiciados, maniacos, diferentes?",Estas son las editoriales que han publicado la obra: Correveidile. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El país de la sopa dura?,Estas son las editoriales que han publicado la obra: Editorial Servilibro. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Un libro quemado?,Estas son las editoriales que han publicado la obra: Editorial Excursiones. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El ministro y la ballena?,Estas son las editoriales que han publicado la obra: Fin de Siglo Editorial. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Noticias Historiales de Las Conquistas de Tierra Firme en Las Indias Occidentales; Volume 4?,"Estas son las editoriales que han publicado la obra: Creative Media Partners, LLC. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Memorias de la Pivihuarmi Cuxirimay Ocllo?,Estas son las editoriales que han publicado la obra: Manthra Editores. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Uruguay en la mira del narco?,Estas son las editoriales que han publicado la obra: Sudamericana. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El testamento del mago tenor?,Estas son las editoriales que han publicado la obra: Emecé. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Poema de la celebración?,Estas son las editoriales que han publicado la obra: Arandurã Editorial. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El Raiz Salvaje - Cantaro Fresco?,Estas son las editoriales que han publicado la obra: Losada. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Inventario Tres?,"Estas son las editoriales que han publicado la obra: Editorial Seix Barral, Alfaguara. ¿Respondiste bien? Responde con sí o no.",1
+P5,,,Dime alguna editorial que haya publicado la obra Qué poco vale la vida?,Estas son las editoriales que han publicado la obra: Editorial Planeta S.A.. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Leyendario?,Estas son las editoriales que han publicado la obra: Independently Published. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra La rosa azul?,Estas son las editoriales que han publicado la obra: Servilibro. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Durante la Reconquista?,Estas son las editoriales que han publicado la obra: Editorial Universitaria. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Cuando pase el ciego : cuentos - 1. ed.?,Estas son las editoriales que han publicado la obra: Sílaba Editores. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra La China Tudela y la panaca real?,Estas son las editoriales que han publicado la obra: Grupo Editorial Norma. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra La prosa nunca está terminada?,Estas son las editoriales que han publicado la obra: Ediciones Universidad Diego Portales. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Los Dias Azules?,Estas son las editoriales que han publicado la obra: Alfaguara. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Siete ensayos de interpretación de la realidad peruana?,Estas son las editoriales que han publicado la obra: Ediciones Era. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Biografías animales?,Estas son las editoriales que han publicado la obra: Secretaría de Cultura de la Nación en coproducción con Ediciones Devenir. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Luis Carlos Lopez?,Estas son las editoriales que han publicado la obra: Panamericana Editorial. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Después y antes de Dios?,Estas son las editoriales que han publicado la obra: Pre-textos. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Un viento negro?,Estas son las editoriales que han publicado la obra: Servilibro. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra El último adiós?,Estas son las editoriales que han publicado la obra: Ediciones de la Banda Oriental. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Asi Hablo Zaratustra (Spanish Version)?,Estas son las editoriales que han publicado la obra: CreateSpace Independent Publishing Platform. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra Un acordeo n tras la reja?,Estas son las editoriales que han publicado la obra: Instituto Caro y Cuervo. ¿Respondiste bien? Responde con sí o no.,1
+P5,,,Dime alguna editorial que haya publicado la obra La Rebelión?,Estas son las editoriales que han publicado la obra: BiblioBazaar. ¿Respondiste bien? Responde con sí o no.,1
