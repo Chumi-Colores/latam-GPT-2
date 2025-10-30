@@ -6,7 +6,7 @@ from enum import Enum
 """"
 First install Ollama, then install ollama python library:
 In one terminal run: ollama serve
-In another terminal run: ollama pull gemma3:27b
+In another terminal run: ollama pull gemma3:4b
 Then run this script.
 """
 
@@ -22,7 +22,7 @@ class QuestionType(Enum):
 
 def get_gemma_answer(prompt: str) -> str:
     
-  response: ChatResponse = chat(model='gemma3:27b', messages=[
+  response: ChatResponse = chat(model='gemma3:4b', messages=[
     {
       'role': 'user',
       'content': prompt,

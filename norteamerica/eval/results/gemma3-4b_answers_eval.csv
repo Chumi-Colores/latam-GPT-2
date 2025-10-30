@@ -1,0 +1,501 @@
+question,type,expected_answer,model_answer,is_correct
+"Who wrote the book ""Edwin Mullhouse""?",P1,Steven Millhauser,John Fuller,False
+"Who wrote the book ""Dropped Threads""?",P1,Rosalie Benoit Weaver,David Baldacci,False
+"Who wrote the book ""The Writers' Union of Canada""?",P1,Writers' Union of Canada.,David Staples,False
+"Who wrote the book ""The woman warrior""?",P1,Maxine Hong Kingston,Maxine Hong Kingston,True
+"Who wrote the book ""The child of someone""?",P1,David Helwig,David Foister,False
+"Who wrote the book ""The Poe cult and other Poe papers""?",P1,Eugene Lemoine Didier,Arthur Compagnie,False
+"Who wrote the book ""Memoirs from Away""?",P1,Helen M. Buss,Carol Braun Dearden,False
+"Who wrote the book ""Louisa May""?",P1,Martha Saxton,Christopher Panowie,False
+"Who wrote the book ""Mr. Clemens and Mark Twain""?",P1,Justin Kaplan,Michael Korda,False
+"Who wrote the book ""A queer love story""?",P1,Marilyn R. Schuster,T. Kingfisher,False
+"Who wrote the book ""A Russian journal""?",P1,John Steinbeck,Anton Chekhov,False
+"Who wrote the book ""Vladimir Nabokov""?",P1,Vladimir Nabokov,Boris Rybakov,False
+"Who wrote the book ""Arigato, Tokyo""?",P1,Daniel MacIvor,David Sedaris,False
+"Who wrote the book ""Letters of love and duty""?",P1,Elizabeth Hopkins,J.R.R. Tolkien,False
+"Who wrote the book ""Letters and journals of Thomas Wentworth Higginson, 1846-1906""?",P1,Thomas Wentworth Higginson,Thomas Wentworth Higginson,True
+"Who wrote the book ""Edgar Allan Poe""?",P1,George Edward Woodberry,Martin McQuade,False
+"Who wrote the book ""Mazo de la Roche""?",P1,Joan Givner,José María Castellet y Borrás,False
+"Who wrote the book ""Rehearsals for Living""?",P1,Ruth Wilson Gilmore,Irvin Yalom,False
+"Who wrote the book ""In translation""?",P1,Gabrielle Roy,Alfred Döblin,False
+"Who wrote the book ""As long as the rivers flow""?",P1,Constance Brissenden,Hugh Fraser,False
+"Who wrote the book ""As Long As the Rivers Flow""?",P1,Constance Brissenden,Conrad Aiken,False
+"Who wrote the book ""I am a sister to the loveliness""?",P1,Judith G. Russell,Mary Oliver,False
+"Who wrote the book ""Zora Neale Hurston""?",P1,Carla aut Kaplan,Alice Walker,False
+"Who wrote the book ""The new Brick reader""?",P1,Tara Quinn,Alfred B. Bickford,False
+"Who wrote the book ""Black Boy""?",P1,John Edgar Wideman,James Baldwin,False
+"Who wrote the book ""Thoreau, the poet naturalist""?",P1,William Ellery Channing,Walter Harding,False
+"Who wrote the book ""The letters of Alexander Woollcott""?",P1,Alexander Woollcott,James Laughlin,False
+"Who wrote the book ""Green Hills of Africa""?",P1,Ernest Hemingway,Ernest Hemingway,True
+"Who wrote the book ""Poems""?",P1,Maya Angelou,Wallace Stevens,False
+"Who wrote the book ""The best stories of Sarah Orne Jewett""?",P1,Sarah Orne Jewett,Edited by John Gould Fletcher,False
+"Who wrote the book ""The invisible thread""?",P1,Yoshiko Uchida,John Irving,False
+"Who wrote the book ""Aller retour New York""?",P1,Henry Miller,Jean-Philippe Toussaint,False
+"Who wrote the book ""City Boy""?",P1,Edmund White,Paul Holdstock,False
+"Who wrote the book ""A Critique of Canadian Writers, By L.E. Horning""?",P1,Lewis Emerson Horning,L.E. Horning,False
+"Who wrote the book ""Jack's book""?",P1,Barry Gifford,James Graham,False
+"Who wrote the book ""Canada writes!""?",P1,K. A. Hamilton,Stephen Kimber,False
+"Who wrote the book ""Chasing shadows""?",P1,Fred Wilcox,James Patterson,False
+"Who wrote the book ""Jean Paré""?",P1,Judy Schultz,Jean-Nicolas Paillot,False
+"Who wrote the book ""Black Girl in Paris""?",P1,Shay Youngblood,Ebony Stewart,False
+"Who wrote the book ""Letters from L. M. Montgomery to Penzie MacNeill, circa 1886-1894""?",P1,Lucy Maud Montgomery,Anne Montgomery,False
+"Who wrote the book ""Tom Sawyer, Detective""?",P1,Mark Twain,Mark Twain,True
+"Who wrote the book ""Ecrivains canadiens-anglais""?",P1,Claude Pelletier,Jean-Paul Little,False
+"Who wrote the book ""Roadside meetings""?",P1,Hamlin Garland,Jack Ketchum,False
+"Who wrote the book ""Roads of destiny""?",P1,O. Henry,James A. Michener,False
+"Who wrote the book ""Some Canadian writers of to-day""?",P1,Walter Blackburn Harte,George Garrett,False
+"Who wrote the book ""Genesis of the Chicago renaissance""?",P1,Mary Hricko,William J. Scheivert and Joseph P. Sanger,False
+"Who wrote the book ""Philosophical Fragments Of Your Ancient Name""?",P1,Doug Bentley,William Weaver,False
+"Who wrote the book ""All God's children need traveling shoes""?",P1,Maya Angelou,Lan Dong,False
+"Who wrote the book ""Journey Around My Room""?",P1,Louise Bogan,Edgar Lee Masters,False
+"Who wrote the book ""Hoggwash""?",P1,"Owen, Catherine",Charles Dickens,False
+"Who wrote the book ""Manitoba authors""?",P1,National Library of Canada,Various editors,False
+"Who wrote the book ""Drinking the rain""?",P1,Alix Kates Shulman,Haruki Murakami,False
+"Who wrote the book ""Romanul reîntoarcerii""?",P1,Constantin Stoiciu,Mircea Eliade,False
+"Who wrote the book ""A Woman of Uncertain Character""?",P1,Clancy Sigal,Paul Harding,False
+"Who wrote the book ""William Arthur Deacon""?",P1,Jessie Louise Beattie,James McBride,False
+"Who wrote the book ""The Chief""?",P1,H. Allen Anderson,Robert Crais,False
+"Who wrote the book ""Edge Seasons""?",P1,Beth Powning,Mark Lawrence,False
+"Who wrote the book ""As I knew him""?",P1,Anne Serling,James Baldwin,False
+"Who wrote the book ""Duologue""?",P1,Antonio D'Alfonso,George Bernard Shaw,False
+"Who wrote the book ""The All-American Industrial Motel""?",P1,Doug Crandell,Michael Lee West,False
+"Who wrote the book ""Conversations with Robertson Davies""?",P1,J. Madison Davis,Robertson Davies and William Osler,False
+"Who wrote the book ""Adventures in Contentment""?",P1,David Grayson,Charlotte Perkins Gilman,False
+"Who wrote the book ""Some notes on H.P. Lovecraft""?",P1,August Derleth,S.T. Joshi,False
+"Who wrote the book ""May Your First Love Be Your Last""?",P1,Gregory Clark,Nicholas Sparks,False
+"Who wrote the book ""Acadia authors""?",P1,Hazel G Morse,Thomas McNeely,False
+"Who wrote the book ""The artful dodger""?",P1,Nick Bantock,Charles Dickens,False
+"Who wrote the book ""Horizons""?",P1,Barry Lopez,John Dos Passos,False
+"Who wrote the book ""Mitchell""?",P1,Barbara Mitchell,Sue Monk Kidd,False
+"Who wrote the book ""Bill Peet""?",P1,Bill Peet,William Peet,False
+"Who wrote the book ""My Mark Twain""?",P1,William Dean Howells,Paul Graver,False
+"Who wrote the book ""Dust tracks on a road""?",P1,Zora Neale Hurston,John Steinbeck,False
+"Who wrote the book ""Secret Historian""?",P1,Justin Spring,Edward Rutherfurd,False
+"Who wrote the book ""The Hoax""?",P1,Clifford Irving,Edward R. Tull,False
+"Who wrote the book ""You never know""?",P1,Romy Sara Shiller,David Baldacci,False
+"Who wrote the book ""Mark and Livy""?",P1,Resa Willis,William Shakespeare,False
+"Who wrote the book ""Canscaip Companion""?",P1,Barbara Greenwood,Robert & Melissa Cahn,False
+"Who wrote the book ""The girl she never was""?",P1,Mark Abley,Ruth Foley,False
+"Who wrote the book ""Mid Life Confidential""?",P1,Barbara Kingsolver,David Ellis,False
+"Who wrote the book ""Conversations with Colum Mccann""?",P1,Earl G. Ingersoll,David Walsh,False
+"Who wrote the book ""Henry James, a literary life""?",P1,George Kenneth Graham,Peter Conrad,False
+"Who wrote the book ""1973 profiles""?",P1,Dorothy Elder,Paul Taylor,False
+"Who wrote the book ""50 Canadians who changed the world""?",P1,Kenneth McGoogan,Alan Greensmith,False
+"Who wrote the book ""One heart, one way""?",P1,Gregory M. Cook,Danielle Steel,False
+"Who wrote the book ""Conversations with Barry Hannah""?",P1,James G. Thomas,Barry Hannah,False
+"Who wrote the book ""The Vintage book of Canadian memoirs""?",P1,George Fetherling,Various contributors,False
+"Who wrote the book ""The forgotten world of R.J. MacSween""?",P1,Stewart L. Donovan,David A. Robertson,False
+"Who wrote the book ""H.P. Lovecraft""?",P1,S. T. Joshi,S.T. Joshi,True
+"Who wrote the book ""The boy from Winnipeg""?",P1,James Henry Gray,Michael Redden,False
+"Who wrote the book ""Going the Distance""?",P1,William Steele,Elizabeth Berg,False
+"Who wrote the book ""Last stands""?",P1,Hilary Masters,Robert A. Caro and Michael Beschloss,False
+"Who wrote the book ""Henry James and H.G. Wells""?",P1,Henry James,Adrian Judd,False
+"Who wrote the book ""Black Boy""?",P1,Richard Wright,James Baldwin,False
+"Who wrote the book ""A Good Enough Daughter""?",P1,Alix Kates Shulman,Elizabeth McCracken,False
+"Who wrote the book ""Pig tails 'n' breadfruit""?",P1,"Clarke, Austin",James K. Baxter,False
+"Who wrote the book ""Letters of E. B. White""?",P1,E. B. White,E.B. White,True
+"Who wrote the book ""Memories of a hostess""?",P1,Roy J. Friedman Mark Twain Collection (Library of Congress),Ethel Parkerton,False
+"Who wrote the book ""Cyclopædia of American literature""?",P1,Evert A. Duyckinck,James T. Babb and William Bliss Ruud,False
+"Who wrote the book ""Producing Canadian Literature""?",P1,Kit Dobson,David Macdonald,False
+"Who wrote the book ""Who Was Doris Hedges?""?",P1,Robert Lecker,Laura B. Wood,False
+"Who wrote the book ""A comprehensive bibliography of English-Canadian short stories, 1950-1983""?",P1,Allan Barry Weiss,David Macdonald,False
+"What country is the author of ""All God's children need traveling shoes"" from?",P2,United States,Jamaica,False
+"What country is the author of ""Sursum Corda!"" from?",P2,Canada,Poland,False
+"What country is the author of ""Essays from reviews"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Tom Sawyer, Detective"" from?",P2,United States,United States,True
+"What country is the author of ""Henry Wadsworth Longfellow"" from?",P2,United States,United States,True
+"What country is the author of ""Measure of the year"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""The Chinatown Death Cloud Peril"" from?",P2,United States,China,False
+"What country is the author of ""Crossing the river"" from?",P2,Canada,China,False
+"What country is the author of ""Runaway"" from?",P2,Canada,Jamaica,False
+"What country is the author of ""Singin' and swingin' and gettin' merry like Christmas"" from?",P2,United States,United States,True
+"What country is the author of ""Selected letters of Margaret Laurence and Adele Wiseman"" from?",P2,Canada,Canada,True
+"What country is the author of ""Thoreau, the poet naturalist"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""William Cullen Bryant"" from?",P2,United States,United States,True
+"What country is the author of ""Canadian writers"" from?",P2,Canada,Canada,True
+"What country is the author of ""Samson's hair and other satiric fantasies"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""True Confessions"" from?",P2,Canada,Canada,True
+"What country is the author of ""James Hall, Literary Pioneer of the Ohio Valley"" from?",P2,United States,United States,True
+"What country is the author of ""The perfection of the morning"" from?",P2,Canada,Japan,False
+"What country is the author of ""Dust tracks on a road"" from?",P2,United States,United States,True
+"What country is the author of ""Dropped Threads"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""Borrowed Finery"" from?",P2,United States,Ireland,False
+"What country is the author of ""L.M. Montgomery"" from?",P2,Canada,Canada,True
+"What country is the author of ""The hook"" from?",P2,United States,Canada,False
+"What country is the author of ""Sleeping with Cats"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Top soil"" from?",P2,Canada,United States,False
+"What country is the author of ""Salinger"" from?",P2,United States,United States,True
+"What country is the author of ""Hoggwash"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""The cat and the curmudgeon"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""A dictionary of English authors, biographical and bibliographical"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""King of the Mild Frontier"" from?",P2,United States,Canada,False
+"What country is the author of ""Edith Wharton"" from?",P2,United States,United States,True
+"What country is the author of ""H.P. Lovecraft"" from?",P2,United States,United States,True
+"What country is the author of ""Letters from Ralph Waldo Emerson to a friend, 1838-1853"" from?",P2,United States,United States,True
+"What country is the author of ""Literary Impostors"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""Island Wings"" from?",P2,Canada,Australia,False
+"What country is the author of ""Hernewood"" from?",P2,Canada,United States,False
+"What country is the author of ""A New England girlhood"" from?",P2,United States,United States,True
+"What country is the author of ""The American Notebooks by Nathaniel Hawthorne"" from?",P2,United States,United States,True
+"What country is the author of ""Poems"" from?",P2,United States,United States,True
+"What country is the author of ""Labyrinths of voice"" from?",P2,Canada,Russia,False
+"What country is the author of ""A Guide to Recognizing Your Saints"" from?",P2,United States,Nigeria,False
+"What country is the author of ""The Summer of the Great-Grandmother (Crosswicks Journals #2)"" from?",P2,United States,United States,True
+"What country is the author of ""Austin C. Clarke and his works"" from?",P2,Canada,Canada,True
+"What country is the author of ""The evergreen country"" from?",P2,Canada,Canada,True
+"What country is the author of ""The Canadian west in fiction"" from?",P2,Canada,Canada,True
+"What country is the author of ""Caves in the desert"" from?",P2,Canada,Egypt,False
+"What country is the author of ""The writer and the Canadian university"" from?",P2,Canada,Canada,True
+"What country is the author of ""Sisters in the wilderness"" from?",P2,Canada,Canada,True
+"What country is the author of ""Some of the kinder planets"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""Portrait of Hemingway"" from?",P2,United States,Canada,False
+"What country is the author of ""Lessons in laughter"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Interior landscapes"" from?",P2,United States,Ireland,False
+"What country is the author of ""Over Canadian trails"" from?",P2,Canada,Canada,True
+"What country is the author of ""The story of L.M. Montgomery"" from?",P2,Canada,Canada,True
+"What country is the author of ""Great writers of America"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""The apprenticeship of Ernest Hemingway"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Barking"" from?",P2,Canada,Australia,False
+"What country is the author of ""Famous American authors"" from?",P2,United States,United States,True
+"What country is the author of ""A Good Enough Daughter"" from?",P2,United States,Canada,False
+"What country is the author of ""Grey Owl"" from?",P2,Canada,Canada,True
+"What country is the author of ""Ten Canadian Writers in Context"" from?",P2,Canada,Canada,True
+"What country is the author of ""Mais z'encore?"" from?",P2,Canada,France,False
+"What country is the author of ""Leacock, a biography"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""More tales from Barrett's Landing"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""Henry James and H.G. Wells"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Lady of the Backwoods"" from?",P2,Canada,United States,False
+"What country is the author of ""Ten Canadian Writers in Context"" from?",P2,Canada,Canada,True
+"What country is the author of ""On the trail of Robert Service"" from?",P2,Canada,Canada,True
+"What country is the author of ""Talking to Myself"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""The secret life of The lonely doll"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Mortification"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Maud"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""Le roman du retour"" from?",P2,Canada,France,False
+"What country is the author of ""Ten Canadian Writers in Context"" from?",P2,Canada,Canada,True
+"What country is the author of ""Cult fiction"" from?",P2,Canada,United Kingdom,False
+"What country is the author of ""You're in Canada now.."" from?",P2,Canada,Canada,True
+"What country is the author of ""Book of Dreams"" from?",P2,United States,Russia,False
+"What country is the author of ""Musgrave landing"" from?",P2,Canada,South Africa,False
+"What country is the author of ""Black women writers at work"" from?",P2,United States,United States,True
+"What country is the author of ""Recollections of Louisa May Alcott, John Greenleaf Whittier, and Robert Browning, together with several memorial poems"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""The early years of the Saturday Club, 1855-1870"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Literary writing by Blacks in Canada"" from?",P2,Canada,Canada,True
+"What country is the author of ""Palimpsest"" from?",P2,United States,Ireland,False
+"What country is the author of ""Prelude to a marriage"" from?",P2,Canada,Nigeria,False
+"What country is the author of ""El arte de la ficción"" from?",P2,United States,Mexico,False
+"What country is the author of ""A Map to the Door of No Return"" from?",P2,Canada,Ghana,False
+"What country is the author of ""Conversations with Robertson Davies"" from?",P2,Canada,Canada,True
+"What country is the author of ""Abenaki Daring"" from?",P2,Canada,Canada,True
+"What country is the author of ""Autobiology"" from?",P2,Canada,Japan,False
+"What country is the author of ""The Poe cult and other Poe papers"" from?",P2,United States,United States,True
+"What country is the author of ""City Boy"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Écrivains canadiens : un dictionnaire biographique ="" from?",P2,Canada,Canada,True
+"What country is the author of ""Thurber"" from?",P2,United States,United States,True
+"What country is the author of ""CBC radio broadcaster Norman Creighton"" from?",P2,Canada,Canada,True
+"What country is the author of ""Canadian nomads"" from?",P2,Canada,Canada,True
+"What country is the author of ""Italian journeys"" from?",P2,United States,United Kingdom,False
+"What country is the author of ""Small Steps"" from?",P2,United States,India,False
+"What country is the author of ""Happy days, 1880-1892"" from?",P2,United States,United States,True
+"What country is the author of ""Carlota"" from?",P2,United States,Spain,False
+"What country is the author of ""When the Earth Was Flat"" from?",P2,Canada,United States,False
+"In what year was ""Robert Munsch"" published?",P3,2008,1986,False
+"In what year was ""The works of Henry Wadsworth Longfellow"" published?",P3,1886,1867,False
+"In what year was ""The Farley Mowat Reader"" published?",P3,1997,1981,False
+"In what year was ""Walking Stars"" published?",P3,1994,1988,False
+"In what year was ""The storymakers"" published?",P3,2000,1900,False
+"In what year was ""Kerouac"" published?",P3,1973,1955,False
+"In what year was ""Good-Bye, I Love You"" published?",P3,1986,1966,False
+"In what year was ""Sinclair Lewis"" published?",P3,1961,1913,False
+"In what year was ""The judgment house, a novel"" published?",P3,1913,1923,False
+"In what year was ""The bridgeman"" published?",P3,2004,1892,False
+"In what year was ""Memoirs from Away"" published?",P3,1999,2020,False
+"In what year was ""Barrelhouse kings"" published?",P3,1997,1996,False
+"In what year was ""All Things Consoled"" published?",P3,2018,1877,False
+"In what year was ""Sherwood Anderson"" published?",P3,1974,1919,False
+"In what year was ""Here Comes Trouble"" published?",P3,2011,1969,False
+"In what year was ""The Writers' Union of Canada"" published?",P3,1981,1913,False
+"In what year was ""Go play outside!"" published?",P3,2010,2023,False
+"In what year was ""Canadian fiction"" published?",P3,1981,1930,False
+"In what year was ""A defense of Edgar Allan Poe"" published?",P3,1885,1884,False
+"In what year was ""Elizabeth's Garden"" published?",P3,1989,1983,False
+"In what year was ""The gospel truth"" published?",P3,2014,1996,False
+"In what year was ""A man without a country"" published?",P3,2005,1925,False
+"In what year was ""Bright glass of memory"" published?",P3,1979,1997,False
+"In what year was ""Letters of love and duty"" published?",P3,1993,1866,False
+"In what year was ""The Ethel Wilson Symposium"" published?",P3,1982,1987,False
+"In what year was ""The new Brick reader"" published?",P3,2013,1984,False
+"In what year was ""No Language is Neutral"" published?",P3,1990,1979,False
+"In what year was ""Backgrounds of literature"" published?",P3,1903,1954,False
+"In what year was ""The wheel of things"" published?",P3,1975,1989,False
+"In what year was ""The Chinatown Death Cloud Peril"" published?",P3,2006,1903,False
+"In what year was ""A likely story"" published?",P3,1995,1994,False
+"In what year was ""Letters of Charles Eliot Norton"" published?",P3,1913,1898,False
+"In what year was ""The land remembers"" published?",P3,1975,1999,False
+"In what year was ""Magic Carpet Ride"" published?",P3,2005,1970,False
+"In what year was ""Beethoven's mask"" published?",P3,2005,1995,False
+"In what year was ""A Moveable Feast"" published?",P3,1964,1965,False
+"In what year was ""Harriet Beecher Stowe"" published?",P3,1965,1852,False
+"In what year was ""Krambambuli"" published?",P3,2019,1863,False
+"In what year was ""Strong voices"" published?",P3,1988,1989,False
+"In what year was ""Here at the New Yorker"" published?",P3,1975,2018,False
+"In what year was ""Anais Nin a Biography"" published?",P3,1995,2011,False
+"In what year was ""Rites"" published?",P3,1986,1998,False
+"In what year was ""A place like this"" published?",P3,2002,1998,False
+"In what year was ""Quasibook edition of the Writer's map of Canada"" published?",P3,1995,1998,False
+"In what year was ""Contemporary Authors: New Revision Series"" published?",P3,2002,1989,False
+"In what year was ""Lady of the Backwoods"" published?",P3,1969,1863,False
+"In what year was ""Confessions of a small-press racketeer"" published?",P3,2004,1987,False
+"In what year was ""Great Possessions"" published?",P3,1917,1874,False
+"In what year was ""For your eye alone"" published?",P3,1999,1849,False
+"In what year was ""Recollections of Louisa May Alcott, John Greenleaf Whittier, and Robert Browning, together with several memorial poems"" published?",P3,1893,1863,False
+"In what year was ""Mazo de la Roche"" published?",P3,1989,1879,False
+"In what year was ""Between the lines"" published?",P3,1994,1994,True
+"In what year was ""I'll tell you a secret"" published?",P3,2004,1963,False
+"In what year was ""Letters from L. M. Montgomery to Penzie MacNeill, circa 1886-1894"" published?",P3,1985,2019,False
+"In what year was ""Black Wolf"" published?",P3,1984,1990,False
+"In what year was ""Redney"" published?",P3,1983,1986,False
+"In what year was ""The woman warrior"" published?",P3,1976,2000,False
+"In what year was ""Autobiography Of An Elderly Woman"" published?",P3,1911,1997,False
+"In what year was ""The letters of Malcolm Lowry and Gerald Noxon, 1940-1952"" published?",P3,1988,1989,False
+"In what year was ""The fiction of W.P. Kinsella"" published?",P3,1987,1981,False
+"In what year was ""White Girls"" published?",P3,2013,2017,False
+"In what year was ""Journal of a Solitude"" published?",P3,1973,1938,False
+"In what year was ""Oh Pray My Wings Are Gonna Fit Me Well"" published?",P3,1975,1939,False
+"In what year was ""The letters of T.S. Eliot"" published?",P3,1988,1951,False
+"In what year was ""The glory that was Grub Street"" published?",P3,1800,1998,False
+"In what year was ""Mid-channel"" published?",P3,1929,1889,False
+"In what year was ""Purring is my business"" published?",P3,1977,1996,False
+"In what year was ""Please excuse my daughter"" published?",P3,2008,1992,False
+"In what year was ""Novels (Handmaid's Tale / Life Before Man / Surfacing)"" published?",P3,1990,1999,False
+"In what year was ""Henry James, a literary life"" published?",P3,1995,2001,False
+"In what year was ""My Mark Twain"" published?",P3,1910,1935,False
+"In what year was ""The bridge across forever"" published?",P3,1984,1978,False
+"In what year was ""A bibliography of periodical material on the writers of belles-lettres included in A Canadian book of prose and verse"" published?",P3,1939,1933,False
+"In what year was ""Mark Twain's Letters in two volumes. 2/2"" published?",P3,1917,1908,False
+"In what year was ""Novels and novocaine"" published?",P3,1953,1998,False
+"In what year was ""The Climbers"" published?",P3,1905,1936,False
+"In what year was ""Un québécois à New York"" published?",P3,2004,1973,False
+"In what year was ""The Great Railway Bazaar"" published?",P3,1975,1979,False
+"In what year was ""26 Fairmount Avenue"" published?",P3,1999,2023,False
+"In what year was ""West from Home"" published?",P3,1974,1959,False
+"In what year was ""Beyond Recall"" published?",P3,2005,1993,False
+"In what year was ""Letters from Sunnyside and Spain"" published?",P3,1928,1936,False
+"In what year was ""Portrait of Hemingway"" published?",P3,1961,1999,False
+"In what year was ""After Green Gables"" published?",P3,2006,1878,False
+"In what year was ""A magpie life"" published?",P3,2001,1998,False
+"In what year was ""A. J. M. Smith"" published?",P3,1979,1938,False
+"In what year was ""In an alphabet I did not know"" published?",P3,1992,1998,False
+"In what year was ""The Drawing of the Three"" published?",P3,1987,1988,False
+"In what year was ""You never know"" published?",P3,2008,1967,False
+"In what year was ""Lion Ben of Elm Island"" published?",P3,1868,1992,False
+"In what year was ""Anthologie critique--littérature canadienne-française et québécoise"" published?",P3,1992,1966,False
+"In what year was ""Notebooks"" published?",P3,1994,2014,False
+"In what year was ""The cost of living"" published?",P3,2009,1978,False
+"In what year was ""Best of Writers and Company"" published?",P3,2016,1987,False
+"In what year was ""Carver country"" published?",P3,1990,1998,False
+"In what year was ""The living of Charlotte Perkins Gilman"" published?",P3,1935,1899,False
+"In what year was ""Adventures in friendship"" published?",P3,1910,1981,False
+"In what year was ""111 West Coast Literary Portraits"" published?",P3,2012,2023,False
+"In what year was ""The Correspondence of Thomas Carlyle and Ralph Waldo Emerson, 1834-1872"" published?",P3,1880,1976,False
+"In what year was ""Testament of friendship"" published?",P3,1940,1988,False
+"What is the category or genre of the book ""Literary Friends And Acquaintance""?",P4,"['Biography', 'American Authors', 'Authors, american', 'Friends and associates', 'American literature, history and criticism, 19th century', 'American literature', 'History and criticism', 'Library', 'Littérature américaine', 'Histoire et critique']",Contemporary Fiction,False
+"What is the category or genre of the book ""Kindred spirit""?",P4,"['Biography', 'Juvenile literature', 'Biographies', 'Canadian Novelists', 'Biographie', 'Canadian Authors', 'Ouvrages pour la jeunesse', 'Canadian Women novelists', 'Women novelists, Canadian (English)', 'Romancières canadiennes-anglaises']",Historical Romance,True
+"What is the category or genre of the book ""Contemporary Authors""?",P4,"['American Authors', 'Authors', 'Modern Literature', 'Bio-bibliography', 'Authors', 'Modern Literature', 'Screenwriters', 'Journalists', 'Bio-bibliography', 'Poets']",Reference book,False
+"What is the category or genre of the book ""The correspondence of Thomas Carlyle and Ralph Waldo Emerson, 1834-1872""?",P4,"['American Authors', 'Correspondence', 'English Authors']",Correspondence,True
+"What is the category or genre of the book ""Pain""?",P4,"['Biography', 'Biographies', 'Family', 'Canadian Authors', 'Theater critics', 'Authors, Canadian', 'Écrivains canadiens-anglais', 'Mumbai (india)', 'India, biography', 'Critiques de théâtre']",Psychological Thriller,False
+"What is the category or genre of the book ""In altre parole""?",P4,"['Biography', 'American Authors', 'Juvenile literature', 'Italy, description and travel', 'Authors, biography', 'Interlanguage (language learning)', 'Italian language', 'Second language acquisition', 'Acquisition', 'Jhumpa Lahiri']",Italian Language Learning,True
+"What is the category or genre of the book ""This Boy's Life""?",P4,"['Biography', 'American Authors', 'Authors, american', 'Childhood and youth', 'Authors, biography']",Coming-of-age memoir,True
+"What is the category or genre of the book ""My dear Mr. M""?",P4,"['Correspondence', 'Canadian Novelists', 'Canadian Authors']",Historical Fiction,False
+"What is the category or genre of the book ""A Tramp Abroad""?",P4,"['Biography', 'American Authors', 'Description and travel', 'Journeys', 'Fiction', 'Americans', 'History', 'Americans in fiction', 'Europe in fiction', 'Mountaineering']",Satirical Travel Fiction,True
+"What is the category or genre of the book ""Krambambuli""?",P4,"['Childhood and youth', 'Authors, biography', 'World War, 1939-1945', 'Family', 'Authors, canadian', 'Immigrants, canada', 'Refugees, germany', 'Germany, biography', 'Austria, biography', 'Immigrants, united states']",Magical Realism,False
+"What is the category or genre of the book ""The Haliburton bi-centenary chaplet""?",P4,"['Biography', 'Intellectual life', 'Criticism and interpretation', 'Canadian Authors', 'Congresses', 'Authors, Canadian']",History,False
+"What is the category or genre of the book ""Mockingbird""?",P4,"['Biography', 'American Authors', 'American Novelists', 'American Women authors', 'Large type books', 'American Women novelists', 'New York Times reviewed', 'Memorial bookplates', 'Whitman College', 'Class of 1970']",Southern Gothic,False
+"What is the category or genre of the book ""Money writes!""?",P4,"['American Authors', 'Authors, American', 'American literature', 'History and criticism', 'Authorship']",Personal Finance,False
+"What is the category or genre of the book ""Chambers's cyclopaedia of English literature""?",P4,"['Biography', 'American Authors', 'Intellectual life', 'American literature', 'History and criticism', 'English Authors', 'English literature', 'Dictionaries', 'Encyclopedias']",English Literature,True
+"What is the category or genre of the book ""I Eat Your Flesh""?",P4,"['Women authors', 'Poetry', 'Canadian authors', 'Canadian poetry', 'Canadian women authors']",Dark Fantasy,False
+"What is the category or genre of the book ""She Got Up Off the Couch""?",P4,"['Biography', 'Homes and haunts', 'American Authors', 'Social life and customs', 'Childhood and youth', 'Large type books', 'Family', 'Family relationships', 'Mothers and daughters', 'Families']",Contemporary Fiction,False
+"What is the category or genre of the book ""Possible Side Effects""?",P4,"['Biography', 'American Authors', 'American Novelists', 'Childhood and youth', 'Authors, biography', 'General', 'New York Times reviewed', 'LITERARY CRITICISM', 'American', 'Burroughs, augusten, 1965-']",Contemporary Romance,False
+"What is the category or genre of the book ""A son of the middle border""?",P4,"['Biography', 'American Authors', 'Authors, american', 'Authors, biography', 'Frontier and pioneer life', 'North-western States', 'Garland, hamlin, 1860-1940', 'Frontier and pioneer life, middle west', 'Frontier and pioneer life, northwestern states']",Frontier Fiction,True
+"What is the category or genre of the book ""Men for the mountains""?",P4,"['Biography', 'Homes and haunts', 'Intellectual life', 'Mountaineering', 'Park rangers', 'Canadian Authors', 'Résidences et lieux familiers', 'Authors, Canadian', 'National parks and reserves', 'Mountaineers']",Adventure,False
+"What is the category or genre of the book ""A remembrance of flings past""?",P4,"['Biography', 'Canadian Authors']",Romance,False
+"What is the category or genre of the book ""Thirty-four Atlantic provinces authors =""?",P4,"['Biography', 'Canadian Authors', 'Authors, Canadian']",Literary Fiction,False
+"What is the category or genre of the book ""A brief handbook of American authors""?",P4,"['Biography', 'American Authors', 'American literature', 'Bio-bibliography']",Literary Criticism,False
+"What is the category or genre of the book ""The girl she never was""?",P4,"['Biography', 'Criticism and interpretation', 'Canadian Authors']",Domestic Suspense,False
+"What is the category or genre of the book ""Still Alive! a Temporary Condition""?",P4,"['Biography', 'American Authors', 'Authors, American', 'Authors, biography', 'Bohemianism']",Dark Comedy,False
+"What is the category or genre of the book ""Young Sam Clemens""?",P4,"['Biography', 'American Authors', 'Authors, American', 'Childhood and youth']",Biography,True
+"What is the category or genre of the book ""Theatre and friendship""?",P4,"['American Authors', 'Correspondence', 'Correspondance']",Social Psychology,False
+"What is the category or genre of the book ""Liam and the Lizard""?",P4,"['Juvenile fiction', 'Air travel', 'Canadian Authors', 'Lizards']",Children's Literature,True
+"What is the category or genre of the book ""Travels by night""?",P4,"['Biography', 'Social life and customs', 'Intellectual life', 'Childhood and youth', 'Journalists', 'Canadian Authors', 'Editors', 'Nineteen sixties', 'Authors, canadian']",Historical Fiction,False
+"What is the category or genre of the book ""The Works of Charlotte Elizabeth""?",P4,['American Authors'],Gothic Horror,False
+"What is the category or genre of the book ""A Critique of Canadian Writers, By L.E. Horning""?",P4,"['History and criticism', 'Histoire et critique', 'Canadian Authors', 'Écrivains canadiens']",Literary Criticism,False
+"What is the category or genre of the book ""The Regulators""?",P4,"['Fiction', 'horror tales', 'Horror', 'Audiobooks', 'science fiction', 'autistic children', 'fantasy', 'paranormal', 'Ohio -- Fiction', 'Homicide']",Thriller,True
+"What is the category or genre of the book ""Su Luz Interior""?",P4,"['American Authors', 'Open Library Staff Picks', 'Nonfiction', 'Biography & Autobiography', 'American Women authors', 'Family', 'Bipolar Disorder', 'Manic-depressive persons', 'Family Relations', 'Family relationships']",Magical Realism,False
+"What is the category or genre of the book ""Mallory Pike, #1 Fan""?",P4,"['American Authors', 'Fiction', ""Children's fiction"", 'Juvenile fiction', 'Babysitters Club (Imaginary organization)', 'Babysitters', 'Babysitters, fiction', 'Authorship, fiction', 'African americans, fiction']",Romance,False
+"What is the category or genre of the book ""The knight of Spencer Grange, New Year's Day, 1898""?",P4,"['Biography', 'Biographies', 'Canadian Authors', 'Authors, Canadian', 'Ecrivains canadiens']",Historical Fiction,False
+"What is the category or genre of the book ""The second time around""?",P4,"['Biography', 'Canadian Authors', 'Authors, Canadian']",Contemporary Romance,False
+"What is the category or genre of the book ""Conversations with Edmund White""?",P4,"['American Authors', 'Authors, american', 'Authors, biography', 'Interviews', 'Gay men', 'Gay authors', 'BIOGRAPHY & AUTOBIOGRAPHY / Literary', 'Gay men, biography', 'SOCIAL SCIENCE / Gay Studies']",Literary Fiction,False
+"What is the category or genre of the book ""Northwords""?",P4,"['Bibliography', 'Canadian Authors', 'Publishers and publishing', 'Canadian literature', 'Catalogs', 'Catalog']",Fantasy,False
+"What is the category or genre of the book ""Love and Laughter in the Time of Chemotherapy""?",P4,"['Biography', 'Patients', 'Cancer', 'Canadian Authors', 'Health', 'Cancer, patients, biography', 'Canada, biography', 'Judges', 'Judges, biography']",Memoir,False
+"What is the category or genre of the book ""Hildegarde's harvest""?",P4,['American Authors'],Historical Fiction,False
+"What is the category or genre of the book ""Southwest heritage""?",P4,"['Homes and haunts', 'American Authors', 'Intellectual life', 'Authors, american', 'American literature', 'History and criticism', 'Authors, biography', 'In literature', 'Bibliography', 'American literature, history and criticism']",Regional Fiction,False
+"What is the category or genre of the book ""Gideon""?",P4,"['American Authors', 'Politics and government', 'Fiction', 'Authors', 'Fiction, thrillers, general', 'Presidents', 'Publishers and publishing', ""Presidents' spouses"", 'Fiction, espionage', 'Presidents, united states, fiction']",Thriller,True
+"What is the category or genre of the book ""A dictionary of North American authors deceased before 1950""?",P4,"['Biography', 'American Authors', 'Dictionaries', 'Canadian Authors', 'American Authors', 'Canadian Authors']",Reference/Biographical,True
+"What is the category or genre of the book ""Between gods""?",P4,"['Biography', 'Authors, biography', 'Women, biography', 'Jews, biography', 'Canadian Authors', 'Jewish women', 'Conversion', 'Judaism', 'Conversion, judaism', 'Biography']",Fantasy,False
+"What is the category or genre of the book ""A correspondence between John Sterling and Ralph Waldo Emerson""?",P4,"['American Authors', 'Correspondence', 'English Authors']",Philosophy/Correspondence,False
+"What is the category or genre of the book ""The world of Jimmy Breslin""?",P4,"['Biography', 'American Authors', 'Fiction, short stories (single author)', 'Journalists']",Literary Journalism,False
+"What is the category or genre of the book ""David Adams Richards of the Miramichi""?",P4,"['Biography', 'History', 'Criticism and interpretation', 'General', 'Literary', 'Canadian Authors', 'BIOGRAPHY & AUTOBIOGRAPHY', 'LITERARY CRITICISM', 'American', 'Authors, canadian']",Historical Biography,True
+"What is the category or genre of the book ""Producing Canadian Literature""?",P4,"['Interviews', 'Canadian Authors', 'Publishers and publishing', 'Authors and publishers', 'Canadian literature', 'Authors, canadian', 'Publishers and publishing, canada', 'Book industries and trade', 'Economics and literature', 'Publishing']",Literary Studies,True
+"What is the category or genre of the book ""The voice is the story""?",P4,"['History and criticism', 'Technique', 'Authorship', 'Interviews', 'Bio-bibliography', 'Canadian Authors', 'Theory', 'Canadian Short stories', 'Canadian fiction', 'Short story']",Literary Fiction,False
+"What is the category or genre of the book ""Why Not?""?",P4,"['Biography', 'Authors, biography', 'Mental health', 'Depressed persons', 'Canadian Authors', 'Authors, canadian', 'Canada, biography', 'Sante mentale', 'Happiness', 'Quality of life']",Self-Help,True
+"What is the category or genre of the book ""What We All Long For""?",P4,"['Fiction', 'Women authors', 'Canadian authors', 'LGBTQ authors', 'West indian canadian authors', 'Female friendship', 'Refugees', 'Vietnamese', 'Friendship, fiction', 'Toronto (ont.), fiction']",Literary Fiction,False
+"What is the category or genre of the book ""A Girl Named Zippy""?",P4,"['Biography', 'Social life and customs', 'Girls', 'Nonfiction', 'Biography & Autobiography', 'Childhood and youth', 'Personal narratives', 'City and town life', 'Kimmel, Haven, -- 1965- -- Childhood and youth', 'Girls -- Indiana -- Mooreland -- Biography']",Memoir,True
+"What is the category or genre of the book ""The Correspondence of Thomas Carlyle and Ralph Waldo Emerson, 1834-1872""?",P4,"['American Authors', 'Correspondence', 'English Authors', 'Historians', 'Scottish Authors']",Philosophy/Correspondence,True
+"What is the category or genre of the book ""The writers of Montreal""?",P4,"['Biography', 'Canadian Authors']",Literary Fiction,False
+"What is the category or genre of the book ""Switchbacks""?",P4,"['Biography', 'Homes and haunts', 'Intellectual life', 'Biographies', 'Homes', 'Canadian Authors', 'Résidences et lieux familiers', 'Authors, Canadian', 'Authors, Canadian (English)', 'Écrivains canadiens-anglais']",Thriller,True
+"What is the category or genre of the book ""Shadow maker""?",P4,"['Biography', 'Biographies', '20th century', 'Canadian Authors', 'Canadian Poets', 'Authors, Canadian (English)', 'Écrivains canadiens-anglais', 'Poets, Canadian']",Dark Fantasy,False
+"What is the category or genre of the book ""Winter Journal""?",P4,"['Biography', 'American Authors', 'Écrivains américains', 'Authors, american', 'Biographies', 'Authors, biography', 'Large type books', 'Auster, paul, 1947-']",Historical Fiction,False
+"What is the category or genre of the book ""Atlantic provinces literature colloquium papers =""?",P4,"['Homes and haunts', 'Intellectual life', 'History and criticism', 'In literature', 'Canadian Authors', 'Congresses', 'Canadian literature', 'French-Canadian literature']",Literary Criticism,True
+"What is the category or genre of the book ""Sandy Fraser""?",P4,"['Biography', 'History', 'Farm life', 'Bibliography', 'Agriculture', 'Canadian Authors', 'Rural conditions', 'Agricultural journalists', 'History, Local', 'Local History']",Chick Lit,False
+"What is the category or genre of the book ""City Boy""?",P4,"['Biography', 'Homes and haunts', 'American Authors', 'Intellectual life', 'Authors, american', 'Authors, biography', 'Gay men', 'Nineteen seventies', 'Nineteen sixties', 'Gay culture']",Coming-of-age,True
+"What is the category or genre of the book ""Henry James, a literary life""?",P4,"['Biography', 'American Authors', 'Authors, American', 'James, henry, 1843-1916']",Biography,True
+"What is the category or genre of the book ""Adventures in friendship""?",P4,"['Biography', 'Homes and haunts', 'American Authors', 'Social life and customs', 'Intellectual life', 'Christmas', 'Authors, biography', 'Country life', 'Farm life', 'Farm life, united states']",Children's Literature,True
+"What is the category or genre of the book ""Some unpublished letters of Henry D. and Sophia E. Thoreau""?",P4,"['American Authors', 'Correspondence', 'Naturalists', 'Intellectuals', 'Thoreau, Henry David, 1817-1862 -- Correspondence', 'Thoreau, Sophia E', 'Authors, American -- 19th century -- Correspondence']",Biography,True
+"What is the category or genre of the book ""Many Lives Mark This Place""?",P4,"['Homes and haunts', 'Pictorial works', 'Anecdotes', 'Landscapes', 'Portraits', 'Canadian Authors', 'Exhibitions', 'Écrivains canadiens', 'Ouvrages illustrés', 'Expositions']",Historical Fiction,False
+"What is the category or genre of the book ""The life of Bret Harte""?",P4,"['Biography', 'American Authors', 'Frontier and pioneer life', 'Authorship', 'Western stories', 'Pioneers']",Biography,True
+"What is the category or genre of the book ""Letters of James Agee to Father Flye""?",P4,"['American Authors', 'Correspondence', 'Écrivains américains', 'Authors, american', 'Correspondance', 'Agee, james, 1909-1955', 'Artistic Photography']",Documentary Fiction,False
+"What is the category or genre of the book ""Thomas Chandler Haliburton (""Sam Slick"")""?",P4,"['Biography', 'Criticism and interpretation', 'Canadian Authors', 'Authors, Canadian', 'Haliburton, Thomas Chandler, 1796-1865', 'Sam Slick (Fictitious character)']",Humorous fiction,False
+"What is the category or genre of the book ""Poems""?",P4,"['Biography', 'American Authors', 'Women', 'African American authors', 'African Americans', 'American Poets', '1000blackgirlbooks', ""Children's poetry, American"", 'American poetry', 'Poetry (poetic works by one author)']",Poetry,True
+"What is the category or genre of the book ""A dictionary of American authors""?",P4,"['Biography', 'American Authors', 'American literature', 'Bibliography', 'Biografie', 'Bio-bibliography', 'Dictionaries', 'America', 'Schriftsteller', 'Schrijvers']",Reference/Biography,True
+"What is the category or genre of the book ""The Thomas Chandler Haliburton Symposium""?",P4,"['Biography', '19th century', 'Criticism and interpretation', 'Canadian Authors', 'Congresses', 'Authors, Canadian', 'Canadian Humorists', 'Humorists, Canadian', 'Nova Scotia in literature', 'Biography']",Humorous Fiction,True
+"What is the category or genre of the book ""Sentiero dei nidi di ragno""?",P4,"['Fiction', 'Fiction, coming of age', 'Fiction, historical, general', 'Continental european fiction (fictional works by one author)', 'World War, 1939-1945', 'World war, 1939-1945, fiction', 'Italy, fiction', 'Fiction, war & military', 'Guerrillas', 'Underground movements']",Psychological Thriller,False
+"What is the category or genre of the book ""Malabar Farm""?",P4,"['Biography', 'Homes and haunts', 'American Authors', 'Intellectual life', 'United States', 'Country life', 'Farm life', 'Farmers', 'Agriculture', 'Ohio']",Historical Fiction,False
+"What is the category or genre of the book ""Guts""?",P4,"['Biography', 'American Authors', 'Authors, american', 'Juvenile literature', ""Children's stories"", 'Authorship', 'Authors, juvenile literature', 'Authorship, juvenile literature']",Dark Comedy,False
+"What is the category or genre of the book ""Characterization in the novels of L. M. Montgomery""?",P4,['Canadian Authors'],Literary Criticism,False
+"What is the category or genre of the book ""Farewell, Babylon""?",P4,"['Biography', 'History', 'Authors, biography', 'Social conditions', 'Jews', 'Canadian Authors', 'Authors, canadian', 'Jews, iraq']",Historical Fiction,False
+"What is the category or genre of the book ""The best stories of Sarah Orne Jewett""?",P4,"['American Authors', 'Social life and customs', 'Fiction', 'Fiction, short stories (single author)', 'Short stories', 'Family relationships', 'Fiction, general', 'Mental Depression', 'Depressed persons', 'Popular works']",Regional fiction,True
+"What is the category or genre of the book ""Finding Iris Chang""?",P4,"['Biography', 'American Authors', 'Authors, biography', 'American Women authors', 'Women authors', 'American authors', 'Mental health', 'Mentally ill', 'Chinese americans', 'Chinese American women']",Memoir,False
+"What is the category or genre of the book ""Journals Of Ralph Waldo Emerson""?",P4,"['American Authors', 'Diaries', 'Journals (Emerson, Ralph Waldo)']",Philosophy,False
+"What is the category or genre of the book ""Horizons""?",P4,"['Biography', 'American Authors', 'Natural history', 'Travel', 'Voyages and travels', 'New York Times reviewed', 'Tourism', 'Social aspects', 'TRAVEL / Essays & Travelogues']",Science Fiction,True
+"What is the category or genre of the book ""In the body of the world""?",P4,"['Biography', 'American Authors', 'Women', 'Authors, biography', 'Social conditions', 'Patients', 'Cancer', ""Cancer patients' writings, American"", 'Women human rights workers', 'Cancer, patients, biography']",Ecofiction,False
+"What is the category or genre of the book ""Notes of a son and brother""?",P4,"['Biography', 'American Authors', 'Autobiographies']",Autobiographical Memoir,True
+"What is the category or genre of the book ""The forgotten world of R.J. MacSween""?",P4,"['Biography', 'College teachers', 'Canadian Authors', 'Clergy', 'Canadian Poets', 'Authors, Canadian', 'Poets, Canadian (English)', 'Authors, Canadian (English)', 'Poets, Canadian', 'Catholic Church']",Fantasy,False
+"What is the category or genre of the book ""Ezra Pound""?",P4,"['Biography', 'American Authors', 'Biographies', 'American Poets', 'Poètes américains', 'Pound, Ezra, 1885-1972']",Biography,True
+"What is the category or genre of the book ""Lucy Maud Montgomery""?",P4,"['Juvenile literature', 'Canadian Authors', 'Ouvrages pour la jeunesse', 'Novelists, Canadian (English)', 'Juvenile Biography', 'Canadian Authors', 'Centennial, 1964', 'Juvenile literature', 'Canadian Authors', 'Authors, Canadian']",Canadian Literature,False
+"What is the category or genre of the book ""Don't let them smell the lobsters cooking""?",P4,"['Biography', 'Biographies', 'Anecdotes', 'Canadian Authors', 'Authors, Canadian (English)', 'Écrivains canadiens-anglais']",Dark Comedy,False
+"What is the category or genre of the book ""Rough South, Rural South""?",P4,"['Intellectual life', 'Authors, american', 'History and criticism', 'American literature, history and criticism, 20th century', 'American literature, history and criticism', 'Working class in literature', 'Literature and society', 'American literature, history and criticism, 21st century', 'Southern states, in literature', 'Southern states, intellectual life']",Southern Noir,False
+"What is the category or genre of the book ""Edge Seasons""?",P4,"['Biography', 'Canadian Authors', 'Authors, Canadian', 'Authors, Canadian (English)']",Fantasy Romance,False
+"What is the category or genre of the book ""Bindy's Moon""?",P4,"['Canadian Authors', 'Écrivains canadiens']",Children's Fantasy,False
+"What is the category or genre of the book ""Grey Owl's favorite wilderness revisited""?",P4,"['Biography', 'Canadian Authors', 'Authors, Canadian']",Nature Writing,False
+"What is the category or genre of the book ""Letter to the past""?",P4,"['Biography', 'Historians', 'Canadian Authors', 'Editors', 'Authors, Canadian (English)', 'Canada', 'Periodical editors']",Historical Fiction,False
+"What is the category or genre of the book ""All God's children need traveling shoes""?",P4,"['Biography', 'American Authors', 'Nonfiction', 'Entertainers', 'African American authors', 'Biography & Autobiography', 'American Women authors', 'African American women', 'Sociology', 'Biography/Autobiography']",Contemporary Fiction,False
+"What is the category or genre of the book ""Life of Harriet Beecher Stowe""?",P4,"['Biography', 'American Authors', 'Correspondence', 'Diaries', 'American Women authors', 'Biografie', 'Women abolitionists']",Biography,True
+"What is the category or genre of the book ""Top soil""?",P4,"['English poetry', 'Canadian authors', 'Canadian poetry']",Literary Fiction,False
+"What is the category or genre of the book ""Archibald MacMechan""?",P4,"['Biography', 'Criticism and interpretation', 'Authors, biography', 'Canadian Authors', 'Authors, canadian']",Mystery,False
+"What is the category or genre of the book ""Staying on alone""?",P4,"['Biography', 'American Authors', 'Correspondence', 'Americans', 'History', 'Friends and associates', 'Women', 'Authors, American', 'Friendship', 'Toklas, alice b., 1878-1967']",Domestic Suspense,False
+"What is the category or genre of the book ""Letters of Susan Hale""?",P4,"['American Authors', 'Correspondence', 'American Women authors', 'Women authors', 'Women artists']",Diaries,True
+"What is the category or genre of the book ""Backgrounds of literature""?",P4,"['Homes and haunts', 'American Authors', 'Authors', 'English Authors', 'Literary landmarks']",Literary History,True
+"What is the category or genre of the book ""The Celts""?",P4,"['Fiction', 'Canadian Authors', 'Celts']",History,False
+"What is the category or genre of the book ""Se una notte d'inverno un viaggiatore""?",P4,"['Fiction', 'Continental european fiction (fictional works by one author)', 'History and criticism', 'Man-woman relationships', 'Spanish American drama', 'Books and reading', 'Italian fiction', 'Translations Into English', 'FICTION / General', 'Postmodernism (Literature)']",Magical Realism,True
+"What is the category or genre of the book ""Gardens, covenants, exiles""?",P4,"['Homes and haunts', 'Intellectual life', 'History', 'History and criticism', 'In literature', 'Literature and the war', 'Canadian Authors', 'Canadian literature', 'Ontario', 'History in literature']",Historical Fiction,True
+"What is the category or genre of the book ""Dropped Threads""?",P4,"['Biography', 'Women', 'Women authors', 'Literary collections', 'Women and literature', 'Canadian Authors', 'Canadian Women authors', 'Canadian literature', 'Canadian prose literature', 'feminsim']",Mystery,False
+"Which publishers have published the book ""Lessons in laughter""?",P5,['Gallaudet University Press'],HarperOne,False
+"Which publishers have published the book ""Rollo in Paris""?",P5,"['Independently Published', 'Pinnacle Press', 'HardPress', 'SMK Books']",Simon & Schuster,False
+"Which publishers have published the book ""Letters from Sunnyside and Spain""?",P5,"['R. West', 'Norwood Editions', 'Arden Library']",Carroll & Graf,False
+"Which publishers have published the book ""My famous evening""?",P5,['National Geographic'],Charles Scribner's Sons,False
+"Which publishers have published the book ""Local colour""?",P5,"['Douglas & McIntyre / Not Applicable', 'Douglas & McIntyre']",Simon & Schuster,False
+"Which publishers have published the book ""Selected letters of Margaret Laurence and Adele Wiseman""?",P5,['University of Toronto Press'],Virago Press,False
+"Which publishers have published the book ""Loving the difficult""?",P5,['Hedgerow Press'],HarperOne,False
+"Which publishers have published the book ""Dawn""?",P5,"['Kessinger Publishing, LLC', 'Black Sparrow Press']",HarperCollins,False
+"Which publishers have published the book ""Life of Ralph Waldo Emerson""?",P5,"['Haskell House Publishers', 'Walter Scott', 'Folcroft Library Editions', 'Norwood Editions']",Harvard University Press,False
+"Which publishers have published the book ""Confessions of an immigrant's daughter""?",P5,['University of Toronto Press'],Harper Perennial Modern Classics,False
+"Which publishers have published the book ""The portable Dorothy Parker""?",P5,"['Penguin Group', 'Random House Value Publishing', 'Penguin Books', 'Viking Press']",Persephone Books,False
+"Which publishers have published the book ""Literary Outlaw \Use 0370 31586 3\""?",P5,"['W. W. Norton & Co.', 'H. Holt', 'The Bodley Head Ltd', 'Pimlico', 'Penguin Random House', 'Avon Books (P)', 'Norton & Company, Incorporated, W. W.', 'Es Pop Ediciones']",Harper Perennial Modern Classics,True
+"Which publishers have published the book ""Beyond the blue mountains""?",P5,['Fitzhenry & Whiteside'],Penguin Random House Australia,False
+"Which publishers have published the book ""Great writers of America""?",P5,"['R. West', 'Norwood Editions', 'Folcroft Library Editions']",Charles Scribner's Sons,False
+"Which publishers have published the book ""West of Sunset""?",P5,"['Center Point Large Print', 'Penguin Publishing Group', 'Viking', 'Allen & Unwin', 'Rowohlt Verlag GmbH', 'Penguin UK']",Knopf,False
+"Which publishers have published the book ""My grandfather's Cape Breton""?",P5,"['Lynwood', 'Nimbus Pub.', 'McGraw-Hill Ryerson']",Flanker Publishing,False
+"Which publishers have published the book ""The Autobiography of Alice B. Toklas""?",P5,"['Humanitas', ""L'AVENÇ, S.L."", 'Random House Publishing Group', 'Penguin Publishing Group', 'Gallimard', 'Penguin Books, Limited', 'Dead Authors Society', 'e-artnow', 'Important Books', 'Arcturus Publishing', 'Zemorah, Bitan-motsiʾim le-or', 'Wydawn. Alfa', 'Turtleback', 'Independently Published', 'Penguin Books', 'Blurb', 'Oxford City Press', 'Arche Verlag', 'Benediction Classics', 'Renard Press Ltd.', 'CreateSpace Independent Publishing Platform', 'Metis Yayincilik', 'Albatross Publishers', 'LUMEN']",Knopf,False
+"Which publishers have published the book ""A son of the middle border""?",P5,"['Scholarly Pr', 'Reprint Services Corp', 'Kessinger Publishing, LLC', 'Folcroft Library Editions', 'University of Nebraska Press', 'Brousson Press', 'Borealis Books', 'Blackstone Audiobooks', 'Penguin Books']",Charles Scribner's Sons,True
+"Which publishers have published the book ""L' ultime alliance""?",P5,['Editions du Seuil'],Gallimard,False
+"Which publishers have published the book ""Casoars  (Les)""?",P5,"['Varia', 'Éditions Varia']",Éditions Bréal,False
+"Which publishers have published the book ""American outpost""?",P5,"['Kennikat Press', 'Reprint Services Corporation', 'Farrar & Rinehart, incorporated']",Simon & Schuster,False
+"Which publishers have published the book ""The Landloper""?",P5,"['Kessinger Publishing', 'ReadHowYouWant.com', 'IndyPublish.com', 'Echo Library']",Graywolf Press,False
+"Which publishers have published the book ""The Old Brewery Bay""?",P5,['Dundurn Press'],Penguin Random House Australia,False
+"Which publishers have published the book ""Recollections of a literary life, or, Books, places, and people""?",P5,"['Arkose Press', 'Kessinger Publishing, LLC', 'University of Cambridge ESOL Examinations', 'AMS Press', 'Cambridge University Press', 'Ams Pr Inc']",George Bell & Sons,True
+"Which publishers have published the book ""Aller retour New York""?",P5,"['New Directions', 'Hesperus']",Editions Place des Éditeurs,False
+"Which publishers have published the book ""Leah's journey""?",P5,"['Jove', 'Berkley', 'Harcourt Brace Jovanovich', 'New English Library', 'Syracuse University Press']",CreateSpace Independent Publishing Platform,False
+"Which publishers have published the book ""Sand for Snow""?",P5,['DC Books'],Haymarket Books,False
+"Which publishers have published the book ""Letters in the Muscatine journal""?",P5,"['R. West', 'Norwood Editions', 'Folcroft Library Editions', 'Reprint Services Corp']",University of Iowa Press,False
+"Which publishers have published the book ""A writer's life""?",P5,['Doubleday Canada'],"Farrar, Straus and Giroux",False
+"Which publishers have published the book ""Hell's cartographers : some personal histories of science fiction writers""?",P5,"['Harper & Row', 'HarperCollins Publishers', 'Dover Publications, Incorporated', 'Futura', 'Weidenfeld and Nicolson']",Turner Publishing,False
+"Which publishers have published the book ""Prietita and the Ghost Woman / Prietita y la Llorona""?",P5,"[""Children's Press"", 'Turtleback Books', 'Tandem Library', ""Children's Book Press""]",Disney-Hyperion,False
+"Which publishers have published the book ""Thomas Wolfe""?",P5,"['Greenwood Press', 'Greenwood Press Reprint']",Knopf,False
+"Which publishers have published the book ""A celebration of Arnie""?",P5,['Life Rattle Press'],Unbound,False
+"Which publishers have published the book ""Remembering Leacock""?",P5,['Deneau'],University of Toronto Press,False
+"Which publishers have published the book ""An American childhood""?",P5,"['Perennial Library', 'Picador', 'Harper & Row', 'HarperCollins', 'G.K. Hall', 'HarperPerennial', 'Tandem Library']",Simon & Schuster,True
+"Which publishers have published the book ""Momaday, Vizenor, Armstrong""?",P5,['University of Oklahoma Press'],Graywolf Press,False
+"Which publishers have published the book ""When the Earth Was Flat""?",P5,['Not Avail'],Bloomsbury Publishing,False
+"Which publishers have published the book ""Green Gables""?",P5,['Formac Pub. Co.'],Penguin Classics,False
+"Which publishers have published the book ""The way forward is with a broken heart""?",P5,"['Phoenix (an Imprint of The Orion Publishing Group Ltd )', ""Women's"", ""The Women's Press"", 'Ballantine Books', ""Women's Press."", 'Thorndike Press', 'Random House', 'Lübbe']",Harper Perennial Modern Classics,True
+"Which publishers have published the book ""For Joshua""?",P5,"['Doubleday Canada, Limited', 'Milkweed Editions', 'Anchor Canada', 'Doubleday Canada']",Harper Perennial Modern Classics,False
+"Which publishers have published the book ""American prose masters: Cooper, Hawthorne, Emerson, Poe, Lowell, Henry James""?",P5,"['Kessinger Publishing, LLC', 'Belknap Press', 'Barnes & Noble, Incorporated', 'Harvard University Press']",Henry Holt and Company,False
+"Which publishers have published the book ""Timothy Findley""?",P5,['ECW Press'],HarperCollins,False
+"Which publishers have published the book ""Producing Canadian Literature""?",P5,['Wilfrid Laurier University Press'],University of Toronto Press,False
+"Which publishers have published the book ""Those drinking days""?",P5,"['Mcgraw-Hill', 'Junction Books', 'Horizon Press', 'McGraw-Hill', 'Richard Schober d/b/a Tough Poets Press']",Simon & Schuster,True
+"Which publishers have published the book ""The portable Thoreau""?",P5,"['Penguin USA, Inc.', 'Viking Press', 'Viking Adult', 'Penguin Books']",CompactDisc,False
+"Which publishers have published the book ""Legend of Sleepy Hollow and Other Stories""?",P5,"['Penguin Classics', 'Penguin USA, Inc.', 'Dover Publications', 'Penguin', 'Turtleback Books Distributed by Demco Media', 'Random House Publishing Group', 'Modern Library', 'Aperture']",Simon & Schuster,True
+"Which publishers have published the book ""Dance on the Earth""?",P5,"['McClelland & Stewart Ltd', 'McClelland & Stewart']",Bloomsbury Publishing,False
+"Which publishers have published the book ""Love and Laughter in the Time of Chemotherapy""?",P5,['Second Story Press'],Morgan James Publishing,False
+"Which publishers have published the book ""Letters Home""?",P5,"['Faber and Faber', 'Mondadori (IT)', 'Harper & Row', 'Harper Perennial', 'Bantam', 'Bantam Books', 'Faber']",Harper Perennial Modern Classics,True
+"Which publishers have published the book ""Dropped threads 2""?",P5,['Vintage Canada'],Wayfire Games,False
+"Which publishers have published the book ""The Montreal Story Tellers""?",P5,['Vehicule Pr'],McGill University Press,False
+"Which publishers have published the book ""The Oxford illustrated literary guide to Canada""?",P5,['Oxford University Press'],Oxford University Press,True
+"Which publishers have published the book ""A Girl Named Zippy""?",P5,"['Ebury Press', 'Broadway', 'ISIS', 'Doubleday', 'Turtleback Books Distributed by Demco Media', 'Isis Large Print Books', 'Tandem Library', 'Bradbury Trade biography', 'Ulverscroft Large Print', 'Highbridge Audio', 'Broadway Books']",Knopf,False
+"Which publishers have published the book ""The Life Of Joel Chandler Harris""?",P5,"['Creative Media Partners, LLC', 'Kessinger Publishing, LLC']",Harvard University Press,False
+"Which publishers have published the book ""Anybody can do anything""?",P5,"['Joiner/Oriel Inc', 'Chivers', 'G.K. Hall', 'HarperCollins Publishers', 'George Mann Books', 'Buccaneer Books', 'University of Washington Press']",Simon & Schuster,False
+"Which publishers have published the book ""The dream""?",P5,"['Random House Publishing Group', 'Ballantine Books']",Harper Perennial Modern Classics,False
+"Which publishers have published the book ""Louisa May""?",P5,"['Avon Books (Mm)', 'Houghton Mifflin', 'Deutsch', 'Avon Books']",W. W. Norton & Company,True
+"Which publishers have published the book ""Poems""?",P5,"['Bantam Books', 'Sterling', 'Perfection Learning Prebound', 'Sterling Pub.', 'Bantam', 'Not Avail', 'African Amer Images', 'Creative Education', 'Tandem Library']",Alfred A. Knopf,False
+"Which publishers have published the book ""In the bowels of the Franca C""?",P5,['Booksurge'],Harper Perennial Modern Classics,False
+"Which publishers have published the book ""Outsider research""?",P5,['Academica Press'],Routledge,False
+"Which publishers have published the book ""Letters""?",P5,"['Macmillan', 'Belknap Press of Harvard University Press']","Farrar, Straus and Giroux",False
+"Which publishers have published the book ""Thomas Chandler Haliburton""?",P5,['Fitzhenry & Whiteside'],University of Toronto Press,False
+"Which publishers have published the book ""Musgrave landing""?",P5,['Stoddart'],Simon & Schuster,False
+"Which publishers have published the book ""The rock observed""?",P5,"['University of Toronto Press', 'Univ of Toronto Pr']",Graywolf Press,False
+"Which publishers have published the book ""James Fenimore Cooper""?",P5,"['Stanford University Press', 'Chelsea House Publishing', 'Stanford Univ Pr', 'Hesperides Press', 'BiblioBazaar']",Oxford University Press,False
+"Which publishers have published the book ""Self-interviews""?",P5,['Louisiana State University Press'],Penguin Books,False
+"Which publishers have published the book ""Heart's longing""?",P5,['Douglas & McIntyre'],HarperCollins,False
+"Which publishers have published the book ""Knots in My Yo-Yo String""?",P5,"[""Random House Children's Books"", 'Thorndike Press', 'Turtleback', 'Scholastic, Inc.', 'Paw Prints', 'Tandem Library', 'Alfred A. Knopf']",Pearson Education,False
+"Which publishers have published the book ""Sleeping with Cats""?",P5,"['William Morrow', 'Perennial', 'William Morrow & Company', 'HarperCollins', 'Piatkus Books']",Simon & Schuster,True
+"Which publishers have published the book ""Systems Fail""?",P5,['Aqueduct Press'],Harper Perennial Modern Classics,False
+"Which publishers have published the book ""Gonzo""?",P5,"['Little, Brown Book Group Limited', 'Little, Brown and Company', 'Little Brown & Company', 'Little, Brown']",Grove Atlantic,False
+"Which publishers have published the book ""Emerson, his life and writings""?",P5,"['R. West', 'Norwood Editions', 'Folcroft Library Editions']",Charles Scribner's Sons,False
+"Which publishers have published the book ""The way it was""?",P5,['Lakeview Books'],Simon & Schuster,False
+"Which publishers have published the book ""The All-American Industrial Motel""?",P5,"['Chicago Review Press, Incorporated', 'Chicago Review Press']",Greywolf Press,False
+"Which publishers have published the book ""Maps and legends""?",P5,"[""McSweeney's Books"", 'HarperCollins Publishers Limited', ""MCSWEENEY'S"", 'Open Road Integrated Media, Inc.', 'Harper Perennial', 'Fourth Estate']",Simon & Schuster,False
+"Which publishers have published the book ""The invisible thread""?",P5,"['Rebound by Sagebrush', 'J. Messner', ""Simon & Schuster Children's Publishing"", 'Perfection Learning Prebound', 'Beech Tree Paperback']",Simon & Schuster,True
+"Which publishers have published the book ""Toutes celles que j'étais""?",P5,['VLB éditeur'],Gallimard,False
+"Which publishers have published the book ""The autobiography of Leroi Jones""?",P5,"['Lawrence Hill', 'Freundlich Books', 'Chicago Review Press, Incorporated', 'Lawrence Hill Books']",Black Lawrence Press,False
+"Which publishers have published the book ""Carver country""?",P5,"['Pan Books', 'Pan Macmillan', 'Scribner', 'Skyhorse Publishing Company, Incorporated', 'Arcade Publishing', 'Anagrama', 'The Quantuck Lane Press']",Simon & Schuster,False
+"Which publishers have published the book ""Raymond Chandler speaking""?",P5,"['Ayer Co Pub', 'Houghton Mifflin Co.', 'University of California Press', 'Books for Libraries Press', 'Allison & Busby']",Vintage Books,False
+"Which publishers have published the book ""A daughter of the middle border""?",P5,"['Kessinger Publishing, LLC', 'Peter Smith Pub', 'Pinnacle Press', 'Literary Licensing, LLC', 'Borealis Books', 'Dover Publications', 'CreateSpace Independent Publishing Platform', 'Scholarly Press']",Charles Scribner's Sons,True
+"Which publishers have published the book ""Moments on a Staircase""?",P5,['Silver Bow Publishing'],Harper Perennial Modern Classics,False
+"Which publishers have published the book ""A comprehensive bibliography of English-Canadian short stories, 1950-1983""?",P5,['ECW Press'],University of Alberta Press,False
+"Which publishers have published the book ""With Walt Whitman in Camden""?",P5,"['Southern Illinois University', 'Southern Illinois Univ Pr (Tx)']",McFarland & Company,False
+"Which publishers have published the book ""From the Chrysalis""?",P5,['Viceroy Power Press'],Greywolf Press,False
+"Which publishers have published the book ""Jesus Land""?",P5,"['Counterpoint Press', 'Counterpoint', 'Audible Studios on Brilliance Audio', 'MJF Books', 'Hutchinson', 'Counterpoint LLC', 'ReadHowYouWant.com, Limited']",HarperOne,False
+"Which publishers have published the book ""Stephen King Goes to the Movies""?",P5,"['Hodder & Stoughton', 'imusti', 'Hodder Ome', 'Pocket Books', 'Subterranean']",Turner Publishing,False
+"Which publishers have published the book ""A hell of mercy""?",P5,"['HarperCollins Publishers', 'HarperOne']",Penguin Books,False
+"Which publishers have published the book ""Comrades and critics""?",P5,['University of Toronto Press'],Oxford University Press,False
+"Which publishers have published the book ""Seriously not all right""?",P5,"['Schaffner Press, Incorporated']",Harper Perennial Modern Classics,False
+"Which publishers have published the book ""Some letters of William Vaughn Moody""?",P5,"['Kessinger Publishing, LLC', 'Ams Pr Inc']",Henry Holt and Company,False
+"Which publishers have published the book ""A peculiar treasure""?",P5,"['Reprint Services Corp', 'Books on Tape, Inc.', 'Doubleday', 'Buccaneer Books', 'Books On Tape']",Sourcebooks,False
+"Which publishers have published the book ""On Writing""?",P5,"['Hodder & Stoughton', 'Albert Bonniers Förlag', 'PLAZA & JANÉS', 'Plaza & Janes Editories Sa', 'Simon & Schuster Audio', 'Distribooks', 'Wilhelm Heyne Verlag', 'Perfection Learning', 'RBA', 'Ullstein Buchverlage GmbH & Co. KG / Ullstein Tas', 'Recorded Books', 'ACT', 'Pocket Star', 'Altin Kitaplar', 'Beta', 'Scribner', 'Hr. Ferdinand', 'Книжковий Клуб', 'Brand: Simon Schuster Audio', 'Suma de Letras', 'Hodder Education Group', 'L´ALTRA', 'Turtleback Books', 'Vintage Espanol', 'Nuevas Ediciones de Bolsillo', 'Wilhelm Heyne', 'Albin Michel', 'Plaza y Janes', 'Plaza y Janés', 'Pocket Books', 'Sperling & Kupfer', 'Debolsillo', 'Proszynski Media']",Knopf,False
+"Which publishers have published the book ""The jewel-hinged jaw""?",P5,"['Orion Publishing Group, Limited', 'Wesleyan University Press', 'Ultramarine Pub Co', 'Berkley Pub. Corp.', 'Brand: Wesleyan', 'Wesleyan', 'Berkley']",GreyStone Books,False
+"Which publishers have published the book ""Devil in deerskins: my life with Grey Owl""?",P5,"['PaperJacks', 'New Press']",Harper Perennial Modern Classics,False
+"Which publishers have published the book ""Canadian Literature""?",P5,['Edinburgh University Press'],Oxford University Press,False
+"Which publishers have published the book ""Afternoon Neighbors""?",P5,"['Reprint Services Corporation', 'Native American Books Distributor']",Simon & Schuster,False
+"Which publishers have published the book ""The way home""?",P5,"['Atlas Press', 'Atlas', 'Exact Change']",HarperCollins,False
+"Which publishers have published the book ""The Sound on the Page""?",P5,"['HarperCollins Publishers', 'HarperCollins', 'Collins']","Farrar, Straus and Giroux",False
+"Which publishers have published the book ""The madness of a seduced woman""?",P5,"['Pan', 'Dutton', 'Bantam', 'Hamish Hamilton', 'Penguin Books', 'Plume']",Penguin Classics,True
