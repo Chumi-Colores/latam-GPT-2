@@ -1,0 +1,7 @@
+.env
+Backups/
+Datasets por Pais/
+Preguntas y Respuestas/
+Resultados de Modelos/
+gemma3_europa.csv
+triplets_europe.csv
