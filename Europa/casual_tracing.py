@@ -22,7 +22,7 @@ tracer = CausalTracer(model, tokenizer)
 # ------------- 1. Definir tus hechos -----------------
 
 BASE_DIR = os.path.dirname(__file__)
-TRIPLETS_PATH = os.path.join(BASE_DIR, "Scripts Desafio", "triplets_europe.csv")
+TRIPLETS_PATH = os.path.join(BASE_DIR, "triplets_europe.csv")
 
 df_europe = pd.read_csv(TRIPLETS_PATH)
 RELACIONES_VALIDAS = [
