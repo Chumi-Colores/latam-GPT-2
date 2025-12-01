@@ -1,0 +1,7 @@
+fact_id,region,relation,subject,object,expected_answer,tracer_subject,language,variant,kind,answer,is_correct,n_layers,n_tokens,mean_layer_max,max_layer_max,mean_layer_mean,max_layer_mean
+eu_0,EUROPE,es de nacionalidad,Sigmund Freud,Austria,Austria,Sigmund Freud,en,en_base,mlp, not,False,8,36,0.1688462644815445,0.18253499269485474,0.15500235557556152,0.16105329990386963
+eu_0,EUROPE,es de nacionalidad,Sigmund Freud,Austria,Austria,Sigmund Freud,en,en_question,mlp, the,False,6,36,0.34209689497947693,0.36557668447494507,0.2898580729961395,0.3122129738330841
+eu_1,EUROPE,es autor de la obra,Sigmund Freud,La interpretación de los sueños,La interpretación de los sueños,La interpretación de los sueños,en,en_author_of,mlp, a,True,13,36,0.19816341996192932,0.2554408311843872,0.17342376708984375,0.18224123120307922
+eu_1,EUROPE,es autor de la obra,Sigmund Freud,La interpretación de los sueños,La interpretación de los sueños,La interpretación de los sueños,en,en_written_by,mlp, the,False,12,36,0.11289993673563004,0.12925764918327332,0.09342584013938904,0.10015549510717392
+eu_2,EUROPE,es del año,Don Quijote de la Mancha,1605,1605,Don Quijote de la Mancha,en,en_from_year,mlp, 15,False,14,36,0.033491555601358414,0.11099696159362793,0.020463109016418457,0.03778164088726044
+eu_2,EUROPE,es del año,Don Quijote de la Mancha,1605,1605,Don Quijote de la Mancha,en,en_published_in,mlp, the,False,13,36,0.15070658922195435,0.2015511691570282,0.12616877257823944,0.1299026608467102
