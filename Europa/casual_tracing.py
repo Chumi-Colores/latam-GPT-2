@@ -21,17 +21,33 @@ tracer = CausalTracer(model, tokenizer)
 BASE_DIR = os.path.dirname(__file__)
 TRIPLETS_PATH = os.path.join(BASE_DIR, "triplets_europe.csv")
 
+df_latinoamerica = pd.read_csv(os.path.join(BASE_DIR, "tripletas_sudamerica.csv"))
 df_europe = pd.read_csv(TRIPLETS_PATH)
 RELACIONES_VALIDAS = [
     "es de nacionalidad",
     "es autor de la obra",
     "es del año",
+    "fue publicada en el año"
 ]
 
 df_europe_filtrado = df_europe[df_europe["relation"].isin(RELACIONES_VALIDAS)]
+df_latinoamerica_filtrado = df_latinoamerica[df_latinoamerica["relation"].isin(RELACIONES_VALIDAS)]
 
+# Voy a tomar 30 de cada relacion
+N_PER_REL = 30
+df_europe_sampled = (
+    df_europe_filtrado
+    .groupby("relation", group_keys=False)
+    .apply(lambda g: g.sample(min(len(g), N_PER_REL), random_state=42))
+)
 
-def convert_triplet_to_fact(row, idx):
+df_latinoamerica_sampled = (
+    df_latinoamerica_filtrado
+    .groupby("relation", group_keys=False)
+    .apply(lambda g: g.sample(min(len(g), N_PER_REL), random_state=42))
+)
+
+def convert_triplet_to_fact(row, idx, region):
     subject = row["subject"]
     relation = row["relation"]
     obj = row["object"]
@@ -47,13 +63,16 @@ def convert_triplet_to_fact(row, idx):
     elif relation == "es del año":
         prompt_es = f"La obra {subject} es del año"
         prompt_en = f"The work {subject} is from the year"
+    elif relation == "fue publicada en el año":
+        prompt_es = f"La obra {subject} es del año"
+        prompt_en = f"The work {subject} is from the year"
     # else:
     #     prompt_es = f"{relation} {subject}"
     #     prompt_en = f"{subject} {relation}"
 
     return {
         "id": f"eu_{idx}",
-        "region": "EUROPE",
+        "region": region,
         "subject": subject,
         "relation": relation,
         "object": obj,
@@ -65,11 +84,16 @@ def convert_triplet_to_fact(row, idx):
     }
 
 FACTS_EUROPE = [
-    convert_triplet_to_fact(row, idx)
-    for idx, row in df_europe_filtrado.iterrows()
+    convert_triplet_to_fact(row, idx, region="Europe")
+    for idx, row in df_europe_sampled.iterrows()
 ]
 
-print(FACTS_EUROPE[:3])
+
+FACTS_LATINOAMERICA = [
+    convert_triplet_to_fact(row, idx, region="Latin America")
+    for idx, row in df_latinoamerica_sampled.iterrows()
+]
+
 
 # ------------- 2. Variantes de queries -----------------
 
@@ -234,11 +258,13 @@ def is_answer_correct(answer: str, expected: str) -> bool:
     return e in a or a in e
 
 
-def main(max_facts: int = 3, max_variants_per_fact: int = 2,
+def main(max_facts: int = None, max_variants_per_fact: int = 2,
          output_path: str = "causal_traces_summary.csv") -> None:
     rows = []
-    facts = FACTS_EUROPE[:max_facts]
-
+    facts_eu = FACTS_EUROPE if max_facts is None else FACTS_EUROPE[:max_facts]
+    facts_la = FACTS_LATINOAMERICA if max_facts is None else FACTS_LATINOAMERICA[:max_facts]
+    facts = facts_eu + facts_la
+    
     for fact in facts:
         fact_id = fact["id"]
         region = fact["region"]
@@ -274,7 +300,7 @@ def main(max_facts: int = 3, max_variants_per_fact: int = 2,
                 prompt=prompt,
                 subject=tracer_subject,
                 kind="mlp",
-                samples=2,
+                samples=5,
                 batch_size=1,
                 window=5,
             )
@@ -322,5 +348,6 @@ if __name__ == "__main__":
     # generated = tokenizer.decode(outputs[0][inputs["input_ids"].shape[1]:])
     # print("\n[DEBUG] Prompt:", test_prompt)
     # print("[DEBUG] Respuesta completa del modelo:", generated)
-
-    main()
+    main(
+         max_variants_per_fact=2,
+         output_path="causal_traces_summary_EU_LA_facts.csv")
