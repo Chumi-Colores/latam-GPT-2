@@ -9,9 +9,7 @@ from typing import List, Dict
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 MODEL_NAME = "gpt2-large"
-# model_name = "gpt2-large"
-# model = AutoModelForCausalLM.from_pretrained(model_name, device_map="auto")
-# tokenizer = AutoTokenizer.from_pretrained(model_name)
+
 model = AutoModelForCausalLM.from_pretrained(MODEL_NAME).to(device)
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 if tokenizer.pad_token is None:
@@ -19,7 +17,6 @@ if tokenizer.pad_token is None:
 
 tracer = CausalTracer(model, tokenizer)
 
-# ------------- 1. Definir tus hechos -----------------
 
 BASE_DIR = os.path.dirname(__file__)
 TRIPLETS_PATH = os.path.join(BASE_DIR, "triplets_europe.csv")
@@ -39,8 +36,8 @@ def convert_triplet_to_fact(row, idx):
     relation = row["relation"]
     obj = row["object"]
 
-    # === Generación automática de queries según la relación ===
-    # Puedes agregar más plantillas por relación si quieres.
+    # Generación automática de queries según la relación 
+
     if relation == "es de nacionalidad":
         prompt_es = f"{subject} es de nacionalidad"
         prompt_en = f"{subject} is a citizen of"
@@ -48,11 +45,9 @@ def convert_triplet_to_fact(row, idx):
         prompt_es = f"{subject} es autor de la obra"
         prompt_en = f"{subject} is the author of the work"
     elif relation == "es del año":
-        # Obra (subject) y año (object)
         prompt_es = f"La obra {subject} es del año"
         prompt_en = f"The work {subject} is from the year"
     # else:
-    #     # fallback general
     #     prompt_es = f"{relation} {subject}"
     #     prompt_en = f"{subject} {relation}"
 
@@ -81,11 +76,10 @@ print(FACTS_EUROPE[:3])
 def generate_queries(fact):
     subject = fact["subject"]
     relation = fact["relation"]
-    obj = fact["object"]   # aquí 'obj' es la obra
+    obj = fact["object"]   
 
     queries = []
 
-    # --------- Relación: es de nacionalidad ----------
     if relation == "es de nacionalidad":
 
         # Español
@@ -108,13 +102,7 @@ def generate_queries(fact):
              "prompt": f"{subject} comes from"}
         ]
 
-    # --------- Relación: es autor de la obra ----------
     elif relation == "es autor de la obra":
-
-        # En este caso el modelo debe predecir el SUBJECT (el autor).
-        # La obra aparece explícita en el prompt:
-        # Ej: "¿Quién escribió la obra Composer and critic?"
-        # Ej: "The author of Composer and critic is"
 
         # Español
         queries += [
@@ -126,7 +114,7 @@ def generate_queries(fact):
              "prompt": f"{obj} fue escrita por"}
         ]
 
-        # Inglés: diseñados para que el siguiente token sea el autor
+        # Inglés: 
         queries += [
             {"language": "en", "variant": "en_author_of",
              "prompt": f"The author of {obj} is"},
@@ -136,10 +124,8 @@ def generate_queries(fact):
              "prompt": f"The book {obj} is by"}
         ]
 
-    # --------- Relación: es del año (obra → año) ----------
     elif relation == "es del año":
 
-        # Español: el modelo debe predecir el AÑO (object)
         queries += [
             {"language": "es", "variant": "es_anio_de",
              "prompt": f"La obra {subject} es del año"},
@@ -149,7 +135,7 @@ def generate_queries(fact):
              "prompt": f"¿De qué año es la obra {subject}?"},
         ]
 
-        # Inglés: igualmente, el modelo debe predecir el AÑO (object)
+        # Inglés: 
         queries += [
             {"language": "en", "variant": "en_from_year",
              "prompt": f"The work {subject} is from the year"},
@@ -159,7 +145,7 @@ def generate_queries(fact):
              "prompt": f"In what year was the work {subject} published?"},
         ]
 
-    # --------- Fallback (otras relaciones no definidas) ----------
+    # --------- Fallback  ----------
     else:
         queries += [
             {"language": "es", "variant": "es_generic",
@@ -216,7 +202,7 @@ def summarize_flow(flow) -> Dict:
 
 def get_tracer_subject(fact: Dict) -> str:
     """
-    Define qué texto usamos como 'subject' para el tracer,
+    Define qué texto se usa como 'subject' para el tracer,
     dependiendo del tipo de relación.
 
     - Nacionalidad: usamos el sujeto (persona)
@@ -229,7 +215,6 @@ def get_tracer_subject(fact: Dict) -> str:
     elif relation == "es autor de la obra":
         return fact["object"]
     elif relation == "es del año":
-        # Usamos la obra (subject) porque es lo que aparece en el prompt
         return fact["subject"]
     else:
         # fallback genérico
