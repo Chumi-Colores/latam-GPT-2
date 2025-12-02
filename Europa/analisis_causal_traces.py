@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 BASE_DIR = os.path.dirname(__file__)  # carpeta donde está este script
-CSV_PATH = os.path.join(BASE_DIR, "causal_traces_summary.csv")
+CSV_PATH = os.path.join(BASE_DIR, "causal_traces_summary_EU_LA_facts.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "Analisis Proyecto")
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -80,7 +80,19 @@ def plot_por_variant(df: pd.DataFrame) -> None:
     plt.tight_layout()
     plt.savefig(os.path.join(OUTPUT_DIR, "mean_layer_max_por_variant.png"))
     plt.close()
-
+def plot_cm_por_region(df: pd.DataFrame) -> None:
+    plt.figure(figsize=(8, 5))
+    sns.barplot(
+        data=df,
+        x="region",
+        y="cm_layer_max",
+        hue="language",
+        errorbar="sd",
+    )
+    plt.title("Centro de masa (cm_layer_max) por región e idioma")
+    plt.tight_layout()
+    plt.savefig(os.path.join(OUTPUT_DIR, "cm_layer_max_region_idioma.png"))
+    plt.close()
 
 def main() -> None:
     print(f"Leyendo datos desde {CSV_PATH}")
@@ -94,12 +106,13 @@ def main() -> None:
     # porque seaborn calcula barras con error por grupo.
     if "region" in df.columns and "language" in df.columns:
         plot_por_region_idioma(df)
-        print("Gráficas por región e idioma guardadas en 'Resumen Analisis'.")
+        plot_cm_por_region(df)   # NUEVO
+        print("Gráficas por región e idioma guardadas en 'Analisis Proyecto'.")
 
     if "variant" in df.columns:
         plot_por_variant(df)
         print("Gráficas por variant guardadas en 'Resumen Analisis'.")
-
+    
 
 if __name__ == "__main__":
     main()

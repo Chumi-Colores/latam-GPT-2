@@ -1,0 +1,473 @@
+fact_id,region,relation,subject,object,expected_answer,tracer_subject,language,variant,kind,layer_idx,layer_max,layer_mean
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,0,0.17650042474269867,0.17650040984153748
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,1,0.17650042474269867,0.17650040984153748
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,2,0.17650042474269867,0.17650040984153748
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,3,0.1863829642534256,0.17874886095523834
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,4,0.18341174721717834,0.1743549108505249
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,5,0.19762501120567322,0.17762529850006104
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,6,0.1884983479976654,0.17671921849250793
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,7,0.19320480525493622,0.1774543970823288
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,8,0.20043472945690155,0.1774619072675705
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,9,0.20510223507881165,0.1777496039867401
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,10,0.1883789598941803,0.1732725352048874
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,11,0.18074628710746765,0.16881024837493896
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_author_of,mlp,12,0.19978070259094238,0.17183755338191986
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,0,0.12327347695827484,0.11775362491607666
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,1,0.12883451581001282,0.11827422678470612
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,2,0.13082681596279144,0.12025310099124908
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,3,0.12415697425603867,0.11604269593954086
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,4,0.13950161635875702,0.1250598281621933
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,5,0.13795557618141174,0.12382679432630539
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,6,0.14122691750526428,0.11773497611284256
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,7,0.2503601908683777,0.14154821634292603
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,8,0.1329708993434906,0.12425798922777176
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,9,0.14709123969078064,0.12433617562055588
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,10,0.1360217034816742,0.12290358543395996
+eu_31318,Europe,es autor de la obra,Gilles de Paris,Cent poèmes contre le racisme,Cent poèmes contre le racisme,Cent poèmes contre le racisme,en,en_written_by,mlp,11,0.14772993326187134,0.1192619800567627
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,0,0.2395111620426178,0.239511176943779
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,1,0.2395111620426178,0.239511176943779
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,2,0.2395111620426178,0.239511176943779
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,3,0.24540333449840546,0.2268708348274231
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,4,0.24567165970802307,0.2327917367219925
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,5,0.2457381933927536,0.23656757175922394
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,6,0.25829872488975525,0.2421724796295166
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,7,0.2491343915462494,0.23694688081741333
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,8,0.34243839979171753,0.2566227316856384
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,9,0.2557697296142578,0.23482677340507507
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_author_of,mlp,10,0.2653021812438965,0.23555172979831696
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,0,0.08420006185770035,0.06552574783563614
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,1,0.07146928459405899,0.06241700425744057
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,2,0.0804520919919014,0.05956103280186653
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,3,0.07293756306171417,0.06089678779244423
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,4,0.07401781529188156,0.06129779294133186
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,5,0.08711948245763779,0.06268075108528137
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,6,0.06858106702566147,0.0603773333132267
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,7,0.07860518991947174,0.061372060328722
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,8,0.06719951331615448,0.0605042427778244
+eu_16563,Europe,es autor de la obra,Guy Verhofstadt,De ziekte van Europa,De ziekte van Europa,De ziekte van Europa,en,en_written_by,mlp,9,0.10150116682052612,0.07211548089981079
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,0,0.19038473069667816,0.19038474559783936
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,1,0.19038473069667816,0.19038474559783936
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,2,0.19038473069667816,0.19038474559783936
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,3,0.1983741968870163,0.19083040952682495
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,4,0.1970701664686203,0.19105063378810883
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,5,0.19771641492843628,0.1878071278333664
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,6,0.20562610030174255,0.1888396143913269
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,7,0.20144212245941162,0.18848828971385956
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,8,0.20931920409202576,0.18511301279067993
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_author_of,mlp,9,0.2273922860622406,0.18777363002300262
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,0,0.07834187150001526,0.05229463800787926
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,1,0.054621390998363495,0.04927845299243927
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,2,0.06556592136621475,0.05015753209590912
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,3,0.09464524686336517,0.05640630051493645
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,4,0.09805183112621307,0.0557277649641037
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,5,0.07176576554775238,0.051959119737148285
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,6,0.06474964320659637,0.05140296369791031
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,7,0.0551329031586647,0.04907320439815521
+eu_12344,Europe,es autor de la obra,Greg,A Couple from Manchester ...,A Couple from Manchester ...,A Couple from Manchester ...,en,en_written_by,mlp,8,0.089222751557827,0.061734989285469055
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,0,0.24072976410388947,0.24072973430156708
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,1,0.24072976410388947,0.24072973430156708
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,2,0.24072976410388947,0.24072973430156708
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,3,0.24657121300697327,0.23788616061210632
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,4,0.24260863661766052,0.23536819219589233
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,5,0.25837722420692444,0.2419739067554474
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,6,0.28365644812583923,0.24616827070713043
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,7,0.24778738617897034,0.2291599065065384
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,8,0.2653964161872864,0.23922236263751984
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,9,0.26721882820129395,0.23401683568954468
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,10,0.2914698123931885,0.250407874584198
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_author_of,mlp,11,0.2958856523036957,0.2408882975578308
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,0,0.1083860993385315,0.08586666733026505
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,1,0.08912438899278641,0.08382459729909897
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,2,0.12145642191171646,0.08736354112625122
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,3,0.10041286796331406,0.08447455614805222
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,4,0.09862177073955536,0.08531983941793442
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,5,0.09342631697654724,0.08289477229118347
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,6,0.10532164573669434,0.08779197186231613
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,7,0.09538336843252182,0.08471216261386871
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,8,0.09713853895664215,0.08471065759658813
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,9,0.09854111820459366,0.0837145447731018
+eu_107967,Europe,es autor de la obra,Sophie Kinsella,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,Shopaholic! In Alle Staten,en,en_written_by,mlp,10,0.10813726484775543,0.08972391486167908
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_base,mlp,0,0.16466927528381348,0.1646692454814911
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_base,mlp,1,0.16466927528381348,0.1646692454814911
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_base,mlp,2,0.16466927528381348,0.1646692454814911
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_base,mlp,3,0.23629915714263916,0.175026074051857
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_base,mlp,4,0.1874031126499176,0.16896210610866547
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_base,mlp,5,0.2069462239742279,0.1707029789686203
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_question,mlp,0,0.22243694961071014,0.2046365886926651
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_question,mlp,1,0.21589168906211853,0.19790151715278625
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_question,mlp,2,0.22522246837615967,0.20142093300819397
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_question,mlp,3,0.24107995629310608,0.2060384750366211
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_question,mlp,4,0.2042456865310669,0.19773709774017334
+eu_113577,Europe,es de nacionalidad,Alfred Kerr,United Kingdom,United Kingdom,Alfred Kerr,en,en_question,mlp,5,0.22331055998802185,0.20139949023723602
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,0,0.15376019477844238,0.15376016497612
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,1,0.15376019477844238,0.15376016497612
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,2,0.15376019477844238,0.15376016497612
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,3,0.16117393970489502,0.151574045419693
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,4,0.16800566017627716,0.15541762113571167
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,5,0.19724401831626892,0.15911608934402466
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,6,0.16336119174957275,0.153150275349617
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,7,0.17869025468826294,0.15246936678886414
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_base,mlp,8,0.19849297404289246,0.15260735154151917
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_question,mlp,0,0.31027549505233765,0.26236996054649353
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_question,mlp,1,0.2582314908504486,0.2459266483783722
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_question,mlp,2,0.3219018876552582,0.2625073492527008
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_question,mlp,3,0.2996024489402771,0.2579161524772644
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_question,mlp,4,0.2873493432998657,0.25123462080955505
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_question,mlp,5,0.2607356607913971,0.251507967710495
+eu_71926,Europe,es de nacionalidad,Raul Proença,Portugal,Portugal,Raul Proença,en,en_question,mlp,6,0.27550846338272095,0.22888630628585815
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_base,mlp,0,0.13560354709625244,0.13560353219509125
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_base,mlp,1,0.13560354709625244,0.13560353219509125
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_base,mlp,2,0.13560354709625244,0.13560353219509125
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_base,mlp,3,0.17790468037128448,0.14026443660259247
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_base,mlp,4,0.18111935257911682,0.14205020666122437
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_base,mlp,5,0.16735868155956268,0.1361713856458664
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_base,mlp,6,0.22576522827148438,0.15197430551052094
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_question,mlp,0,0.33235326409339905,0.3163999319076538
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_question,mlp,1,0.33072003722190857,0.3018469512462616
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_question,mlp,2,0.3633580803871155,0.31587666273117065
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_question,mlp,3,0.331021249294281,0.3181619346141815
+eu_39653,Europe,es de nacionalidad,Mathilde Raven,Germany,Germany,Mathilde Raven,en,en_question,mlp,4,0.3549627661705017,0.30067864060401917
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,0,0.1261732578277588,0.1261732280254364
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,1,0.1261732578277588,0.1261732280254364
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,2,0.1261732578277588,0.1261732280254364
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,3,0.14563195407390594,0.12699484825134277
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,4,0.13813413679599762,0.12724770605564117
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,5,0.1263526827096939,0.12178945541381836
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,6,0.13540759682655334,0.12176430225372314
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,7,0.14912858605384827,0.12535962462425232
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,8,0.1305554360151291,0.12531445920467377
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,9,0.13878627121448517,0.1267353743314743
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,10,0.14079754054546356,0.12530836462974548
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_base,mlp,11,0.14194805920124054,0.12180835753679276
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,0,0.2862664461135864,0.2657667398452759
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,1,0.30829232931137085,0.26615598797798157
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,2,0.2785627841949463,0.26137015223503113
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,3,0.27615150809288025,0.2598944902420044
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,4,0.2679891288280487,0.25063878297805786
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,5,0.2679952085018158,0.25647079944610596
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,6,0.28465908765792847,0.25784528255462646
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,7,0.2779875695705414,0.25134211778640747
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,8,0.27686649560928345,0.2592093050479889
+eu_89024,Europe,es de nacionalidad,Hjalmar Söderberg,Sweden,Sweden,Hjalmar Söderberg,en,en_question,mlp,9,0.3059726357460022,0.24783028662204742
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_from_year,mlp,0,0.10228093713521957,0.10228092968463898
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_from_year,mlp,1,0.10228093713521957,0.10228092968463898
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_from_year,mlp,2,0.11209321022033691,0.10082600265741348
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_from_year,mlp,3,0.10630062967538834,0.1020050197839737
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_from_year,mlp,4,0.10349209606647491,0.0998515784740448
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_from_year,mlp,5,0.10595549643039703,0.10315224528312683
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_from_year,mlp,6,0.1138351559638977,0.10483017563819885
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_published_in,mlp,0,0.18981119990348816,0.18981119990348816
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_published_in,mlp,1,0.18981119990348816,0.18981119990348816
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_published_in,mlp,2,0.20269063115119934,0.18319196999073029
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_published_in,mlp,3,0.19566898047924042,0.1882774829864502
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_published_in,mlp,4,0.20214013755321503,0.18720662593841553
+eu_127177,Europe,es del año,Extras,2006,2006,Extras,en,en_published_in,mlp,5,0.20705747604370117,0.1887398511171341
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,0,0.08398391306400299,0.08398391306400299
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,1,0.08398391306400299,0.08398391306400299
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,2,0.11222344636917114,0.09104714542627335
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,3,0.10146109759807587,0.08719301223754883
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,4,0.09553765505552292,0.0851387158036232
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,5,0.09358784556388855,0.08276700228452682
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,6,0.09356753528118134,0.0826009064912796
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,7,0.1071033701300621,0.09000636637210846
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,8,0.08879514038562775,0.08352906256914139
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,9,0.10376898944377899,0.08476326614618301
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,10,0.09051604568958282,0.08141385763883591
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,11,0.09015142917633057,0.08381348848342896
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,12,0.10147261619567871,0.08821519464254379
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,13,0.08789355307817459,0.08206819742918015
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,14,0.08852343261241913,0.08392488211393356
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,15,0.08619068562984467,0.08391183614730835
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_from_year,mlp,16,0.11502357572317123,0.08892342448234558
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,0,0.20967333018779755,0.20967334508895874
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,1,0.20967333018779755,0.20967334508895874
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,2,0.22207781672477722,0.20259051024913788
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,3,0.21794173121452332,0.2056502401828766
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,4,0.21648986637592316,0.20789159834384918
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,5,0.23709015548229218,0.21346014738082886
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,6,0.23356899619102478,0.2095884382724762
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,7,0.22557218372821808,0.2124597132205963
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,8,0.24204544723033905,0.21099819242954254
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,9,0.21620526909828186,0.20171323418617249
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,10,0.24849753081798553,0.2097165435552597
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,11,0.22564157843589783,0.21242696046829224
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,12,0.21867461502552032,0.20607712864875793
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,13,0.23187783360481262,0.21047812700271606
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,14,0.2256457358598709,0.20427605509757996
+eu_92810,Europe,es del año,Der fünfte Winter des Magnetiseurs,2004,2004,Der fünfte Winter des Magnetiseurs,en,en_published_in,mlp,15,0.2128867655992508,0.18302246928215027
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,0,0.048186369240283966,0.04818637669086456
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,1,0.048186369240283966,0.04818637669086456
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,2,0.055320657789707184,0.04899595305323601
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,3,0.06531129777431488,0.05284916236996651
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,4,0.05471351742744446,0.048455193638801575
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,5,0.06092347949743271,0.04991811886429787
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,6,0.059785984456539154,0.04724001884460449
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,7,0.061112236231565475,0.05162094533443451
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,8,0.0505070798099041,0.04767070338129997
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,9,0.050223469734191895,0.04761762171983719
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,10,0.050016701221466064,0.048482730984687805
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_from_year,mlp,11,0.0719652771949768,0.053941622376441956
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,0,0.1734786331653595,0.1734786331653595
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,1,0.1734786331653595,0.1734786331653595
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,2,0.19233258068561554,0.1714230328798294
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,3,0.21725723147392273,0.1798960268497467
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,4,0.20926924049854279,0.17517739534378052
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,5,0.1956416517496109,0.174601748585701
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,6,0.17422670125961304,0.170084148645401
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,7,0.18684247136116028,0.17676697671413422
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,8,0.19304335117340088,0.17416265606880188
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,9,0.19521543383598328,0.1746426671743393
+eu_10688,Europe,es del año,Das geheime Brot,1984,1984,Das geheime Brot,en,en_published_in,mlp,10,0.20310620963573456,0.1825680285692215
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_from_year,mlp,0,0.11064589023590088,0.11064587533473969
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_from_year,mlp,1,0.11064589023590088,0.11064587533473969
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_from_year,mlp,2,0.12776803970336914,0.11275426298379898
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_from_year,mlp,3,0.11755480617284775,0.10554453730583191
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_from_year,mlp,4,0.12040889263153076,0.11242706328630447
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_from_year,mlp,5,0.11625383794307709,0.10994789749383926
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_from_year,mlp,6,0.11710840463638306,0.11158093810081482
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_from_year,mlp,7,0.1277681291103363,0.11431305855512619
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_published_in,mlp,0,0.23833942413330078,0.23833942413330078
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_published_in,mlp,1,0.23833942413330078,0.23833942413330078
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_published_in,mlp,2,0.2774941921234131,0.22385162115097046
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_published_in,mlp,3,0.30706435441970825,0.2404523640871048
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_published_in,mlp,4,0.2446012794971466,0.2347693145275116
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_published_in,mlp,5,0.2663971483707428,0.23650524020195007
+eu_100996,Europe,es del año,Passagen,1991,1991,Passagen,en,en_published_in,mlp,6,0.24575428664684296,0.22554844617843628
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,0,0.3180076777935028,0.3180076479911804
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,1,0.3180076777935028,0.3180076479911804
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,2,0.3180076777935028,0.3180076479911804
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,3,0.3376592993736267,0.31925734877586365
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,4,0.3409338891506195,0.3180609345436096
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,5,0.33387044072151184,0.3175327777862549
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,6,0.3272348940372467,0.31900879740715027
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,7,0.36853593587875366,0.3265700042247772
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,8,0.32205453515052795,0.31295859813690186
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,9,0.3240627646446228,0.31607839465141296
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,10,0.3367476165294647,0.32258617877960205
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,11,0.34267696738243103,0.3227088451385498
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,12,0.32771533727645874,0.31808170676231384
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,13,0.3294380307197571,0.31759607791900635
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,14,0.33178210258483887,0.3159291446208954
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,15,0.3278067708015442,0.3178327679634094
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,16,0.33503907918930054,0.3208906948566437
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,17,0.33818143606185913,0.32078394293785095
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,18,0.33329400420188904,0.32112619280815125
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,19,0.37809455394744873,0.32274749875068665
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_author_of,mlp,20,0.36223071813583374,0.3190397322177887
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,0,0.06913764774799347,0.062178630381822586
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,1,0.06880487501621246,0.06363194435834885
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,2,0.07901313900947571,0.06404586136341095
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,3,0.0733088031411171,0.06360576301813126
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,4,0.07223261892795563,0.062249474227428436
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,5,0.07196737825870514,0.062432996928691864
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,6,0.06411303579807281,0.06178639456629753
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,7,0.06886885315179825,0.06314598023891449
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,8,0.0746997818350792,0.06278698146343231
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,9,0.0737728625535965,0.06327661871910095
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,10,0.06762170046567917,0.06266531348228455
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,11,0.06793344765901566,0.06334910541772842
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,12,0.06615526229143143,0.06239645928144455
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,13,0.06787167489528656,0.06260374188423157
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,14,0.06423469632863998,0.06205875426530838
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,15,0.06514278799295425,0.06199714168906212
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,16,0.07210206240415573,0.06242283061146736
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,17,0.06568796932697296,0.06066470593214035
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,18,0.06254487484693527,0.05772949755191803
+eu_14160,Latin America,es autor de la obra,María de la Luz Uribe,Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),Dona Pinones (Coleccion Rimas Y Adivinanzas),en,en_written_by,mlp,19,0.10037058591842651,0.06930438429117203
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,0,0.2105945646762848,0.21059457957744598
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,1,0.2105945646762848,0.21059457957744598
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,2,0.2105945646762848,0.21059457957744598
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,3,0.2331293821334839,0.2142539918422699
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,4,0.23885893821716309,0.2137046456336975
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,5,0.26400989294052124,0.2202668935060501
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,6,0.23079891502857208,0.21106785535812378
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,7,0.21654286980628967,0.20049087703227997
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,8,0.252677857875824,0.21321940422058105
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,9,0.27218374609947205,0.21782930195331573
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_author_of,mlp,10,0.24041533470153809,0.21580344438552856
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,0,0.14311420917510986,0.11590063571929932
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,1,0.15564249455928802,0.10647419840097427
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,2,0.17459653317928314,0.1425042748451233
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,3,0.182451069355011,0.14142170548439026
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,4,0.15025594830513,0.13313181698322296
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,5,0.1426372230052948,0.1250050663948059
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,6,0.14363783597946167,0.12369520217180252
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,7,0.15100057423114777,0.1257900595664978
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,8,0.14302130043506622,0.12690210342407227
+eu_9114,Latin America,es autor de la obra,Óscar Ugarteche,Historia Critica del FMI,Historia Critica del FMI,Historia Critica del FMI,en,en_written_by,mlp,9,0.20794419944286346,0.1273900717496872
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,0,0.23978886008262634,0.23978887498378754
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,1,0.23978886008262634,0.23978887498378754
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,2,0.23978886008262634,0.23978887498378754
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,3,0.24847741425037384,0.2379867434501648
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,4,0.2615005671977997,0.23906826972961426
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,5,0.2806909382343292,0.24532222747802734
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,6,0.25388604402542114,0.23870913684368134
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,7,0.253456711769104,0.23553058505058289
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_author_of,mlp,8,0.2831594944000244,0.23704957962036133
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_written_by,mlp,0,0.09258745610713959,0.08965856581926346
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_written_by,mlp,1,0.1074543222784996,0.09445146471261978
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_written_by,mlp,2,0.10065750777721405,0.0929323062300682
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_written_by,mlp,3,0.10821530967950821,0.09424120932817459
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_written_by,mlp,4,0.10211794078350067,0.09207887947559357
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_written_by,mlp,5,0.0963781327009201,0.09178973734378815
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_written_by,mlp,6,0.09619779884815216,0.09218084812164307
+eu_48,Latin America,es autor de la obra,Luis Barrera Linares,Memoria y cuento,Memoria y cuento,Memoria y cuento,en,en_written_by,mlp,7,0.12020423263311386,0.0960427075624466
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,0,0.23006124794483185,0.23006123304367065
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,1,0.23006124794483185,0.23006123304367065
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,2,0.23006124794483185,0.23006123304367065
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,3,0.2368268519639969,0.2285636067390442
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,4,0.2719128131866455,0.23435312509536743
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,5,0.23638348281383514,0.22814196348190308
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,6,0.2535514235496521,0.23458698391914368
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,7,0.2651212215423584,0.23398293554782867
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,8,0.24345318973064423,0.2291661649942398
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,9,0.25425300002098083,0.23238402605056763
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_author_of,mlp,10,0.26847782731056213,0.2328193187713623
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,0,0.17282646894454956,0.08978111296892166
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,1,0.10324068367481232,0.08036106079816818
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,2,0.12106378376483917,0.08247090131044388
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,3,0.09766709804534912,0.07914077490568161
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,4,0.14813736081123352,0.08530406653881073
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,5,0.1073489785194397,0.08421402424573898
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,6,0.11440996080636978,0.07769595831632614
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,7,0.12067685276269913,0.08164701610803604
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,8,0.10056868940591812,0.07743222266435623
+eu_7898,Latin America,es autor de la obra,Ramón Rocha Monroy,La Sombra del tambor,La Sombra del tambor,La Sombra del tambor,en,en_written_by,mlp,9,0.20547452569007874,0.10648901015520096
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,0,0.13031259179115295,0.13031257688999176
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,1,0.13031259179115295,0.13031257688999176
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,2,0.13031259179115295,0.13031257688999176
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,3,0.1466832011938095,0.1329590529203415
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,4,0.14236381649971008,0.1330697387456894
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,5,0.1353674829006195,0.13036508858203888
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,6,0.1443370133638382,0.13092663884162903
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,7,0.13965833187103271,0.1292848438024521
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,8,0.13556280732154846,0.12724512815475464
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,9,0.13984930515289307,0.129191055893898
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_base,mlp,10,0.16629904508590698,0.13396990299224854
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,0,0.26758939027786255,0.2558765113353729
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,1,0.2779137194156647,0.2455846667289734
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,2,0.28566592931747437,0.2598714828491211
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,3,0.28637203574180603,0.25795814394950867
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,4,0.263837993144989,0.2521325945854187
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,5,0.2802734971046448,0.25340408086776733
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,6,0.26573100686073303,0.2369859516620636
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,7,0.27461639046669006,0.2512529194355011
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,8,0.2770601212978363,0.2585891783237457
+eu_14560,Latin America,es de nacionalidad,Julio Retamal Favereau,chilena,chilena,Julio Retamal Favereau,en,en_question,mlp,9,0.2694723308086395,0.23964786529541016
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,0,0.1539125144481659,0.1539125144481659
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,1,0.1539125144481659,0.1539125144481659
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,2,0.1539125144481659,0.1539125144481659
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,3,0.16624614596366882,0.15375754237174988
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,4,0.18987058103084564,0.15407085418701172
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,5,0.20079636573791504,0.15310567617416382
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,6,0.15986868739128113,0.1439167857170105
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,7,0.19282560050487518,0.16091284155845642
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_base,mlp,8,0.20005235075950623,0.15827004611492157
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_question,mlp,0,0.38647982478141785,0.3234485685825348
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_question,mlp,1,0.42569270730018616,0.3722180724143982
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_question,mlp,2,0.3905298113822937,0.3552723526954651
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_question,mlp,3,0.3738153874874115,0.35294872522354126
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_question,mlp,4,0.36876198649406433,0.34712594747543335
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_question,mlp,5,0.37003248929977417,0.34160953760147095
+eu_213,Latin America,es de nacionalidad,Aníbal Dominici,venezolana,venezolana,Aníbal Dominici,en,en_question,mlp,6,0.37527626752853394,0.2986689805984497
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_base,mlp,0,0.12650814652442932,0.12650816142559052
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_base,mlp,1,0.12650814652442932,0.12650816142559052
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_base,mlp,2,0.12650814652442932,0.12650816142559052
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_base,mlp,3,0.17508366703987122,0.13667425513267517
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_base,mlp,4,0.14850133657455444,0.12964969873428345
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_base,mlp,5,0.15334373712539673,0.12937836349010468
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_base,mlp,6,0.16530606150627136,0.1332300901412964
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_question,mlp,0,0.3084031641483307,0.25588640570640564
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_question,mlp,1,0.27799710631370544,0.2551614046096802
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_question,mlp,2,0.25233888626098633,0.23780423402786255
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_question,mlp,3,0.2746824324131012,0.2470809817314148
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_question,mlp,4,0.2605082094669342,0.23397009074687958
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_question,mlp,5,0.2663220465183258,0.24657872319221497
+eu_11032,Latin America,es de nacionalidad,José Gobello,argentina,argentina,José Gobello,en,en_question,mlp,6,0.28178077936172485,0.23330937325954437
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_base,mlp,0,0.17921973764896393,0.17921973764896393
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_base,mlp,1,0.17921973764896393,0.17921973764896393
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_base,mlp,2,0.17921973764896393,0.17921973764896393
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_base,mlp,3,0.21201714873313904,0.18152113258838654
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_base,mlp,4,0.19451318681240082,0.178864985704422
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_base,mlp,5,0.21346144378185272,0.1869543045759201
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_base,mlp,6,0.2347489595413208,0.19014829397201538
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_question,mlp,0,0.1763811856508255,0.17340701818466187
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_question,mlp,1,0.19760379195213318,0.17274056375026703
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_question,mlp,2,0.199977844953537,0.17979179322719574
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_question,mlp,3,0.1878330558538437,0.17725540697574615
+eu_11308,Latin America,es de nacionalidad,James Neilson,argentina,argentina,James Neilson,en,en_question,mlp,4,0.22775311768054962,0.18871262669563293
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,0,0.20967018604278564,0.17607395350933075
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,1,0.2147161066532135,0.18385477364063263
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,2,0.21815748512744904,0.1778123527765274
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,3,0.19967827200889587,0.1770150065422058
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,4,0.24824300408363342,0.19089221954345703
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,5,0.18944388628005981,0.17789694666862488
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,6,0.24705389142036438,0.17855089902877808
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,7,0.20383663475513458,0.1795467734336853
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,8,0.19748005270957947,0.18012294173240662
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,9,0.1803228110074997,0.17137238383293152
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,10,0.21942469477653503,0.18510039150714874
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,11,0.18504613637924194,0.17271696031093597
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,12,0.2705005705356598,0.1874733567237854
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,13,0.18618038296699524,0.172774538397789
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,14,0.1909337043762207,0.17698907852172852
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,15,0.19481618702411652,0.17830151319503784
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,16,0.1816922277212143,0.1754039078950882
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,17,0.18435493111610413,0.17745456099510193
+eu_20803,Latin America,fue publicada en el año,El Corazón a contraluz,1996,1996,El Corazón a contraluz,en,en_generic,mlp,18,0.20953795313835144,0.18454813957214355
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,0,0.26487842202186584,0.16317051649093628
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,1,0.24337172508239746,0.1639094203710556
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,2,0.16516317427158356,0.15379329025745392
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,3,0.1898260861635208,0.15658973157405853
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,4,0.23945412039756775,0.16796153783798218
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,5,0.2149183303117752,0.16312769055366516
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,6,0.22819676995277405,0.16459903120994568
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,7,0.22893814742565155,0.1657686084508896
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,8,0.19790220260620117,0.16049344837665558
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,9,0.1630972921848297,0.15280769765377045
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,10,0.18031874299049377,0.15489721298217773
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,11,0.1682666838169098,0.1539478898048401
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,12,0.17838512361049652,0.1557706743478775
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,13,0.1619677096605301,0.15466254949569702
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,14,0.15890464186668396,0.15430708229541779
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,15,0.16454733908176422,0.15664221346378326
+eu_17680,Latin America,fue publicada en el año,Fábulas y verdades,1995,1995,Fábulas y verdades,en,en_generic,mlp,16,0.21006600558757782,0.16961811482906342
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,0,0.1954905390739441,0.14973515272140503
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,1,0.22190240025520325,0.15438883006572723
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,2,0.17527875304222107,0.14649547636508942
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,3,0.19049569964408875,0.15346725285053253
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,4,0.17871887981891632,0.1504221111536026
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,5,0.2188948392868042,0.14717219769954681
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,6,0.16147877275943756,0.14692464470863342
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,7,0.16894316673278809,0.14522622525691986
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,8,0.191935732960701,0.15158075094223022
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,9,0.15347740054130554,0.1436821073293686
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,10,0.15826964378356934,0.14533346891403198
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,11,0.1545323133468628,0.14122194051742554
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,12,0.1634264439344406,0.14760039746761322
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,13,0.15435108542442322,0.14698047935962677
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,14,0.14909948408603668,0.1452578604221344
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,15,0.15525303781032562,0.14722447097301483
+eu_18361,Latin America,fue publicada en el año,La cacería del caballero,2006,2006,La cacería del caballero,en,en_generic,mlp,16,0.1962428241968155,0.16410097479820251
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,0,0.12098680436611176,0.11545271426439285
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,1,0.14673994481563568,0.1238378956913948
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,2,0.15039336681365967,0.12049538642168045
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,3,0.1863372027873993,0.12444044649600983
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,4,0.12440571933984756,0.11572151631116867
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,5,0.13457614183425903,0.11854812502861023
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,6,0.11803589761257172,0.11400612443685532
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,7,0.12735483050346375,0.11633406579494476
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,8,0.12184049189090729,0.11602907627820969
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,9,0.12422021478414536,0.11678747087717056
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,10,0.11683491617441177,0.11216669529676437
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,11,0.12667179107666016,0.11524473130702972
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,12,0.14363452792167664,0.1194729134440422
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,13,0.13633885979652405,0.120157390832901
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,14,0.1223130077123642,0.11499880254268646
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,15,0.11706925928592682,0.11339570581912994
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,16,0.12213951349258423,0.11360389739274979
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,17,0.12111307680606842,0.11580812931060791
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,18,0.12439212948083878,0.11694452166557312
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,19,0.11963395029306412,0.11542794108390808
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,20,0.11856986582279205,0.1165134608745575
+eu_17503,Latin America,fue publicada en el año,El día que en el fútbol murió,2012,2012,El día que en el fútbol murió,en,en_generic,mlp,21,0.16235141456127167,0.12846355140209198

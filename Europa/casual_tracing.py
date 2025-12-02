@@ -34,7 +34,7 @@ df_europe_filtrado = df_europe[df_europe["relation"].isin(RELACIONES_VALIDAS)]
 df_latinoamerica_filtrado = df_latinoamerica[df_latinoamerica["relation"].isin(RELACIONES_VALIDAS)]
 
 # Voy a tomar 30 de cada relacion
-N_PER_REL = 30
+N_PER_REL = 4
 df_europe_sampled = (
     df_europe_filtrado
     .groupby("relation", group_keys=False)
@@ -148,7 +148,7 @@ def generate_queries(fact):
              "prompt": f"The book {obj} is by"}
         ]
 
-    elif relation == "es del año":
+    elif relation == "es del año" or relation == "fue publicada en el año":
 
         queries += [
             {"language": "es", "variant": "es_anio_de",
@@ -209,12 +209,18 @@ def summarize_flow(flow) -> Dict:
     Hacemos algo simple: max y mean por capa.
     """
     scores = flow.scores.detach().cpu().numpy()  # shape approx (layers, tokens)
-    layer_max = scores.max(axis=-1)              # max sobre tokens → [layers]
-    layer_mean = scores.mean(axis=-1)            # mean sobre tokens → [layers]
+    layer_max = scores.max(axis=-1)              # max sobre tokens f [layers]
+    layer_mean = scores.mean(axis=-1)            # mean sobre tokens f [layers]
+
+    # Centro de masa de la activación a lo largo de las capas (usando layer_max)
+    indices = np.arange(layer_max.shape[0])
+    denom = layer_max.sum() if layer_max.sum() != 0 else 1.0
+    cm_layer_max = float((indices * layer_max).sum() / denom)
 
     return {
         "layer_max": layer_max,
         "layer_mean": layer_mean,
+        "cm_layer_max": cm_layer_max,
         "n_layers": scores.shape[0],
         "n_tokens": scores.shape[1] if scores.ndim > 1 else 1,
         "answer": flow.answer,
@@ -259,8 +265,9 @@ def is_answer_correct(answer: str, expected: str) -> bool:
 
 
 def main(max_facts: int = None, max_variants_per_fact: int = 2,
-         output_path: str = "causal_traces_summary.csv") -> None:
+        output_path: str = "causal_traces_summary.csv") -> None:
     rows = []
+    layer_rows: List[Dict] = []
     facts_eu = FACTS_EUROPE if max_facts is None else FACTS_EUROPE[:max_facts]
     facts_la = FACTS_LATINOAMERICA if max_facts is None else FACTS_LATINOAMERICA[:max_facts]
     facts = facts_eu + facts_la
@@ -322,6 +329,7 @@ def main(max_facts: int = None, max_variants_per_fact: int = 2,
                 "kind": summary["kind"],
                 "answer": answer,
                 "is_correct": correct,
+                "cm_layer_max": summary["cm_layer_max"],
                 "n_layers": summary["n_layers"],
                 "n_tokens": summary["n_tokens"],
                 "mean_layer_max": float(summary["layer_max"].mean()),
@@ -332,12 +340,50 @@ def main(max_facts: int = None, max_variants_per_fact: int = 2,
 
             rows.append(row)
 
-    df_results = pd.DataFrame(rows)
-    print(df_results.head())
+            # Perfiles por capa para este experimento
+            for layer_idx, (lm, lmean) in enumerate(zip(summary["layer_max"], summary["layer_mean"])):
+                layer_rows.append({
+                    "fact_id": fact_id,
+                    "region": region,
+                    "relation": relation,
+                    "subject": subject,
+                    "object": obj,
+                    "expected_answer": expected_answer,
+                    "tracer_subject": tracer_subject,
+                    "language": language,
+                    "variant": variant,
+                    "kind": summary["kind"],
+                    "layer_idx": layer_idx,
+                    "layer_max": float(lm),
+                    "layer_mean": float(lmean),
+                })
 
-    output_full_path = os.path.join(BASE_DIR, output_path)
-    df_results.to_csv(output_full_path, index=False)
-    print(f"Resultados guardados en {output_full_path}")
+            # Guardar progreso parcial después de cada experimento
+            try:
+                if rows:
+                    df_results = pd.DataFrame(rows)
+                    output_full_path = os.path.join(BASE_DIR, output_path)
+                    df_results.to_csv(output_full_path, index=False)
+
+                if layer_rows:
+                    df_layers = pd.DataFrame(layer_rows)
+                    layers_path = os.path.join(BASE_DIR, "causal_traces_layers.csv")
+                    df_layers.to_csv(layers_path, index=False)
+            except Exception as e:
+                print(f"[WARN] No se pudo guardar el progreso parcial: {e}")
+
+    # Guardado final (por si se completó todo sin interrupciones)
+    if rows:
+        df_results = pd.DataFrame(rows)
+        output_full_path = os.path.join(BASE_DIR, output_path)
+        df_results.to_csv(output_full_path, index=False)
+        print(f"Resultados agregados guardados en {output_full_path}")
+
+    if layer_rows:
+        df_layers = pd.DataFrame(layer_rows)
+        layers_path = os.path.join(BASE_DIR, "causal_traces_layers.csv")
+        df_layers.to_csv(layers_path, index=False)
+        print(f"Perfiles por capa guardados en {layers_path}")
 
 
 if __name__ == "__main__":
