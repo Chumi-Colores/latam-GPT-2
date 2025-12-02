@@ -323,32 +323,198 @@ class CausalTracer:
             cbar_kws={'label': 'Normalized Causal Impact'}
         )
         
-        plt.xlabel("Token Position")
-        plt.ylabel("Layer Depth")
-        plt.title(f"Causal Trace: '{result.subject}' on {result.model_name}")
-        plt.xticks(rotation=45, ha='right')
+        plt.xlabel("Token Position", fontsize=16)
+        plt.ylabel("Layer Depth", fontsize=16)
+        plt.title(f"Causal Trace: '{result.subject}' on {result.model_name}", fontsize=20)
+        plt.xticks(rotation=45, ha='right', fontsize=14)
+        plt.yticks(fontsize=14)
         plt.tight_layout()
         plt.show()
 
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from typing import List, Dict
+
+@dataclass
+class KnowledgeTriplet:
+    subject: str
+    relation_template: str
+    target: str
+    region: str # 'LatAm' or 'GlobalNorth'
+
+class ComparativeExperiment:
+    def __init__(self, tracer: CausalTracer):
+        self.tracer = tracer
+        self.results = {"LatAm": [], "GlobalNorth": []}
+    
+    def run_experiment(self, triplets: List[KnowledgeTriplet]):
+        print(f"--> Iniciando experimento con {len(triplets)} tripletas...")
+        
+        for item in triplets:
+            prompt = item.relation_template.format(item.subject)
+            try:
+                result = self.tracer.trace(
+                    prompt=prompt, 
+                    subject=item.subject, 
+                    specific_target=item.target,
+                    noise_scale=0.1
+                )
+                
+                # Identificamos índices para métricas agregadas
+                _, s_idx, e_idx = self.tracer._get_token_indices(prompt, item.subject)
+                last_subject_idx = e_idx - 1
+                subject_impact = result.scores[:, last_subject_idx]
+                
+                self.results[item.region].append({
+                    "subject_impact": subject_impact,
+                    "full_scores": result.scores,
+                    "subject": item.subject,
+                    "tokens": result.tokens  # <--- [NUEVO] Guardamos los tokens aquí
+                })
+                
+            except Exception as e:
+                print(f"Error procesando {item.subject}: {e}")
+
+    def plot_comparative_heatmaps(self, subject_latam: str, subject_north: str):
+        res_latam = next((r for r in self.results["LatAm"] if r["subject"] == subject_latam), None)
+        res_north = next((r for r in self.results["GlobalNorth"] if r["subject"] == subject_north), None)
+        
+        if not res_latam or not res_north:
+            print("No se encontraron los sujetos especificados.")
+            return
+
+        # Ajuste de figura
+        fig, axes = plt.subplots(1, 2, figsize=(22, 8), sharey=True)
+        
+        # Escala de color unificada
+        max_val = max(res_latam["full_scores"].max(), res_north["full_scores"].max())
+        
+        # --- Gráfico LatAm ---
+        sns.heatmap(
+            res_latam["full_scores"],
+            ax=axes[0],
+            cmap="Purples",
+            vmin=0, vmax=max_val,
+            cbar=False,
+            xticklabels=res_latam["tokens"],  # <--- [NUEVO] Asignamos los tokens
+            yticklabels=True
+        )
+        axes[0].set_title(f"LatAm: {subject_latam}", fontsize=20)
+        axes[0].set_xlabel("Token Position", fontsize=16)
+        axes[0].set_ylabel("Layer Depth", fontsize=16)
+        axes[0].set_xticklabels(res_latam["tokens"], rotation=45, ha='right', fontsize=14) # Rotación para lectura
+        axes[0].tick_params(axis='y', labelsize=14)
+        
+        # --- Gráfico Global North ---
+        sns.heatmap(
+            res_north["full_scores"],
+            ax=axes[1],
+            cmap="Purples",
+            vmin=0, vmax=max_val,
+            cbar=True,
+            cbar_kws={'label': 'Normalized Causal Impact'},
+            xticklabels=res_north["tokens"],  # <--- [NUEVO] Asignamos los tokens
+            yticklabels=False # Ocultamos Y labels repetidos
+        )
+        axes[1].set_title(f"Global North: {subject_north}", fontsize=20)
+        axes[1].set_xlabel("Token Position", fontsize=16)
+        axes[1].set_xticklabels(res_north["tokens"], rotation=45, ha='right', fontsize=14) # Rotación para lectura
+
+        plt.suptitle(f"Comparación Topológica: {subject_latam} vs {subject_north}", fontsize=24)
+        plt.tight_layout()
+        plt.show()
+
+    def analyze_and_plot(self):
+        # Preparar datos para visualizar
+        # Vamos a comparar el perfil de capas (Layer Depth) vs Impacto en el Sujeto
+        
+        avg_impact = {}
+        std_impact = {}
+        
+        plt.figure(figsize=(14, 6))
+        
+        # Subplot 1: Perfil de Activación por Capas (Line Plot)
+        plt.subplot(1, 2, 1)
+        
+        colors = {"LatAm": "orange", "GlobalNorth": "blue"}
+        
+        for region in ["LatAm", "GlobalNorth"]:
+            data = [r["subject_impact"] for r in self.results[region]]
+            if not data: continue
+            
+            # Stack data: (n_samples, n_layers)
+            stack = np.stack(data)
+            mean_curve = np.mean(stack, axis=0)
+            std_curve = np.std(stack, axis=0)
+            
+            avg_impact[region] = mean_curve
+            
+            x = range(len(mean_curve))
+            plt.plot(x, mean_curve, label=f"{region} (n={len(data)})", color=colors[region], linewidth=2)
+            plt.fill_between(x, mean_curve - std_curve, mean_curve + std_curve, color=colors[region], alpha=0.2)
+            
+        plt.title("Impacto Causal Promedio en el Último Token del Sujeto", fontsize=18)
+        plt.xlabel("Profundidad de la Capa", fontsize=16)
+        plt.ylabel("Impacto Causal Normalizado", fontsize=16)
+        plt.legend(fontsize=14)
+        plt.xticks(fontsize=14)
+        plt.yticks(fontsize=14)
+        plt.grid(True, alpha=0.3)
+
+        # Subplot 2: Mapa de Calor Diferencial (Aggregation)
+        # Para hacer un heatmap promedio, necesitamos una dimensión X fija.
+        # Tomaremos: [Subject_Last_Token, Next_Token, ..., Last_Prompt_Token]
+        # Simplificación: Visualizaremos la diferencia en el vector de capas (eje Y) 
+        # para el token del sujeto (el más crítico según ROME).
+        
+        plt.subplot(1, 2, 2)
+        if "LatAm" in avg_impact and "GlobalNorth" in avg_impact:
+            # Asegurar mismas dimensiones
+            min_len = min(len(avg_impact["LatAm"]), len(avg_impact["GlobalNorth"]))
+            diff = avg_impact["GlobalNorth"][:min_len] - avg_impact["LatAm"][:min_len]
+            
+            # Crear heatmap vertical de una columna
+            sns.heatmap(diff.reshape(-1, 1), cmap="RdBu_r", center=0, annot=True, fmt=".2f",
+                       yticklabels=True, xticklabels=["Diff (North - LatAm)"], annot_kws={"size": 12})
+            plt.title("Diferencial de Localización (Norte - LatAm)", fontsize=18)
+            plt.ylabel("Capa", fontsize=16)
+            plt.yticks(fontsize=14)
+            plt.xticks(fontsize=14)
+        
+        plt.tight_layout()
+        plt.show()
+
+# --- DEFINICIÓN DE DATOS Y EJECUCIÓN ---
+
 if __name__ == "__main__":
-    from dotenv import load_dotenv
-    load_dotenv()
+    # Configuración
+    MODEL_ID = "google/gemma-2-2b" # O tu modelo de preferencia
+    HF_TOKEN = os.getenv("HF_TOKEN")
     
-    # Configuration
-    # Use a smaller model for quick testing if needed, e.g., "gpt2"
-    MODEL_ID = "google/gemma-2-2b" 
+    # Instanciar el Tracer original
+    tracer = CausalTracer(MODEL_ID, token=HF_TOKEN)
     
-    try:
-        tracer = CausalTracer(MODEL_ID, os.getenv("HF_TOKEN"))
+    # Definir el Dataset (Sujeto, Relación, Objeto)
+    # Nota: Usamos inglés para consistencia con modelos base, pero medimos entidades regionales.
+    template = "The capital of {} is"
+    # template = "La capital de {} es"
+    
+    dataset = [
+        # LATAM
+        KnowledgeTriplet("Chile", template, "Santiago", "LatAm"),
+        KnowledgeTriplet("Peru", template, "Lima", "LatAm"),
+        KnowledgeTriplet("Uruguay", template, "Montevideo", "LatAm"),
         
-        # Example 1: Factual Recall
-        prompt = "The capital if Peru is"
-        subject = "Peru"
-        target = "Lima"
-        
-        result = tracer.trace(prompt, subject, specific_target=target)
-        tracer.plot_results(result)
-        
-    except Exception as e:
-        import traceback
-        traceback.print_exc()
+        # GLOBAL NORTH
+        KnowledgeTriplet("France", template, "Paris", "GlobalNorth"),
+        KnowledgeTriplet("Japan", template, "Tokyo", "GlobalNorth"),
+        KnowledgeTriplet("Canada", template, "Ottawa", "GlobalNorth"),
+    ]
+    
+    # Correr Experimento
+    exp = ComparativeExperiment(tracer)
+    exp.run_experiment(dataset)
+    # exp.analyze_and_plot()
+    exp.plot_comparative_heatmaps("Chile", "Canada")
+    exp.plot_comparative_heatmaps("Peru", "Japan")
