@@ -1,3 +1,4 @@
+#%%
 import torch
 import torch.nn as nn
 import numpy as np
@@ -164,7 +165,7 @@ class CausalTracer:
         finally:
             handle.remove()
 
-    def trace(self, prompt: str, subject: str, noise_scale: float = 0.15, specific_target: str = None, batch_size: int = 10) -> CausalTraceResult:
+    def trace(self, prompt: str, subject: str, noise_scale: float = 0.25, specific_target: str = None, batch_size: int = 10) -> CausalTraceResult:
         ids, s_idx, e_idx = self._get_token_indices(prompt, subject)
         
         # --- 1. Setup Target ID ---
@@ -376,7 +377,7 @@ class ComparativeExperiment:
             except Exception as e:
                 print(f"Error procesando {item.subject}: {e}")
 
-    def plot_comparative_heatmaps(self, subject_latam: str, subject_north: str):
+    def plot_comparative_heatmaps(self, subject_latam: str, subject_north: str, idiom: str):
         res_latam = next((r for r in self.results["LatAm"] if r["subject"] == subject_latam), None)
         res_north = next((r for r in self.results["GlobalNorth"] if r["subject"] == subject_north), None)
         
@@ -385,11 +386,26 @@ class ComparativeExperiment:
             return
 
         # Ajuste de figura
-        fig, axes = plt.subplots(1, 2, figsize=(22, 8), sharey=True)
+        fig, axes = plt.subplots(1, 2, figsize=(22, 8))
         
         # Escala de color unificada
         max_val = max(res_latam["full_scores"].max(), res_north["full_scores"].max())
         
+        # Generar etiquetas para capas (similar a plot_results)
+        num_layers = res_latam["full_scores"].shape[0]
+        yticklabels = ["Emb"] + [str(i) for i in range(num_layers - 1)]
+        
+        if len(yticklabels) > 20:
+            sparse_labels = []
+            for i, label in enumerate(yticklabels):
+                if i == 0 or label == "Emb":
+                    sparse_labels.append(label)
+                elif label.isdigit() and int(label) % 5 == 0:
+                    sparse_labels.append(label)
+                else:
+                    sparse_labels.append("")
+            yticklabels = sparse_labels
+
         # --- Gráfico LatAm ---
         sns.heatmap(
             res_latam["full_scores"],
@@ -397,13 +413,14 @@ class ComparativeExperiment:
             cmap="Purples",
             vmin=0, vmax=max_val,
             cbar=False,
-            xticklabels=res_latam["tokens"],  # <--- [NUEVO] Asignamos los tokens
-            yticklabels=True
+            xticklabels=res_latam["tokens"],
+            yticklabels=yticklabels
         )
         axes[0].set_title(f"LatAm: {subject_latam}", fontsize=20)
         axes[0].set_xlabel("Token Position", fontsize=16)
         axes[0].set_ylabel("Layer Depth", fontsize=16)
-        axes[0].set_xticklabels(res_latam["tokens"], rotation=45, ha='right', fontsize=14) # Rotación para lectura
+        axes[0].set_xticklabels(res_latam["tokens"], rotation=45, ha='right', fontsize=14)
+        axes[0].set_yticklabels(yticklabels, fontsize=14, rotation=0)
         axes[0].tick_params(axis='y', labelsize=14)
         
         # --- Gráfico Global North ---
@@ -414,25 +431,25 @@ class ComparativeExperiment:
             vmin=0, vmax=max_val,
             cbar=True,
             cbar_kws={'label': 'Normalized Causal Impact'},
-            xticklabels=res_north["tokens"],  # <--- [NUEVO] Asignamos los tokens
-            yticklabels=False # Ocultamos Y labels repetidos
+            xticklabels=res_north["tokens"],
+            yticklabels=False
         )
         axes[1].set_title(f"Global North: {subject_north}", fontsize=20)
         axes[1].set_xlabel("Token Position", fontsize=16)
-        axes[1].set_xticklabels(res_north["tokens"], rotation=45, ha='right', fontsize=14) # Rotación para lectura
+        axes[1].set_xticklabels(res_north["tokens"], rotation=45, ha='right', fontsize=14)
 
-        plt.suptitle(f"Comparación Topológica: {subject_latam} vs {subject_north}", fontsize=24)
+        plt.suptitle(f"{idiom} - Comparación Topológica: {subject_latam} vs {subject_north}", fontsize=24)
         plt.tight_layout()
         plt.show()
 
-    def analyze_and_plot(self):
+    def analyze_and_plot(self, idiom):
         # Preparar datos para visualizar
         # Vamos a comparar el perfil de capas (Layer Depth) vs Impacto en el Sujeto
         
         avg_impact = {}
         std_impact = {}
         
-        plt.figure(figsize=(14, 6))
+        plt.figure(figsize=(18, 6))
         
         # Subplot 1: Perfil de Activación por Capas (Line Plot)
         plt.subplot(1, 2, 1)
@@ -481,24 +498,23 @@ class ComparativeExperiment:
             plt.ylabel("Capa", fontsize=16)
             plt.yticks(fontsize=14)
             plt.xticks(fontsize=14)
-        
+        plt.suptitle(f"{idiom}", fontsize=20)
         plt.tight_layout()
         plt.show()
 
-# --- DEFINICIÓN DE DATOS Y EJECUCIÓN ---
 
 if __name__ == "__main__":
-    # Configuración
-    MODEL_ID = "google/gemma-2-2b" # O tu modelo de preferencia
+    MODEL_ID = "google/gemma-2-2b" 
     HF_TOKEN = os.getenv("HF_TOKEN")
     
-    # Instanciar el Tracer original
     tracer = CausalTracer(MODEL_ID, token=HF_TOKEN)
+
+    idiom = 'esp'
     
-    # Definir el Dataset (Sujeto, Relación, Objeto)
-    # Nota: Usamos inglés para consistencia con modelos base, pero medimos entidades regionales.
-    template = "The capital of {} is"
-    # template = "La capital de {} es"
+    if idiom == 'eng':
+        template = "The capital of {} is"
+    elif idiom == 'esp':
+        template = "La capital de {} es"
     
     dataset = [
         # LATAM
@@ -515,6 +531,8 @@ if __name__ == "__main__":
     # Correr Experimento
     exp = ComparativeExperiment(tracer)
     exp.run_experiment(dataset)
-    # exp.analyze_and_plot()
-    exp.plot_comparative_heatmaps("Chile", "Canada")
-    exp.plot_comparative_heatmaps("Peru", "Japan")
+    exp.analyze_and_plot(idiom)
+    exp.plot_comparative_heatmaps("Chile", "Canada", idiom)
+    exp.plot_comparative_heatmaps("Peru", "Japan", idiom)
+
+# %%
